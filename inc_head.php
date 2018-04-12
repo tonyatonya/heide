@@ -9,10 +9,12 @@
 <!-- open if have favicon
 <?php include('favicon.php'); ?>
 -->
-<link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/>
-<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+<!-- <link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/> -->
+<!-- <link type="text/css" rel="stylesheet" href="css/print.css" media="print"/> -->
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/layout.css" media="screen,projection"/>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
