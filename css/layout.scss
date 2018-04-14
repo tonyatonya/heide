@@ -27,6 +27,14 @@ $ci_lightbrown:#a19990;
 	padding: 0;
 	box-sizing: border-box;
 }
+img{
+	&.dummy{
+		position: relative;
+		z-index: -1;
+		width: 100%;
+		height: auto;
+	}
+}
 body{
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
@@ -59,6 +67,15 @@ body{
 				ul{
 					height: 0;
 					opacity: 0;
+					li{
+						a{
+							padding-top: 0;
+							-moz-transition: all 0.3s ease-in;
+							-webkit-transition: all 0.3s ease-in;
+							-o-transition: all 0.3s ease-in;
+							transition: all 0.3s ease-in;
+						}
+					}
 				}
 			}
 			.main-logo{
@@ -102,10 +119,10 @@ header{
 		ul{
 			display: inline-block;
 			list-style: none;
-			-moz-transition: all 0.1s ease-in;
-			-webkit-transition: all 0.1s ease-in;
-			-o-transition: all 0.1s ease-in;
-			transition: all 0.1s ease-in;
+			-moz-transition: all 0.3s ease-in;
+			-webkit-transition: all 0.3s ease-in;
+			-o-transition: all 0.3s ease-in;
+			transition: all 0.3s ease-in;
 			li{
 				float: left;
 				padding-left: 15px;
@@ -120,8 +137,8 @@ header{
 					color: #231f20;
 					opacity: 0.5;
 					text-decoration: none;
-					//@include ts;
-					@extend .ts;
+					//@extend .ts;
+
 					&:hover{
 						opacity: 1;
 					}
@@ -1140,4 +1157,58 @@ footer{
 .modal-open{
 	overflow: hidden;
 
+}
+.prop-list{
+	.prop-list-child{
+		.prop-list-child-grid{
+			position:relative;
+			padding: 0;
+			.prop-detail{
+				position: absolute;
+				top:50%;
+				transform: translate(0,-50%);
+				padding-left: 80px;
+				padding-right: 80px;
+				text-align: center;
+				p{
+					color: #333333;
+					text-align: justify;
+					font-family: $open_reg;
+					font-size: 1em;
+					line-height: 1.15em;
+				}
+				.prop-logo{
+					max-width: 190px;
+					max-height: 80px;
+					width: auto;
+					display: inline-block;
+					margin-bottom: 30px;
+				}
+			}
+		}
+		&:nth-child(even){
+			.prop-list-child-grid{
+				&:first-child{
+					left: 41.66%;
+				}
+				&:last-child{
+					right:58.34%;
+				}
+			}
+		}
+		.prop-img{
+			background-position: center center;
+			background-size: 110%;
+		}
+	}
+	.view-more{
+		color: rgba(35,31,32,0.5);
+		border:1px solid #b7b4b3;
+		padding: 7px 18px;
+		font-family: $texgy_reg;
+		font-size: 0.87em;
+		letter-spacing: 0.05em;
+		display: inline-block;
+		margin-top: 30px;
+	}
 }
