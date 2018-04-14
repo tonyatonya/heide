@@ -5,11 +5,14 @@
 <?php include('inc_head.php'); ?>
 </head>
 <body>
-	<div class="wrapper">
+	<div id="skrollr-body" class="wrapper">
 		<?php include('inc_header.php'); ?>
 		<!-- content here-->
-		<div class="page-banner" style="background-image:url(images/aboutus/aboutus-banner.jpg);">
-			<img src="images/aboutus/aboutus-banner.jpg" class="d-block d-sm-none">
+		<div class="page-banner" style="background-image:url(images/aboutus/aboutus-banner.jpg);"
+			data-anchor-target=".page-banner"
+			data-bottom-top="background-position-y:-200px"
+			data-top-bottom="background-position-y:0px">
+			<img src="images/aboutus/aboutus-banner.jpg" class="dummy">
 		</div>
 		<div class="container">
 			<div class="row">
@@ -92,6 +95,7 @@
 		</div>
 		<!-- end content here -->
 		<?php include('inc_footer.php'); ?>
+		<script type="text/javascript" src="js/skrollr.js"></script>
 	</div>
 </body>
 </html>

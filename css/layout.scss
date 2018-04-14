@@ -793,10 +793,15 @@ footer{
 	}
 }
 .page-banner{
-	min-height: 70vh;
-	background-position: center center;
-	background-size: cover;
+	min-height: 500px;
+	background-size: 120%;
 	background-repeat: no-repeat;
+	.dummy{
+		position: relative;
+		z-index: -1;
+		width: 100%;
+		height: auto;
+	}
 }
 .content-zone{
 	padding-top: 35px;

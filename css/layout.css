@@ -989,19 +989,26 @@ footer .property-link ul li a img {
 
 /* line 795, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .page-banner {
-  min-height: 70vh;
-  background-position: center center;
-  background-size: cover;
+  min-height: 500px;
+  background-size: 120%;
   background-repeat: no-repeat;
 }
 
-/* line 801, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 799, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.page-banner .dummy {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+/* line 806, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .content-zone {
   padding-top: 35px;
   padding-bottom: 35px;
 }
 
-/* line 804, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 809, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .content-zone h2 {
   color: #a19990;
   font-family: "texgyrepagellabold";
@@ -1010,7 +1017,7 @@ footer .property-link ul li a img {
   margin-bottom: 50px;
 }
 
-/* line 811, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 816, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .content-zone p {
   color: #a19990;
   font-family: "open_sansregular";
@@ -1019,26 +1026,26 @@ footer .property-link ul li a img {
   letter-spacing: 0.05em;
 }
 
-/* line 818, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 823, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .content-zone figure {
   margin-top: 35px;
   margin-bottom: 35px;
 }
 
-/* line 821, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 826, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .content-zone figure img {
   width: 100%;
   height: auto;
 }
 
-/* line 828, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 833, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .service-items .service-item-child {
   border-bottom: 1px solid rgba(161, 153, 144, 0.5);
   padding-bottom: 35px;
   margin-bottom: 35px;
 }
 
-/* line 832, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 837, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .service-items .service-item-child h3 {
   font-family: "open_sansbold";
   font-size: 1em;
@@ -1046,20 +1053,20 @@ footer .property-link ul li a img {
   margin-bottom: 23px;
 }
 
-/* line 838, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 843, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .service-items .service-item-child:last-child {
   border-bottom: none;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
 
-/* line 847, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 852, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-main-title .gallery-main-logo {
   height: 37px;
   width: auto;
 }
 
-/* line 852, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 857, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group {
   margin-left: 0;
   margin-right: 0;
@@ -1067,25 +1074,25 @@ footer .property-link ul li a img {
   margin-bottom: 50px;
 }
 
-/* line 857, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 862, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .col {
   padding: 0.01em;
 }
 
-/* line 859, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 864, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .col img {
   width: 100%;
   height: auto;
 }
 
-/* line 863, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 868, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .col:first-child, .gallery-zone .gallery-group .col:nth-child(2) {
   width: 50% !important;
   flex-basis: auto;
   flex: none;
 }
 
-/* line 869, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 874, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .gallery-group-caption {
   text-align: right;
   font-family: "open_sansitalic";
