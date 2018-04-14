@@ -9,7 +9,7 @@ $(document).ready(function(){
 	})
 })
 $(window).scroll(function (event) {
-    if($(window).scrollTop() > ($("header").height()*0.1)) {
+    if($(window).scrollTop() > ($("header").height()*0.05)) {
 	    $(".wrapper").addClass("header-small");
 	}else{
 		$(".wrapper").removeClass("header-small");

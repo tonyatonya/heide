@@ -15,6 +15,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/font.css" rel="stylesheet">
 <link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/heide-icon.css" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="css/layout.css" media="screen,projection"/>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

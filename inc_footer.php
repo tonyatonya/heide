@@ -40,4 +40,5 @@
 		</div>
 	</div>
 </footer>
+<script type="text/javascript" src="js/skrollr.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

@@ -7,7 +7,7 @@
 						<ul>
 							<li><a href="#">WELCOME</a></li>
 							<li><a href="#">PROPERTIES</a></li>
-							<li><a href="#">ABOUT US</a></li>
+							<li><a href="aboutus.php">ABOUT US</a></li>
 						</ul>
 					</div>
 				</div>
@@ -23,7 +23,7 @@
 				<div class="col-5">
 					<div class="section-menu rightside">
 						<ul>
-							<li><a href="#">NEWS</a></li>
+							<li><a href="news.php">NEWS</a></li>
 							<li><a href="#">CONTACT US</a></li>
 							<li class="social-ico"><a href="#"><img src="images/common/ico-pin.svg"></a></li>
 							<li class="social-ico"><a href="#"><img src="images/common/ico-fb.svg"></a></li>
@@ -45,8 +45,8 @@
 	<ul class="link-menu">
 		<li><a href="#">WELCOME</a></li>
 		<li><a href="#">PROPERTIES</a></li>
-		<li><a href="#">ABOUT US</a></li>
-		<li><a href="#">NEWS</a></li>
+		<li><a href="aboutus.php">ABOUT US</a></li>
+		<li><a href="news.php">NEWS</a></li>
 		<li><a href="#">CONTACT US</a></li>
 	</ul>
 	<div class="social-menu">

@@ -95,7 +95,6 @@
 		</div>
 		<!-- end content here -->
 		<?php include('inc_footer.php'); ?>
-		<script type="text/javascript" src="js/skrollr.js"></script>
 	</div>
 </body>
 </html>
