@@ -24,7 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.heide-map-pin:before {
+  content: "\e913";
+}
 .heide-art:before {
   content: "\e904";
 /*   color: #a8a8a8; */

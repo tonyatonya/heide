@@ -1527,3 +1527,121 @@ footer .property-link ul li a img {
   display: inline-block;
   margin-top: 30px;
 }
+
+/* line 1215, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+#map-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1222, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-background {
+  background-position: center center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
+
+/* line 1230, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* line 1237, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder .contact-form {
+  background-color: #0f8683;
+  padding: 30px 25px;
+  width: 100%;
+}
+
+/* line 1242, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder h3 {
+  color: white;
+  font-family: "texgyrepagellaregular";
+  font-size: 1.75em;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1251, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+/* line 1256, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder ul li {
+  color: white;
+  font-family: "open_sansregular";
+  font-size: 0.75em;
+  line-height: 0em;
+  padding-left: 5px;
+}
+
+/* line 1262, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder ul li:before {
+  content: ".";
+  font-family: "open_sansregular";
+  font-size: 3.5em;
+  line-height: 0.5em;
+  color: #e8b365;
+  position: relative;
+  top: -2px;
+  left: -5px;
+}
+
+/* line 1272, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 1278, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder .form-control {
+  border-radius: 0;
+  border: none;
+  padding: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.85em;
+}
+
+/* line 1286, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder textarea {
+  max-width: 100%;
+  min-height: 160px;
+}
+
+/* line 1290, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder input[type="submit"] {
+  border-radius: 0;
+  background-color: #eaaf0a;
+  color: white;
+  border: none;
+  font-family: "open_sansregular";
+  font-size: 0.85em;
+  float: right;
+  display: inline-block;
+  padding: 5px 18px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* line 1302, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+.contact-form-holder input[type="submit"]:hover {
+  color: #eaaf0a;
+  background-color: white;
+}
