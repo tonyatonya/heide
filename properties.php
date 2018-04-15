@@ -11,7 +11,7 @@
 		<div class="container-fluid prop-list">
 			<?php for($i=0;$i<3;$i++){ ?>
 			<div class="row prop-list-child" id="propid-<?php echo($i); ?>">
-				<div class="col-sm-7 prop-list-child-grid">
+				<div class="col-lg-7 prop-list-child-grid">
 					<div class="prop-img" style="background-image: url(images/properties/properties-1.jpg);"
 						data-anchor-target="#propid-<?php echo($i); ?>"
 						data-bottom-top="background-position-y:-200px"
@@ -20,7 +20,7 @@
 						<img src="images/properties/properties-1.jpg" class="dummy">
 					</div>
 				</div>
-				<div class="col-sm-5 prop-list-child-grid">
+				<div class="col-lg-5 prop-list-child-grid">
 					<div class="prop-detail">
 						<img src="images/properties/logo-aloft.svg" class="prop-logo">
 						<p>
