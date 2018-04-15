@@ -234,6 +234,19 @@
 								</div>
 								-->
 								<i class="service-type heide-food"></i>
+								<!--
+									service-type เปลี่ยน Class icon ได้ตามการเลือก ทำ Class รอไว้แล้วตามด้านล่าง
+									- heide-art
+									- heide-coffee
+									- heide-drink
+									- heide-food
+									- heide-heide-logo
+									- heide-map
+									- heide-movie
+									- heide-museum
+									- heide-music
+									- heide-sports
+								-->
 				            </div>
 			            </div>
 		            </div>
