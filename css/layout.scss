@@ -1305,3 +1305,41 @@ footer{
 		}
 	}
 }
+.welcome-bg{
+	background-image: url(../images/welcome/welcome-bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 52px;
+	padding-bottom: 115px;
+	.welcome-group{
+		margin-bottom: 35px;
+		margin-top: 35px;
+		h3{
+			margin: 0;
+			padding: 0;
+			color: $ci_green;
+			font-family: $texgy_bold;
+			font-size: 2.4em;
+			margin-bottom: 22px;
+		}
+		hr{
+			border-top:1px solid $ci_lightbrown;
+			margin-top: 22px;
+			margin-bottom: 22px;
+		}
+		p{
+			margin-top: 22px;
+			margin-bottom: 22px;
+			color: $ci_lightbrown;
+			letter-spacing: 0.05em;
+		}
+	}
+	.welcome-img{
+		margin-top: 35px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}

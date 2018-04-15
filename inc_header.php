@@ -5,8 +5,8 @@
 				<div class="col-5">
 					<div class="section-menu leftside">
 						<ul>
-							<li><a href="#">WELCOME</a></li>
-							<li><a href="#">PROPERTIES</a></li>
+							<li><a href="welcome.php">WELCOME</a></li>
+							<li><a href="properties.php">PROPERTIES</a></li>
 							<li><a href="aboutus.php">ABOUT US</a></li>
 						</ul>
 					</div>
@@ -24,7 +24,7 @@
 					<div class="section-menu rightside">
 						<ul>
 							<li><a href="news.php">NEWS</a></li>
-							<li><a href="#">CONTACT US</a></li>
+							<li><a href="contactus.php">CONTACT US</a></li>
 							<li class="social-ico"><a href="#"><img src="images/common/ico-pin.svg"></a></li>
 							<li class="social-ico"><a href="#"><img src="images/common/ico-fb.svg"></a></li>
 							<li class="social-ico"><a href="#"><img src="images/common/ico-ig.svg"></a></li>
@@ -43,11 +43,11 @@
 <div class="side-menu">
 	<a href="#" class="close-sidebar"><i class="fa fa-times"></i></a>
 	<ul class="link-menu">
-		<li><a href="#">WELCOME</a></li>
-		<li><a href="#">PROPERTIES</a></li>
+		<li><a href="welcome.php">WELCOME</a></li>
+		<li><a href="properties.php">PROPERTIES</a></li>
 		<li><a href="aboutus.php">ABOUT US</a></li>
 		<li><a href="news.php">NEWS</a></li>
-		<li><a href="#">CONTACT US</a></li>
+		<li><a href="contactus.php">CONTACT US</a></li>
 	</ul>
 	<div class="social-menu">
 		<ul>
