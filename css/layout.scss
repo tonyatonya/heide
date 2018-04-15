@@ -867,6 +867,7 @@ footer{
 		font-size: 0.85em;
 		letter-spacing: 0.05em;
 		text-decoration: none;
+		z-index: 2;
 		i{
 			font-size: 25px;
 			position: relative;
@@ -880,6 +881,7 @@ footer{
 	.slide-content{
 		position: absolute;
 		top:0;
+		z-index: 3;
 		right: -400px;
 		height: 100%;
 		width: 400px;
@@ -1404,7 +1406,18 @@ footer{
 			height: auto;
 		}
 	}
-
+	.content-box{
+		.content-service-info{
+			position: relative;
+			bottom: auto;
+			left: auto;
+		}
+	}
+	.main-modal{
+		.post-slider{
+			height: auto;
+		}
+	}
 
 }
 /*!small-medium screen*/
@@ -1566,6 +1579,14 @@ footer{
 				text-align: center;
 				font-size: 1em;
 			}
+		}
+	}
+
+
+	.content-box{
+		.content-meta{
+			text-align: center;
+			padding-top: 30px;
 		}
 	}
 }
