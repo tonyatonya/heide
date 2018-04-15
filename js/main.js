@@ -7,16 +7,22 @@ $(document).ready(function(){
 		e.preventDefault();
 		$(".wrapper").removeClass("opensidebar");
 	})
+
 })
-$(window).scroll(function (event) {
-    if($(window).scrollTop() > ($("header").height()*0.05)) {
-	    $(".wrapper").addClass("header-small");
-	}else{
-		$(".wrapper").removeClass("header-small");
-	}
-});
 
 
+$(function(){
+	var currPos = $(window).scrollTop();
+	$(window).scroll(function (event) {
+		var scroll = $(window).scrollTop();
+		if((scroll > currPos) && (scroll > 0) && (scroll < $(".wrapper").height())){
+			$(".wrapper").addClass("header-small");
+		}else{
+			$(".wrapper").removeClass("header-small");
+		}
+		currPos = scroll;
+	})
+})
 
 //Parallax
 $(function(){
