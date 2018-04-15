@@ -10,8 +10,13 @@
 		<!-- content here-->
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-5">
-					<div class="contact-background" style="background-image: url(images/contact/contact-bg.jpg);">
+				<div class="col-lg-7 map-canvas-frame">
+					<!-- map zone -->
+					<div id="map-canvas"></div>
+					<!-- end map zone -->
+				</div>
+				<div class="col-lg-5 contact-background" style="background-image: url(images/contact/contact-bg.jpg);">
+
 						<!-- contact form -->
 						<img src="images/contact/contact-bg.jpg" class="dummy">
 						<!-- end contact-form -->
@@ -33,13 +38,10 @@
 									<div class="clear"></div>
 								</div>
 						</div>
-					</div>
+
 				</div>
-				<div class="col-sm-7">
-					<!-- map zone -->
-					<div id="map-canvas"></div>
-					<!-- end map zone -->
-				</div>
+
+
 			</div>
 		</div>
 		<!-- end content here -->
