@@ -202,6 +202,27 @@ header{
 			color: #bd9532;
 		}
 	}
+	.header-mobile{
+		padding-top: 12px;
+		padding-bottom: 12px;
+		.main-logo{
+			img{
+				height: 35px;
+				width: auto;
+				margin-bottom: 5px;
+			}
+			hr{
+				margin-top: 5px;
+			}
+		}
+		.hamburger-bar{
+			left: 15px;
+			opacity: 1;
+			a{
+				color: white;
+			}
+		}
+	}
 }
 footer{
 	background-color: #ece4d5;
@@ -347,6 +368,7 @@ footer{
 }
 .feature-banner{
 	position: relative;
+	min-height: 297px;
 	.feature-banner-img{
 		width: 100%;
 		height: auto;
@@ -362,7 +384,10 @@ footer{
 	}
 	&.openpopup{
 		.feature-popup{
-			left: 0;
+			//left: 0;
+			//right: auto;
+			transform: translate(0%,-50%);
+
 		}
 		.openpop-btn{
 			a{
@@ -375,9 +400,9 @@ footer{
 	background-color:$ci_green;
 	padding: 55px;
 	position: absolute;
-	left: -100%;
+	left: 0;
 	top:50%;
-	transform: translate(0,-50%);
+	transform: translate(-100%,-50%);
 	text-align: center;
 	max-width: 445px;
 	color: white;
@@ -692,14 +717,13 @@ footer{
 					letter-spacing: 0.05em;
 					float: right;
 					display: inline-block;
-					.icon{
-						width: 16px;
-						height: 16px;
-						display: inline-block;
-						background-image: url(../images/common/ico-more.svg);
+					i{
+						font-size: 1.3em;
 						position: relative;
-						top:3px;
-						margin-left: 5px;
+						top:2px;
+					}
+					&:hover{
+						color: $ci_green;
 					}
 				}
 			}
@@ -1347,4 +1371,183 @@ footer{
 	top:0;
 	width: 100%;
 	height: 100%;
+}
+
+/*!medium-Large screen*/
+@media (max-width : 991px){
+	.container{
+		max-width: 960px; //fix bootstrap max-width Container
+	}
+	.wrapper{
+		padding-top: 72px;
+		&.opensidebar{
+			.side-menu{
+				left:0;
+				right: auto;
+			}
+		}
+	}
+	.side-menu{
+		left: -280px;
+		right: auto;
+	}
+
+}
+/*!small-medium screen*/
+@media (max-width : 768px){
+
+}
+/*!extra small screen*/
+@media (max-width : 576px){
+	footer{
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 0;
+		h2{
+			font-size: 1.2em;
+		}
+		.footer-link-group{
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.footer-link{
+			margin: 0;
+			padding: 0;
+			li{
+				line-height: normal;
+				a{
+					font-size: 1em;
+				}
+			}
+		}
+		.property-link{
+			padding-top: 15px;
+			padding-bottom: 30px;
+			ul{
+				li{
+					a{
+						img{
+							//max-width: 76px;
+							max-height: none;
+							max-width: none;
+							height: 30px;
+							width: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+	.feature-banner{
+		.feature-banner-img{
+			position: absolute;
+			z-index: -1;
+			height: 100%;
+			width: auto;
+			left: 50%;
+			top:50%;
+			transform: translate(-50%,-50%);
+			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+		}
+	}
+	.feature-popup{
+		padding: 20px;
+	}
+	.enq{
+		.logo-written{
+			width: 165px;
+		}
+	}
+	.feature-update-section{
+		background: none;
+		padding-bottom: 0;
+		.feature-update{
+			background-color: $ci_green;
+			padding-bottom: 10px;
+			.feature-update-box{
+				.feature-update-box-meta{
+					/*
+					h3{
+						font-size: 0.95em;
+					}
+					p{
+						font-size: 0.5em;
+					}
+					.more{
+						font-size: 0.4em;
+						i{
+							top:1px;
+						}
+					}
+					*/
+				}
+			}
+		}
+		.feature-update-banner{
+			padding-top: 10px;
+			background-image: url(../images/common/feature-update-mobile-bg.jpg);
+			background-repeat: repeat-x;
+			background-position: left top;
+			figure{
+				img{
+					position: relative;
+					width: 100%;
+					height: auto;
+					top:auto;
+					left: auto;
+					transform: none;
+				}
+			}
+		}
+	}
+	.property-banner{
+		.main-img{}
+		.property-info{
+			min-width: 250px;
+			padding: 15px;
+			.property-info-logo{
+				margin-bottom: 15px;
+				img{
+					min-height: 20px;
+					max-height: 30px;
+					width: auto;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 750px)
+and (orientation : landscape){
+	.feature-update-section{
+		background: none;
+		padding-bottom: 0;
+		.feature-update{
+			background-color: $ci_green;
+			padding-bottom: 10px;
+		}
+		.feature-update-banner{
+			padding-top: 10px;
+			background-image: url(../images/common/feature-update-mobile-bg.jpg);
+			background-repeat: repeat-x;
+			background-position: left top;
+			figure{
+				img{
+					position: relative;
+					width: 100%;
+					height: auto;
+					top:auto;
+					left: auto;
+					transform: none;
+				}
+			}
+		}
+	}
 }

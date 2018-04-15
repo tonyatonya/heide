@@ -1,6 +1,6 @@
 <header>
-	<div class="header-desktop">
-		<div class="container d-none d-sm-block">
+	<div class="header-desktop d-none d-lg-block">
+		<div class="container">
 			<div class="row">
 				<div class="col-5">
 					<div class="section-menu leftside">
@@ -36,6 +36,26 @@
 				<a href="#">
 					<i class="fa fa-bars"></i>
 				</a>
+			</div>
+		</div>
+	</div>
+	<div class="header-mobile d-block d-lg-none">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 offset-4">
+					<div class="main-logo">
+						<a href="index.php">
+							<img src="images/common/mainlogo-heide.svg">
+							<h1>Heide Emigre</h1>
+						</a>
+						<hr>
+					</div>
+				</div>
+				<div class="hamburger-bar">
+					<a href="#">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

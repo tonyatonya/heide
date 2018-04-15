@@ -108,7 +108,7 @@ the form below. We'll try to respond within 48 hrs.
 		<section class="feature-update-section">
 			<div class="container">
 				<div class="row row-eq-height">
-					<div class="col-sm-8 feature-update">
+					<div class="col-md-8 feature-update">
 						<div class="row">
 							<div class="col-sm-6"><h2>HEIDE UPDATES</h2></div>
 							<div class="col-sm-6"><a href="#" class="see-all">SEE ALL</a></div>
@@ -126,7 +126,7 @@ the form below. We'll try to respond within 48 hrs.
 											<h3>LOREM IPSUM</h3>
 											<p>LOREM IPSUM DOLOR SITAMET, CONSECTETULAOE</p>
 										</a>
-										<a href="#" class="more">MORE INFO <i class="icon"></i></a>
+										<a href="#" class="more">MORE INFO <i class="heide-circle-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -135,7 +135,7 @@ the form below. We'll try to respond within 48 hrs.
 						</div>
 
 					</div>
-					<div class="col-sm-4 feature-update-banner">
+					<div class="col-md-4 feature-update-banner">
 							<figure>
 								<img src="images/common/update-img3.jpg">
 								<figcaption>HOME AWAY FROM HOME</figcaption>

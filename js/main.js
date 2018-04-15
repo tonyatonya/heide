@@ -22,10 +22,10 @@ $(function(){
 			}
 			*/
 
-			$(".main-logo img").css({
+			$(".header-desktop .main-logo img").css({
 				'transform':'scale(0.74)'
 			})
-			$(".section-menu").css({
+			$(".header-desktop .section-menu").css({
 				'transform':'scale(0,0)',
 				'height': 0,
 				'transform': 'translate(0,-100%)',
@@ -33,7 +33,7 @@ $(function(){
 				'overflow': 'hidden'
 			})
 
-			$(".hamburger-bar").css({
+			$(".header-desktop .hamburger-bar").css({
 				'opacity': 1
 			})
 
@@ -44,18 +44,18 @@ $(function(){
 
 		}else{
 
-			$(".main-logo img").css({
+			$(".header-desktop .main-logo img").css({
 				'transform':'scale(1)'
 			})
 
-			$(".section-menu").css({
+			$(".header-desktop .section-menu").css({
 				'transform':'scale(1,1)',
 				'height': 'auto',
 				'transform': 'translate(0,0)',
 				'opacity': 1,
 				'overflow': 'visible'
 			})
-			$(".hamburger-bar").css({
+			$(".header-desktop .hamburger-bar").css({
 				'opacity': 0
 			})
 
