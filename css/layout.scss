@@ -1340,6 +1340,9 @@ footer{
 	background-size: contain;
 	padding-top: 52px;
 	padding-bottom: 115px;
+	.dummy{
+		display: none;
+	}
 	.welcome-group{
 		margin-bottom: 35px;
 		margin-top: 35px;
@@ -1383,6 +1386,14 @@ footer{
 	top:0 !important;
 	width: 100%;
 	height: 100%;
+}
+.pull-left-50{
+	position: relative;
+	left: 50%;
+}
+.pull-right-50{
+	position: relative;
+	right: 50%;
 }
 
 /*!medium-Large screen*/
@@ -1471,6 +1482,28 @@ footer{
 	.map-canvas-frame{
 		left: 0;
 	}
+	.welcome-bg{
+		display: block;
+		position: relative;
+		background: none;
+		.dummy{
+			position: absolute;
+		    z-index: -1;
+		    height: auto;
+		    width: 245%;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%, -60%);
+		}
+	}
+	.pull-left-50{
+		position: relative;
+		left: 0%;
+	}
+	.pull-right-50{
+		position: relative;
+		right: 0%;
+	}
 
 }
 /*!small-medium screen*/
@@ -1514,6 +1547,7 @@ footer{
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+
 }
 /*!extra small screen*/
 @media (max-width : 576px){
@@ -1722,6 +1756,7 @@ footer{
 			z-index: 1;
 		}
 	}
+
 }
 
 
