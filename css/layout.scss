@@ -186,8 +186,8 @@ header{
 	.main-logo{
 		text-align: center;
 		img{
-			width: 100%;
-			max-width: 113px;
+			//width: 100%;
+			width: 113px;
 			height: auto;
 			@extend .ts-linear;
 		}
@@ -238,6 +238,7 @@ header{
 		.hamburger-bar{
 			left: 15px;
 			opacity: 1;
+			width: 30px;
 			a{
 				color: white;
 			}
@@ -1118,7 +1119,15 @@ footer{
 			&:first-child,&:nth-child(2){
 				width: 50% !important;
 				flex-basis:auto;
+				-webkit-flex-basis:auto;
+				-moz-flex-basis:auto;
+				-o-flex-basis:auto;
+				-ms-flex-basis:auto;
 				flex: none;
+				-webkit-flex:none;
+				-moz-flex: none;
+				-o-flex: none;
+				-ms-flex: none;
 			}
 		}
 		.gallery-group-caption{
@@ -1557,6 +1566,10 @@ footer{
 		    -ms-transform: translate(-50%, -60%);
 		}
 	}
+	.welcome-group{
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
 	.pull-left-50{
 		position: relative;
 		left: 0%;
@@ -1616,6 +1629,14 @@ footer{
 		-o-transform: none;
 		-ms-transform: none;
 	}
+	.pull-left-50{
+		position: relative;
+		left: 0%;
+	}
+	.pull-right-50{
+		position: relative;
+		right: 0%;
+	}
 
 }
 /*!extra small screen*/
@@ -1648,7 +1669,6 @@ footer{
 				li{
 					a{
 						img{
-							//max-width: 76px;
 							max-height: none;
 							max-width: none;
 							height: 20px;
