@@ -1783,18 +1783,18 @@ footer .property-link ul li a img {
   letter-spacing: 0.05em;
 }
 
-/* line 1427, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 1428, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-img {
   margin-top: 35px;
 }
 
-/* line 1429, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 1430, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-img img {
   width: 100%;
   height: auto;
 }
 
-/* line 1435, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 1436, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .map-canvas-frame {
   min-height: 550px;
   position: relative;
@@ -1802,7 +1802,7 @@ footer .property-link ul li a img {
   left: 41.66%;
 }
 
-/* line 1441, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 1442, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 #map-canvas {
   position: absolute;
   left: 0 !important;
@@ -1811,64 +1811,23 @@ footer .property-link ul li a img {
   height: 100%;
 }
 
-/* line 1448, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 1449, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .pull-left-50 {
   position: relative;
   left: 50%;
 }
 
-/* line 1452, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+/* line 1453, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
 .pull-right-50 {
   position: relative;
   right: 50%;
 }
 
 /*!medium-Large screen*/
-@media (max-width: 991px) {
-  /* line 1459, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .container {
-    max-width: 960px;
-  }
-  /* line 1462, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .wrapper {
-    padding-top: 72px;
-  }
-  /* line 1465, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .wrapper.opensidebar .side-menu {
-    left: 0;
-    right: auto;
-  }
-  /* line 1471, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .side-menu {
-    left: -280px;
-    right: auto;
-  }
-  /* line 1476, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .page-banner {
-    min-height: 0;
-    height: auto;
-    max-height: none;
-    position: relative;
-    background: none;
-  }
-  /* line 1482, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .page-banner .dummy {
-    z-index: 1;
-    width: 100%;
-    height: auto;
-  }
-  /* line 1489, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .content-box .content-service-info {
-    position: relative;
-    bottom: auto;
-    left: auto;
-  }
-  /* line 1496, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .main-modal .post-slider {
-    height: auto;
-  }
-  /* line 1503, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+@media (max-width: 1024px) {
+  /* line 1463, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child .prop-list-child-grid .prop-detail {
+    position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
     position: relative;
@@ -1880,26 +1839,117 @@ footer .property-link ul li a img {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 1518, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:first-child {
+  /* line 1480, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .gallery-main-title {
+    margin-bottom: 35px;
+  }
+  /* line 1483, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .gallery-zone {
+    padding-bottom: 35px;
+  }
+  /* line 1485, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .gallery-zone .gallery-group {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: block;
+  }
+  /* line 1489, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .gallery-zone .gallery-group .col {
+    float: left;
+    display: inline;
+    width: 33.33%;
+  }
+  /* line 1493, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .gallery-zone .gallery-group .col:first-child {
+    width: 50%;
+  }
+  /* line 1496, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .gallery-zone .gallery-group .col:nth-child(2) {
+    width: 50%;
+  }
+  /* line 1503, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .welcome-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 1509, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .container {
+    max-width: 960px;
+  }
+  /* line 1512, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .wrapper {
+    padding-top: 72px;
+  }
+  /* line 1515, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .wrapper.opensidebar .side-menu {
     left: 0;
+    right: auto;
   }
   /* line 1521, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:last-child {
-    right: 0;
+  .side-menu {
+    left: -280px;
+    right: auto;
   }
-  /* line 1528, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1526, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .page-banner {
+    min-height: 0;
+    height: auto;
+    max-height: none;
+    position: relative;
+    background: none;
+  }
+  /* line 1532, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .page-banner .dummy {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+  /* line 1539, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .content-box .content-service-info {
+    position: relative;
+    bottom: auto;
+    left: auto;
+  }
+  /* line 1546, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .main-modal .post-slider {
+    height: auto;
+  }
+  /*
+.prop-list{
+		.prop-list-child{
+			.prop-list-child-grid{
+				.prop-detail{
+					padding-top: 30px;
+					padding-bottom: 30px;
+					position: relative;
+					left: auto;
+					top:0;
+					transform: none;
+					-webkit-transform: none;
+					-moz-transform: none;
+					-o-transform: none;
+					-ms-transform: none;
+				}
+			}
+
+		}
+	}
+*/
+  /* line 1573, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-background {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
     right: 0;
   }
-  /* line 1533, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1578, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-background img {
     display: none;
   }
-  /* line 1537, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1582, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-form-holder {
     position: relative;
     top: auto;
@@ -1911,17 +1961,17 @@ footer .property-link ul li a img {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 1548, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1593, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .map-canvas-frame {
     left: 0;
   }
-  /* line 1551, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1596, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .welcome-bg {
     display: block;
     position: relative;
     background: none;
   }
-  /* line 1555, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1600, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .welcome-bg .dummy {
     position: absolute;
     z-index: -1;
@@ -1935,57 +1985,53 @@ footer .property-link ul li a img {
     -o-transform: translate(-50%, -60%);
     -ms-transform: translate(-50%, -60%);
   }
-  /* line 1569, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1614, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .welcome-group {
     padding-top: 35px;
     padding-bottom: 35px;
   }
-  /* line 1573, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1618, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .pull-left-50 {
     position: relative;
     left: 0%;
   }
-  /* line 1577, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1622, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .pull-right-50 {
     position: relative;
     right: 0%;
+  }
+  /* line 1627, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .welcome-row {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
 /*!small-medium screen*/
 @media (max-width: 768px) {
-  /* line 1588, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
-  .prop-list .prop-list-child .prop-list-child-grid .prop-detail {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    position: relative;
-    left: auto;
-    top: auto;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
+  /* line 1636, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .prop-list .prop-list-child {
+    display: block;
   }
-  /* line 1603, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1640, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:first-child {
     left: 0;
   }
-  /* line 1606, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1643, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:last-child {
     right: 0;
   }
-  /* line 1613, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1650, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-background {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 1617, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1654, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-background img {
     display: none;
   }
-  /* line 1621, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1658, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-form-holder {
     position: relative;
     top: auto;
@@ -1997,61 +2043,69 @@ footer .property-link ul li a img {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 1632, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1669, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .pull-left-50 {
     position: relative;
     left: 0%;
   }
-  /* line 1636, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1673, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .pull-right-50 {
     position: relative;
     right: 0%;
+  }
+  /* line 1677, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .contact-row {
+    display: block;
+  }
+  /* line 1680, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  .welcome-row {
+    display: block;
   }
 }
 
 /*!extra small screen*/
 @media (max-width: 576px) {
-  /* line 1644, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1686, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 0;
   }
-  /* line 1648, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1690, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer h2 {
     font-size: 1.2em;
   }
-  /* line 1651, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1693, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer .footer-link-group {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 1655, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1697, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer .footer-link {
     margin: 0;
     padding: 0;
   }
-  /* line 1658, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1700, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer .footer-link li {
     line-height: normal;
   }
-  /* line 1660, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1702, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer .footer-link li a {
     font-size: 1em;
   }
-  /* line 1665, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1707, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer .property-link {
     padding-top: 15px;
     padding-bottom: 30px;
   }
-  /* line 1671, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1713, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   footer .property-link ul li a img {
     max-height: none;
     max-width: none;
     height: 20px;
     width: auto;
   }
-  /* line 1683, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1725, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-banner .feature-banner-img {
     position: absolute;
     z-index: -1;
@@ -2065,25 +2119,25 @@ footer .property-link ul li a img {
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  /* line 1697, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1739, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-popup {
     padding: 20px;
   }
-  /* line 1701, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1743, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .enq .logo-written {
     width: 165px;
   }
-  /* line 1705, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1747, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section {
     background: none;
     padding-bottom: 0;
   }
-  /* line 1708, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1750, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update {
     background-color: #0f8683;
     padding-bottom: 10px;
   }
-  /* line 1712, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1754, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update .feature-update-box .feature-update-box-meta {
     /*
 					h3{
@@ -2100,14 +2154,14 @@ footer .property-link ul li a img {
 					}
 					*/
   }
-  /* line 1730, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1772, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner {
     padding-top: 10px;
     background-image: url(../images/common/feature-update-mobile-bg.jpg);
     background-repeat: repeat-x;
     background-position: left top;
   }
-  /* line 1736, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1778, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner figure img {
     position: relative;
     width: 100%;
@@ -2120,27 +2174,27 @@ footer .property-link ul li a img {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 1753, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1795, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .property-banner .property-info {
     min-width: 250px;
     padding: 15px;
   }
-  /* line 1756, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1798, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .property-banner .property-info .property-info-logo {
     margin-bottom: 15px;
   }
-  /* line 1758, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1800, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .property-banner .property-info .property-info-logo img {
     min-height: 20px;
     max-height: 30px;
     width: auto;
   }
-  /* line 1766, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1808, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .page-banner {
     height: 500px;
     position: relative;
   }
-  /* line 1769, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1811, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .page-banner .dummy {
     position: absolute;
     z-index: 1;
@@ -2154,34 +2208,34 @@ footer .property-link ul li a img {
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  /* line 1783, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1825, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .content-zone {
     text-align: center;
   }
-  /* line 1787, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1829, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-main-title {
     text-align: center;
     padding-bottom: 15px;
   }
-  /* line 1790, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1832, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-main-title .gallery-main-logo {
     display: inline-block;
   }
-  /* line 1794, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1836, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group {
     margin-bottom: 15px;
   }
-  /* line 1796, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1838, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group .gallery-group-caption {
     text-align: center;
     font-size: 1em;
   }
-  /* line 1803, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1845, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .content-box .content-meta {
     text-align: center;
     padding-top: 30px;
   }
-  /* line 1811, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1853, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child .prop-list-child-grid .prop-detail {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -2194,25 +2248,25 @@ footer .property-link ul li a img {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 1826, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1868, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:first-child {
     left: 0;
   }
-  /* line 1829, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1871, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:last-child {
     right: 0;
   }
-  /* line 1836, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1878, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-background {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 1840, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1882, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-background img {
     display: none;
   }
-  /* line 1844, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1886, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .contact-form-holder {
     position: relative;
     top: auto;
@@ -2224,31 +2278,31 @@ footer .property-link ul li a img {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 1856, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1898, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   img.dummy {
     z-index: 1;
   }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 750px) and (orientation: landscape) {
-  /* line 1869, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1911, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section {
     background: none;
     padding-bottom: 0;
   }
-  /* line 1872, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1914, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update {
     background-color: #0f8683;
     padding-bottom: 10px;
   }
-  /* line 1876, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1918, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner {
     padding-top: 10px;
     background-image: url(../images/common/feature-update-mobile-bg.jpg);
     background-repeat: repeat-x;
     background-position: left top;
   }
-  /* line 1882, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
+  /* line 1924, /Volumes/Macintosh HD/Applications/XAMPP/xamppfiles/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner figure img {
     position: relative;
     width: 100%;

@@ -23,7 +23,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="container">
-						<div class="row">
+						<div class="row welcome-row">
 							<div class="col-lg-4">
 								<div class="welcome-group" id="welcome-1"
 									data-anchor-target="#welcome-1"
@@ -60,9 +60,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row welcome-row">
 							<div class="col-lg-8 offset-lg-2">
-								<div class="row">
+								<div class="row welcome-row">
 									<div class="col-lg-6 pull-left-50">
 										<figure class="welcome-img"
 											data-anchor-target="#welcome-3"
@@ -88,7 +88,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row welcome-row">
 							<div class="col-lg-12">
 								<figure class="welcome-img"
 									data-anchor-target="#welcome-3"

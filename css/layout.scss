@@ -1423,6 +1423,7 @@ footer{
 			color: $ci_lightbrown;
 			letter-spacing: 0.05em;
 		}
+
 	}
 	.welcome-img{
 		margin-top: 35px;
@@ -1455,6 +1456,55 @@ footer{
 }
 
 /*!medium-Large screen*/
+@media (max-width : 1024px){
+	.prop-list{
+		.prop-list-child{
+			.prop-list-child-grid{
+				.prop-detail{
+					position: relative;
+					padding-top: 30px;
+					padding-bottom: 30px;
+					position: relative;
+					left: auto;
+					top:auto;
+					transform: none;
+					-webkit-transform: none;
+					-moz-transform: none;
+					-o-transform: none;
+					-ms-transform: none;
+				}
+			}
+
+		}
+	}
+	.gallery-main-title{
+		margin-bottom: 35px;
+	}
+	.gallery-zone{
+		padding-bottom: 35px;
+		.gallery-group{
+			margin-top: 35px;
+			margin-bottom: 35px;
+			display: block;
+			.col{
+				float: left;
+				display: inline;
+				width: 33.33%;
+				&:first-child{
+					width: 50%;
+				}
+				&:nth-child(2){
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	.welcome-row{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
 @media (max-width : 991px){
 	.container{
 		max-width: 960px; //fix bootstrap max-width Container
@@ -1497,7 +1547,9 @@ footer{
 			height: auto;
 		}
 	}
-	.prop-list{
+
+	/*
+.prop-list{
 		.prop-list-child{
 			.prop-list-child-grid{
 				.prop-detail{
@@ -1505,7 +1557,7 @@ footer{
 					padding-bottom: 30px;
 					position: relative;
 					left: auto;
-					top:auto;
+					top:0;
 					transform: none;
 					-webkit-transform: none;
 					-moz-transform: none;
@@ -1513,18 +1565,11 @@ footer{
 					-ms-transform: none;
 				}
 			}
-			&:nth-child(even){
-				.prop-list-child-grid{
-					&:first-child{
-						left: 0;
-					}
-					&:last-child{
-						right:0;
-					}
-				}
-			}
+
 		}
 	}
+*/
+
 	.contact-background{
 		background-size: cover;
 		padding-top: 30px;
@@ -1579,25 +1624,17 @@ footer{
 		right: 0%;
 	}
 
+	.welcome-row{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 }
 /*!small-medium screen*/
 @media (max-width : 768px){
+
 	.prop-list{
 		.prop-list-child{
-			.prop-list-child-grid{
-				.prop-detail{
-					padding-top: 30px;
-					padding-bottom: 30px;
-					position: relative;
-					left: auto;
-					top:auto;
-					transform: none;
-					-webkit-transform: none;
-					-moz-transform: none;
-					-o-transform: none;
-					-ms-transform: none;
-				}
-			}
+			display: block;
 			&:nth-child(even){
 				.prop-list-child-grid{
 					&:first-child{
@@ -1637,7 +1674,12 @@ footer{
 		position: relative;
 		right: 0%;
 	}
-
+	.contact-row{
+		display: block;
+	}
+	.welcome-row{
+		display: block;
+	}
 }
 /*!extra small screen*/
 @media (max-width : 576px){

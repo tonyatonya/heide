@@ -9,7 +9,7 @@
 		<?php include('inc_header.php'); ?>
 		<!-- content here-->
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row contact-row">
 				<div class="col-lg-7 map-canvas-frame">
 					<!-- map zone -->
 					<div id="map-canvas"></div>
