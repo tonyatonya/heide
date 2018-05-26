@@ -14,7 +14,7 @@
 				<div class="col-2">
 					<div class="main-logo">
 						<a href="index.php">
-							<img src="{{ asset('images/common/mainlogo-heide.svg') }}">
+							<img src="<?php echo e(asset('images/common/mainlogo-heide.svg')); ?>">
 							<h1>Heide Emigre</h1>
 						</a>
 						<hr>
@@ -25,9 +25,9 @@
 						<ul>
 							<li><a href="news.php">NEWS</a></li>
 							<li><a href="contactus.php">CONTACT US</a></li>
-							<li class="social-ico"><a href="#"><img src="{{ asset('images/common/ico-pin.svg') }}"></a></li>
-							<li class="social-ico"><a href="#"><img src="{{ asset('images/common/ico-fb.svg') }}"></a></li>
-							<li class="social-ico"><a href="#"><img src="{{ asset('images/common/ico-ig.svg') }}"></a></li>
+							<li class="social-ico"><a href="#"><img src="<?php echo e(asset('images/common/ico-pin.svg')); ?>"></a></li>
+							<li class="social-ico"><a href="#"><img src="<?php echo e(asset('images/common/ico-fb.svg')); ?>"></a></li>
+							<li class="social-ico"><a href="#"><img src="<?php echo e(asset('images/common/ico-ig.svg')); ?>"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 				<div class="col-4 offset-4">
 					<div class="main-logo">
 						<a href="index.php">
-							<img src="{{ asset('images/common/mainlogo-heide.svg') }}">
+							<img src="<?php echo e(asset('images/common/mainlogo-heide.svg')); ?>">
 							<h1>Heide Emigre</h1>
 						</a>
 						<hr>
@@ -71,9 +71,9 @@
 	</ul>
 	<div class="social-menu">
 		<ul>
-			<li><a href="#"><img src="{{ asset('images/common/ico-fb-white.svg') }}"></a></li>
-			<li><a href="#"><img src="{{ asset('images/common/ico-ig-white.svg') }}"></a></li>
-			<li><a href="#"><img src="{{ asset('images/common/ico-pin-white.svg') }}"></a></li>
+			<li><a href="#"><img src="<?php echo e(asset('images/common/ico-fb-white.svg')); ?>"></a></li>
+			<li><a href="#"><img src="<?php echo e(asset('images/common/ico-ig-white.svg')); ?>"></a></li>
+			<li><a href="#"><img src="<?php echo e(asset('images/common/ico-pin-white.svg')); ?>"></a></li>
 		</ul>
 	</div>
 </div>

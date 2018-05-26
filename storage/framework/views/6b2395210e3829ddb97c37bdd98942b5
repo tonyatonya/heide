@@ -24,21 +24,21 @@
 			</div>
 			<div class="col-sm-4">
 				<div class="footer-logo">
-					<img src="{{ asset('images/common/logo-circle-green.svg') }}">
+					<img src="<?php echo e(asset('images/common/logo-circle-green.svg')); ?>">
 				</div>
 				<p class="copyright">All Right Reserve @ heide-emigre.com</p>
 			</div>
 			<div class="col-sm-4">
 				<div class="property-link">
 					<ul>
-						<li><a href="#"><img src="{{ asset('images/common/logo-footer-aloft.svg') }}"></a></li>
-						<li><a href="#"><img src="{{ asset('images/common/logo-footer-canvas.svg') }}"></a></li>
-						<li><a href="#"><img src="{{ asset('images/common/logo-footer-studio4.svg') }}"></a></li>
+						<li><a href="#"><img src="<?php echo e(asset('images/common/logo-footer-aloft.svg')); ?>"></a></li>
+						<li><a href="#"><img src="<?php echo e(asset('images/common/logo-footer-canvas.svg')); ?>"></a></li>
+						<li><a href="#"><img src="<?php echo e(asset('images/common/logo-footer-studio4.svg')); ?>"></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </footer>
-<script type="text/javascript" src="{{ asset('public/front/js/skrollr.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/front/js/main.js') }}"></script>
+<script type="text/javascript" src="<?php echo e(asset('public/front/js/skrollr.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('public/front/js/main.js')); ?>"></script>
