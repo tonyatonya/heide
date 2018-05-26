@@ -1,0 +1,211 @@
+<?php 
+
+	use App\Model\GalleryImg;
+
+?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Mango Chill</title>
+
+<?php echo $__env->make('front.inc_head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<?php echo $__env->make('front.inc_header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<!-- content here-->
+
+	<div class="container media-container">
+
+		<?php echo $__env->make('front.inc_medianav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+		<section class="cat-section">
+
+			<div class="row">
+
+				<div class="col-md-12"><h2 class="cat-title"><?php echo e(Lang::get('menu.gallery')); ?></h2></div>
+
+				<img src="<?php echo e(asset('/public/images/common/cat-page-hr.png')); ?>" class="img-responsive cat-page-hr">
+
+			</div>
+
+			<div class="row row-section">
+
+				<div class="col-md-12">
+
+					<h3><?php echo e(Lang::get('menu.image')); ?></h3>
+
+				</div>
+
+			</div>
+
+			<div class="row row-eq-height item-list">
+
+			<?php $i=0;?>
+
+			<?php foreach($photo as $key => $v): ?>
+
+				<?php 
+
+					$photo = GalleryImg::where('ref_id',$v->id)->first();
+
+				?>
+
+				<div class="col-md-3 col-xs-6 item-grid">
+
+					<div class="item-slider-child">
+
+						<figure class="border-frame">
+
+							<a href="<?php echo e(url('gallerydetail/'.$v->id)); ?>" class="showgal" id="<?php echo e($v->id); ?>">
+								<?php if(count($photo)>0): ?>
+									<img src="<?php echo e(asset('/images/Gallery/'.$photo->img_name)); ?>">
+								<?php endif; ?>
+							</a>
+
+						</figure>
+
+						<div class="post-meta">
+
+							<img src="<?php echo e(asset('/public/images/common/icon-clock.svg')); ?>"> <?php echo e($v->date_create); ?>
+
+
+						</div>
+
+						<a href="<?php echo e(url('gallerydetail/'.$v->id)); ?>" class="showgal" id="<?php echo e($v->id); ?>">
+
+							<h3><?php echo e($v->{'name_'.Session::get('Lang')}); ?></h3>
+
+						</a>
+
+					</div>
+
+				</div>
+
+				<?php $i=$i+1;?>
+
+				<?php if($i==4): ?>
+
+					</div>
+
+					<div class="row row-eq-height item-list">
+
+				<?php endif; ?>
+
+			<?php endforeach; ?>	
+
+			</div>
+
+		</section>
+
+		<section class="cat-section">
+
+			<div class="row row-section">
+
+				<div class="col-md-12">
+
+					<h3><?php echo e(Lang::get('menu.vdo')); ?></h3>
+
+				</div>
+
+			</div>
+
+			<div class="row row-eq-height item-list">
+
+			<?php $i=0;?>
+
+			<?php foreach($video as $key => $v): ?>
+
+				<div class="col-md-3 col-xs-6 item-grid">
+
+					<div class="item-slider-child">
+
+						<figure class="border-frame">
+
+							<a href="<?php echo e(url('videodetail/'.$v->id)); ?>" id="<?php echo e($v->id); ?>" class="playbtn showvideo">
+
+								<img src="<?php echo e(asset('/images/'.$v->photo)); ?>">
+
+								<img src="<?php echo e(asset('/public/images/common/btn-play.svg')); ?>" class="playbtn-img">
+
+							</a>
+
+						</figure>
+
+						<div class="post-meta">
+
+							<img src="<?php echo e(asset('/public/images/common/icon-clock.svg')); ?>"> <?php echo e($v->date_create); ?>
+
+
+						</div>
+
+						<a href="<?php echo e(url('videodetail/'.$v->id)); ?>" class="showvideo" id="<?php echo e($v->id); ?>">
+
+							<h3><?php echo e($v->{'name_'.Session::get('Lang')}); ?></h3>
+
+						</a>
+
+					</div>
+
+				</div>
+
+				<?php $i=$i+1;?>
+
+				<?php if($i==4): ?>
+
+					</div>
+
+					<div class="row row-eq-height item-list">
+
+				<?php endif; ?>
+
+			<?php endforeach; ?>	
+
+		</section>
+
+	</div>
+
+	<!-- end content here -->
+
+	<?php echo $__env->make('front.inc_footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	
+
+	
+
+
+
+	<link href="<?php echo e(asset('/public/front/css/jquery.jscrollpane.css')); ?>" rel="stylesheet">
+
+	<link href="<?php echo e(asset('/public/front/css/jquery.bxslider.css')); ?>" rel="stylesheet">
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/skrollr.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.jscrollpane.min.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.mousewheel.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/mwheelIntent.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.bxslider.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.fitvids.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/main.js')); ?>"></script>
+
+	<?php echo $__env->make('front.inc_media_modal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	</div>
+
+</body>
+
+</html>

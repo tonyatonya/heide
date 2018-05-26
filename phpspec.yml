@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: heide
+        psr4_prefix: heide
+        src_path: app

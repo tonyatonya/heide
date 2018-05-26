@@ -1,0 +1,51 @@
+<?php $__env->startSection('htmlheader_title'); ?>
+    Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('main-content'); ?>
+<div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">Gallery</div>
+				<div class="panel-body">
+					<a class="btn btn-success" href="<?php echo e(url('admin/Gallery/create')); ?>" style="margin-bottom: 10px;">
+                      <i class="fa fa-fw fa-plus"></i> ADD
+                    </a>
+					<table class="table table-bordered table-hover">
+					  <tr>
+					  	<th>#</th>
+              <th>Cover Photo</th>
+              <th>Name EN</th>
+              <th>Name CH</th>
+              <th>Type</th>
+              <th></th>
+              <th></th>
+					  </tr>
+            <?php foreach($data as $key => $val): ?>
+              <tr>
+                <td><?php echo e($key+1); ?></td>
+                <td></td>
+                <td><?php echo e($val->name_en); ?></td>
+                <td><?php echo e($val->name_ch); ?></td>
+                <td><?php echo e($val->type); ?></td>
+                <td>
+                   <a href="<?php echo e(asset('admin/Gallery/edit/'.$val->id)); ?>"><i class="fa fa-fw fa-edit"></i></a>
+                </td>
+                <td class="text-center" style="vertical-align: middle;">
+                  <a href="<?php echo e(asset('admin/Gallery/delete/'.$val->id)); ?>"><i class="fa fa-fw fa-trash-o"></i></a>
+                </td>
+              </tr>
+            <?php endforeach; ?>          
+					</table>
+          <?php echo $data->render(); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

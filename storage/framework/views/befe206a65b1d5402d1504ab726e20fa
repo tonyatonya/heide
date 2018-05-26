@@ -1,0 +1,87 @@
+<?php 
+
+	//use Session;
+
+?>
+
+<header>
+
+	<nav class="navbar navbar-default">
+
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle">
+
+						<span class="sr-only">Toggle navigation</span>
+
+						<span class="icon-bar"></span>
+
+						<span class="icon-bar"></span>
+
+						<span class="icon-bar"></span>
+
+					</button>
+
+					<a class="navbar-brand" href="<?php echo e(url('/')); ?>">
+
+						<img src="<?php echo e(asset('/public/images/common/mainlogo.svg')); ?>" class="mainlogo">
+
+					</a>
+
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+					<div class="close-menu">
+
+						<a href="#"><img src="<?php echo e(asset('/public/images/common/x.svg')); ?>"></a>
+
+					</div>
+
+					<ul class="nav navbar-nav navbar-right">
+
+						<li><a href="<?php echo e(url('/')); ?>"><?php echo e(Lang::get('menu.home')); ?></a></li>
+
+						<li><a href="<?php echo e(url('concept')); ?>"><?php echo e(Lang::get('menu.concept')); ?></a></li>
+
+						<li><a href="<?php echo e(url('media')); ?>"><?php echo e(Lang::get('menu.press')); ?></a></li>
+
+						<li><a href="<?php echo e(url('contactus')); ?>"><?php echo e(Lang::get('menu.contact')); ?></a></li>
+
+						<li>
+
+							<ul class="nav-lang">
+
+								<li <?php echo e((Session::get('Lang')=='en' ? 'class=active':'')); ?>>
+
+									<a href="<?php echo e(url('Lang/en')); ?>">EN</a>
+
+								</li>
+
+								<li <?php echo e((Session::get('Lang')=='ch' ? 'class=active':'')); ?>>
+
+									<a href="<?php echo e(url('Lang/ch')); ?>">CN</a>
+
+								</li>
+
+							</ul>
+
+						</li>
+
+					</ul>
+
+
+
+				</div><!-- /.navbar-collapse -->
+
+			</div><!-- /.container-fluid -->
+
+		</nav>
+
+</header>

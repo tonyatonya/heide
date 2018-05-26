@@ -1,0 +1,22 @@
+<!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu">
+            <li class="header">HEADER</li>
+            <!-- Optionally, you can add icons to the links -->
+            <li class="<?php echo e(($pn=='Slide' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/Slide')); ?>"><i class='fa fa-link'></i> <span>Slide</span></a></li>
+            <li class="<?php echo e(($pn=='Concept' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/Concept')); ?>"><i class='fa fa-link'></i> <span>Concept</span></a></li>
+            <li class="<?php echo e(($pn=='MediaBanner' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/MediaBanner')); ?>"><i class='fa fa-link'></i> <span>Media</span></a></li>
+            <li class="<?php echo e(($pn=='Executive' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/Executive')); ?>"><i class='fa fa-link'></i> <span>Executive BIO</span></a></li>
+            <li class="<?php echo e(($pn=='Media' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/Media')); ?>"><i class='fa fa-link'></i> <span>Media Coverage</span></a></li>
+            <li class="<?php echo e(($pn=='News' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/News')); ?>"><i class='fa fa-link'></i> <span>News Release</span></a></li>
+            <li class="<?php echo e(($pn=='Contactus' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/Contactus')); ?>"><i class='fa fa-link'></i> <span>Contactus</span></a></li>
+            <li class="<?php echo e(($pn=='Gallery' ? 'active':'')); ?>"><a href="<?php echo e(url('admin/Gallery')); ?>"><i class='fa fa-link'></i> <span>Gallery</span></a></li>
+        </ul><!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+</aside>

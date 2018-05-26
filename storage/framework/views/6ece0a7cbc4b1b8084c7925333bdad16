@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Mango Chill</title>
+
+<?php echo $__env->make('front.inc_head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<?php echo $__env->make('front.inc_header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<!-- content here-->
+
+	<div class="container media-container">
+
+		<?php echo $__env->make('front.inc_medianav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+		<section class="news-grid">
+
+			<div class="row">
+
+				<div class="col-md-7 col-md-offset-1">
+					
+					<div class="cat-name">
+
+						<?php if($pn=='MediaCoverage'): ?>
+
+						<?php echo e(Lang::get('menu.media')); ?>
+
+
+						<?php elseif($pn=='MediaNews'): ?>
+
+						<?php echo e(Lang::get('menu.news')); ?>
+
+
+						<?php endif; ?>
+
+					</div>
+
+					<h2 class="news-title"><?php echo e($data->{'topic_'.Session::get('Lang')}); ?></h2>
+					
+					<div class="post-meta"><img src="<?php echo e(asset('/public/images/common/icon-clock.svg')); ?>"> <?php echo e($data->date_create); ?></div>
+					
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-7 col-md-offset-1">
+
+
+					<?php if($pn=='MediaNews' && $data->{'video_'.Session::get('Lang')} !=''): ?>
+					<div class="video-frame">
+		                	<iframe src="<?php echo e($data->{'video_'.Session::get('Lang')}); ?>" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		            </div>
+		            <?php endif; ?>
+					<div class="news-content">
+
+							<?php echo $data->{'detail_'.Session::get('Lang')}; ?>
+
+
+					</div>
+
+					<div class="readmore more-btn" style="margin-bottom: 30px; text-align: center;">
+
+						<a style="float: none;" href="<?php echo e(redirect()->back()->getTargetUrl()); ?>"><?php echo e(Lang::get('button.back')); ?></a>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-3">
+
+					<div class="row">
+
+						<div class="col-md-11 col-md-offset-1">
+
+							<section class="news-sidebar">
+
+								<div class="cat-name"><!-- LATEST NEWS -->LATEST NEWS</div>
+
+								<?php foreach($news as $key => $v): ?>
+									<?php if($pn=='MediaCoverage'): ?>
+										<a class="news-link" href="<?php echo e(url('coveragedetail/'.$v->id)); ?>">
+											<?php echo e($v->{'topic_'.Session::get('Lang')}); ?>
+
+										</a>
+									<?php elseif($pn=='MediaNews'): ?>
+										<a class="news-link" href="<?php echo e(url('newsdetail/'.$v->id)); ?>">
+											<?php echo e($v->{'topic_'.Session::get('Lang')}); ?>
+
+										</a>
+									<?php endif; ?>
+								<div class="hr">
+
+									<hr>
+
+								</div>
+
+								<?php endforeach; ?>
+
+							</section>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+	<!-- end content here -->
+
+	<?php echo $__env->make('front.inc_footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/main.js')); ?>"></script>
+
+	</div>
+
+</body>
+
+</html>

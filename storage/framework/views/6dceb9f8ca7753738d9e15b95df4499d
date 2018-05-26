@@ -1,0 +1,300 @@
+<?php
+
+  use App\Model\LocationImg;
+
+?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Mango Chill</title>
+
+<?php echo $__env->make('front.inc_head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+</head>
+
+<body>
+
+	<div id="skrollr-body" class="wrapper">
+
+	<?php echo $__env->make('front.inc_header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<!-- content here-->
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-12">
+
+				<div class="cat-mainbanner contactus-mainbanner" style="background-image:url(<?php echo e(asset('/images/'.$banner->img_name)); ?>);"
+
+					data-anchor-target=".cat-mainbanner"
+
+					data-bottom-top="background-position-y:-200px"
+
+					data-top-bottom="background-position-y:0px">
+
+						<img src="<?php echo e(asset('/images/'.$banner->img_name)); ?>" class="dummy-image img-responsive">
+
+					</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-4 col-md-offset-1 investor-area">
+
+				<img src="<?php echo e(asset('/public/front/images/contactus/elephant.svg')); ?>" class="el-icon">
+
+				<h2><?php echo e($investor->{'topic_'.Session::get('Lang')}); ?></h2>
+
+				<img src="<?php echo e(asset('/public/images/common/article-hr.svg')); ?>" class="article-hr">
+
+				<p><?php echo preg_replace('#(?:<br\s*/?>\s*?){2,}#','</p><p>',nl2br($investor->{'detail_'.Session::get('Lang')})); ?></p>
+
+
+
+				<img src="<?php echo e(asset('/public/front/images/contactus/investor-img.jpg')); ?>" class="img-responsive" style="margin: auto;">
+
+			</div>
+
+			<div class="col-md-4 col-md-offset-2 contactus-area">
+
+				<h2><?php echo e(Lang::get('menu.contact')); ?></h2>
+
+				<div class="clear"></div>
+
+				<img src="<?php echo e(asset('/public/images/common/article-hr.svg')); ?>" class="article-hr">
+
+				<?php foreach($contactus as $key => $val): ?>
+
+					<div class="branch">
+
+						<div class="branch-name"><?php echo e($val->{'office_'.Session::get('Lang')}); ?></div>
+
+						<div class="branch-company"><?php echo e($val->{'company_'.Session::get('Lang')}); ?></div>
+
+						<div class="branch-contact">
+							<div class="row">
+								<div class="col-sm-10">
+									<ul class="bullet-mark">
+
+										<li><?php echo nl2br($val->{'address_'.Session::get('Lang')}); ?></li>
+
+										<li>Phone: <?php echo e($val->tel); ?> </li>
+
+										<li>Email: <a href="<?php echo e($val->email); ?>"><?php echo e($val->email); ?></a></li>
+
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				<?php endforeach; ?>
+
+			</div>
+
+			<div class="clear"></div>
+
+		</div>
+
+	</div>
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-12">
+
+				<section class="location-section">
+
+					<div class="location-header">
+
+						<img src="<?php echo e(asset('/public/front/images/contactus/location-pin.png')); ?>" class="pin img-responsive">
+
+						<div class="clear"></div>
+
+						<h2><?php echo e(Lang::get('menu.location')); ?></h2>
+
+					</div>
+
+					<div class="map-bg"
+
+						data-anchor-target=".location-header"
+
+						data-bottom-top="transform: translate(0,-20%)"
+
+						data-top-bottom="transform: translate(0,0)">
+
+						<img src="<?php echo e(asset('/public/front/images/contactus/map-bg.png')); ?>">
+
+					</div>
+
+					<div class="location-gallery">
+
+						<div class="row">
+
+						  <?php foreach($location as $k => $l): ?>
+
+						  	<?php
+
+						  		$img = LocationImg::where('ref_id',$l->id)->get();
+
+						  	?>
+
+							<div class="col-md-4">
+
+								<div class="location-gallery-child">
+
+									<div class="location-gallery-slider">
+
+										<ul>
+
+											<?php foreach($img as $k => $val): ?>
+
+												<li><img src="<?php echo e(asset('/images/location/'.$val->img_name)); ?>"></li>
+
+											<?php endforeach; ?>
+
+										</ul>
+
+									</div>
+
+									<div class="row">
+
+										<div class="col-md-10 col-md-offset-2 col-xs-10 col-xs-offset-1">
+
+											<div class="location-profile">
+
+												<h3><img class="ico" src="<?php echo e(asset('/public/images/common/bullet-mark.svg')); ?>"><?php echo e($l->{'location_'.Session::get('Lang')}); ?></h3>
+
+												<ul class="location-profile-contact">
+
+													<li><img src="<?php echo e(asset('/public/front/images/contactus/ico-address.svg')); ?>" class="ico"><?php echo nl2br($l->{'address_'.Session::get('Lang')}); ?></li>
+
+													<!--
+
+													<li><img src="images/contactus/ico-time.svg" class="ico">11:00 - 22:00</li>
+
+													<li><img src="images/contactus/ico-phone.svg" class="ico">02-222-2222</li>
+
+													-->
+
+												</ul>
+
+												<!--
+
+												<ul class="social-bar">
+
+													<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+													<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+
+												</ul>
+
+												-->
+
+											</div>
+
+										</div>
+
+										<!--
+
+										<div class="col-xs-10 col-xs-offset-1">
+
+											<div class="location-type">
+
+												<img src="images/contactus/location-type1.png">
+
+											</div>
+
+										</div>
+
+										-->
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<?php endforeach; ?>
+
+						</div>
+
+					</div>
+
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- end content here -->
+
+	<?php echo $__env->make('front.inc_footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<link href="<?php echo e(asset('/public/front/css/jquery.bxslider.css')); ?>" rel="stylesheet">
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/skrollr.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.bxslider.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/main.js')); ?>"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			var slider = $('.location-gallery-slider ul').bxSlider({
+
+			            mode: 'horizontal', //mode: 'fade',
+
+			            speed: 300,
+
+			            auto: false,
+
+			            infiniteLoop: true,
+
+			            hideControlOnEnd: true,
+
+			            useCSS: false,
+
+			            pager:false,
+
+			            onSlideAfter: function() {
+
+				            //slider.startAuto();
+
+				        }
+
+			        });
+
+		})
+
+	</script>
+
+	</div>
+
+</body>
+
+</html>

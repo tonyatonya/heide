@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mango Chill</title>
+<?php echo $__env->make('front.inc_head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</head>
+<body>
+	<div class="wrapper">
+	<?php echo $__env->make('front.inc_header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<div class="container  media-container">
+			<?php echo $__env->make('front.inc_medianav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			<div class="row">
+				<div class="col-md-12">
+		        	<h2 class="popup-h2"><?php echo e($gallery->{'name_'.Session::get('Lang')}); ?></h2>
+	        	</div>
+	        	<div class="row">
+	                <div class="col-md-8 col-md-offset-2">
+		                <div class="video-frame">
+		                	<iframe src="<?php echo e($gallery->{'link_'.Session::get('Lang')}); ?>" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		                </div>
+		                <div class="readmore more-btn" style="margin-bottom: 30px; text-align: center;">
+							<a style="float: none;" href="<?php echo e(url('mediagallery')); ?>">BACK</a>
+						</div>
+	                </div>
+                </div>
+			</div>
+		</div>
+	<?php echo $__env->make('front.inc_footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	<link href="<?php echo e(asset('/public/front/css/jquery.bxslider.css')); ?>" rel="stylesheet">
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.bxslider.js')); ?>"></script>
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/main.js')); ?>"></script>
+	</div>
+</body>
+</html>
+
+

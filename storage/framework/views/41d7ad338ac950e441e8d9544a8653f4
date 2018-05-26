@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mango Chill</title>
+<?php echo $__env->make('front.inc_head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</head>
+<body>
+	<div class="wrapper">
+	<?php echo $__env->make('front.inc_header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	<!-- content here-->
+	<div class="container media-container">
+		<?php echo $__env->make('front.inc_medianav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<section class="cat-section">
+			<div class="row">
+				<div class="col-md-12"><h2 class="cat-title"><?php echo e(Lang::get('menu.news')); ?></h2></div>
+				<img src="<?php echo e(asset('/public/images/common/cat-page-hr.png')); ?>" class="img-responsive cat-page-hr">
+			</div>
+			<div class="row row-eq-height item-list">
+			<?php $i=0;?>
+			<?php foreach($data as $key => $v): ?>
+
+
+				<div class="col-md-3 col-xs-6 item-grid">
+					<div class="item-slider-child">
+						<figure class="border-frame">
+							<a href="<?php echo e(url('newsdetail/'.$v->id)); ?>"><img src="<?php echo e(asset('/images/'.$v->photo)); ?>"></a>
+						</figure>
+						<div class="post-meta">
+							<img src="<?php echo e(asset('/public/images/common/icon-clock.svg')); ?>"> <?php echo e($v->date_create); ?>
+
+						</div>
+						<a href="<?php echo e(url('newsdetail/'.$v->id)); ?>">
+							<h3><?php echo e($v->{'topic_'.Session::get('Lang')}); ?></h3>
+						</a>
+					</div>
+				</div>
+				<?php $i=$i+1;?>
+				<?php if($i==4): ?>
+					</div>
+					<div class="row row-eq-height item-list">
+				<?php endif; ?>
+			<?php endforeach; ?>	
+
+
+			</div>
+		</section>
+	</div>
+	<!-- end content here -->
+	<?php echo $__env->make('front.inc_footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/main.js')); ?>"></script>
+	</div>
+</body>
+</html>

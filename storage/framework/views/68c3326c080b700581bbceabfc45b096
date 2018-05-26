@@ -1,0 +1,162 @@
+<footer>
+
+	<div class="container">
+
+		<div class="row">
+
+
+
+			<div class="col-sm-4 col-sm-push-4">
+
+				<div class="logo-holder">
+
+					<img src="<?php echo e(asset('/public/images/common/mainlogo.svg')); ?>" class="mainlogo">
+
+				</div>
+
+			</div>
+
+			<div class="col-sm-4 col-sm-pull-4">
+
+				<div class="social-bar">
+
+					<ul>
+
+						<li><a href="#"><img src="<?php echo e(asset('/public/images/common/icon-ig.svg')); ?>" class="ico"></a></li>
+
+						<li><a href="https://www.facebook.com/mangochiliglobal"><img src="<?php echo e(asset('/public/images/common/icon-fb.svg')); ?>" class="ico"></a></li>
+
+						<li><a href="#"><img src="<?php echo e(asset('/public/images/common/icon-wc.svg')); ?>" class="ico"></a></li>
+
+						<li><a href="#"><img src="<?php echo e(asset('/public/images/common/icon-wb.svg')); ?>" class="ico"></a></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="col-sm-4">
+
+				<div class="row hidden-xs">
+
+					<div class="col-sm-12">
+
+						<ul class="lang-bar">
+
+							<li <?php echo e((Session::get('Lang')=='en' ? 'class=active':'')); ?>><a href="<?php echo e(url('Lang/en')); ?>">EN</a></li>
+
+							<li <?php echo e((Session::get('Lang')=='ch' ? 'class=active':'')); ?>><a href="<?php echo e(url('Lang/ch')); ?>">CH</a></li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-sm-12 copyright-text">
+
+						All Copy Rights Reserved: www.mangochilli.com
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+</footer>
+
+<div class="up-btn"><a href="#"><img src="<?php echo e(asset('/public/images/common/up-btn.svg')); ?>"></a></div>
+
+<script type="text/javascript">
+
+	$( document ).ready(function(){
+
+		$('.showgal').click(function(){
+
+			$.get("<?php echo e(url('gallery')); ?>", { id: $(this).attr('id')} ,function(data){
+
+				$('#pop_up').html('');
+
+				$('#bx-thumb-slide').html('');
+
+				$.each( data, function( key, v ) {
+
+				  $('#pop_up').append('<li data-slide-index="'+ key +'"><img src="<?php echo e(asset('/images/Gallery/')); ?>/'+ v.img_name +'"/></li>');
+
+				  $('#bx-thumb-slide').append('<li data-slide-index="'+ key +'"><a href="#"><img src="<?php echo e(asset('/images/Gallery/')); ?>/'+ v.img_name +'"/></a></li>');
+
+				  $('#gallery-head').html(v.name_<?php echo e(Session::get('Lang')); ?>);
+
+				});
+
+			}, "json" );
+
+		});
+
+
+
+		$('.showvideo').click(function(){
+			if($(this).attr('rel')=='news'){
+				$.get("<?php echo e(url('videonews')); ?>", { id: $(this).attr('id')} ,function(data){
+					$('#video_name').html(data.topic_<?php echo e(Session::get('Lang')); ?>);
+					$('#iframe1').attr('src',data.video_<?php echo e(Session::get('Lang')); ?>);
+				}, "json" );
+				$('.readmore').find('a').attr('href','<?php echo e(url("newsdetail")); ?>/'+$(this).attr('id'));
+				$('.readmore').show();
+			}
+			else{
+				$.get("<?php echo e(url('video')); ?>", { id: $(this).attr('id')} ,function(data){
+					$('#video_name').html(data.name_<?php echo e(Session::get('Lang')); ?>);
+					$('#iframe1').attr('src',data.link_<?php echo e(Session::get('Lang')); ?>)
+				}, "json" );
+				$('.readmore').hide();	
+			}
+		});
+
+		function nl2br(str, is_xhtml) {   
+				    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';    
+				    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag +'$2');
+				}
+
+		$('.showbio').click(function(){
+
+				$.get("<?php echo e(url('bio')); ?>", { id: $(this).attr('id')} ,function(data){
+
+					$('#border-frame').html('');
+
+					$('.bio-name').html('');
+
+					$('.bio-position').html('');
+
+					$('.bio-des').html('');
+
+					$('.content-overflow').html('');
+
+					$('#border-frame').append('<img src="<?php echo e(asset('/images/')); ?>/'+ data.photo +'"/>');
+
+					$('.bio-name').append(data.name_<?php echo e(Session::get('Lang')); ?>);
+
+					$('.bio-position').append(data.position_<?php echo e(Session::get('Lang')); ?>);
+
+					$('.bio-des').append(data.position_detail_<?php echo e(Session::get('Lang')); ?>);
+
+					$('.content-overflow').append('<p>' + nl2br(data.detail_<?php echo e(Session::get('Lang')); ?>) + '</p>');
+
+				}, "json" );
+
+			});
+
+
+
+	});
+
+</script>

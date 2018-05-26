@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Mango Chill</title>
+
+<?php echo $__env->make('front.inc_head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<?php echo $__env->make('front.inc_header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<!-- content here-->
+
+	<div class="container media-container">
+
+		<?php echo $__env->make('front.inc_medianav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+		<section class="cat-section">
+
+			<div class="row">
+
+				<div class="col-md-12"><h2 class="cat-title"><?php echo e(Lang::get('menu.exe')); ?></h2></div>
+
+				<img src="<?php echo e(asset('/public/images/common/cat-page-hr.png')); ?>" class="img-responsive cat-page-hr">
+
+			</div>
+
+			<div class="row">
+
+
+
+				<div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1 bio-article-list">
+
+					<?php foreach($data as $key => $val): ?>
+
+					<div class="row bio-article-row">
+
+						<div class="col-md-4">
+
+							<figure style="background-image: url(<?php echo e(asset('/public/images/common/img-mark-orange.png')); ?>);">
+
+								<a href="<?php echo e(url('biodetail/'.$val->id)); ?>" class="showbio" id="<?php echo e($val->id); ?>">
+
+									<img src="<?php echo e(asset('/images/'.$val->photo)); ?>">
+
+								</a>
+
+							</figure>
+
+						</div>
+
+						<div class="col-md-8">
+
+							<div class="row">
+
+								<div class="col-md-11 col-md-offset-1">
+
+									<h2><?php echo e($val->{'name_'.Session::get('Lang')}); ?></h2>
+
+									<div class="position"><?php echo e($val->{'position_'.Session::get('Lang')}); ?></div>
+
+									<div class="bio-des"><?php echo e($val->{'position_detail_'.Session::get('Lang')}); ?></div>
+
+									<img src="<?php echo e(asset('/public/images/common/gold-hr.svg')); ?>" class="gold-hr article-hr">
+
+									<h3><?php echo e($val->{'topic_'.Session::get('Lang')}); ?></h3>
+
+									<p><?php echo e($val->{'introduction_'.Session::get('Lang')}); ?></p>
+
+									<div class="readmore">
+
+										<a href="<?php echo e(url('biodetail/'.$val->id)); ?>" id="<?php echo e($val->id); ?>" class="showbio"><?php echo e(Lang::get('button.readmore')); ?> <img src="<?php echo e(asset('/public/images/common/readmore-arrow.svg')); ?>"></a>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<?php endforeach; ?>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+	<!-- end content here -->
+
+	<?php echo $__env->make('front.inc_footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	<link href="<?php echo e(asset('/public/front/css/jquery.jscrollpane.css')); ?>" rel="stylesheet">
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.jscrollpane.min.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/jquery.mousewheel.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/mwheelIntent.js')); ?>"></script>
+
+	<script type="text/javascript" src="<?php echo e(asset('/public/front/js/main.js')); ?>"></script>
+
+	<?php echo $__env->make('front.inc_media_modal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+	</div>
+
+</body>
+
+</html>
