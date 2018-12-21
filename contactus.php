@@ -8,11 +8,11 @@
 	<div id="skrollr-body" class="wrapper">
 		<?php include('inc_header.php'); ?>
 		<!-- content here-->
-		<div class="container-fluid">
+		<div class="container-fluid" style="display: none;">
 			<div class="row contact-row">
 				<div class="col-lg-7 map-canvas-frame">
 					<!-- map zone -->
-					<div id="map-canvas"></div>
+					<!--<div id="map-canvas"></div>-->
 					<!-- end map zone -->
 				</div>
 				<div class="col-lg-5 contact-background" style="background-image: url(images/contact/contact-bg.jpg);">
@@ -42,6 +42,79 @@
 				</div>
 
 
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row contact-row">
+				<div class="col-lg-4" style="background-image: url(images/contact/contact-bg.jpg);">
+					<img src="images/contact/contact-bg.jpg" class="dummy">
+				</div>
+				<div class="col-lg-8 map-canvas-frame">
+					<div id="map-canvas"></div>
+				</div>
+			</div>
+			<div class="row contact-row">
+				<div class="col-lg-4">
+					<div class="row">
+						<div class="col-lg-11 offset-lg-1">
+							<div class="contact-form-col">
+								<form>
+									<input type="text" class="form-control" placeholder="NAME">
+									<input type="text" class="form-control" placeholder="E-MAIL">
+									<textarea class="form-control" placeholder="MESSAGE"></textarea>
+									<input type="submit" value="SEND">
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-2">
+					<div class="map-menu">
+						<ul>
+							<li><a href="#">ALOFT STUDIO</a></li>
+							<li><a href="#">CANVAS</a></li>
+							<li><a href="#">STUDIO4</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="contact-content">
+								<h2>SAY HELLO</h2>
+								<hr>
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+								</p>
+								<p>
+									E-mail : stay@heide-emigre.com
+								</p>
+								<p>
+									Tel : (+66) 94-749-4142 / (+66) 96-569-5142
+
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="contact-content">
+								<h2>FOLLOW US</h2>
+								<hr>
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+								</p>
+								<div class="social-menu">
+									<ul>
+										<li><a href="#"><img src="images/contact/ico-instragram.svg"></a></li>
+										<li><a href="#"><img src="images/contact/ico-facebook.svg"></a></li>
+										<li><a href="#"><img src="images/contact/ico-pinterest.svg"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- end content here -->

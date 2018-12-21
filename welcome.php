@@ -8,6 +8,7 @@
 	<div id="skrollr-body" class="wrapper">
 		<?php include('inc_header.php'); ?>
 		<!-- content here-->
+		<!--
 		<div class="page-banner" style="background-image:url(images/welcome/welcome-banner.jpg);"
 			data-anchor-target=".page-banner"
 			data-bottom-top="background-position-y:-200px"
@@ -103,6 +104,49 @@
 				</div>
 			</div>
 		</div>
+		-->
+
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 no-gutters"></div>
+				<div class="col-xl-4 d-flex">
+					<div class="row align-self-end">
+						<div class="welcome-content">
+							<img src="images/welcome/logo-h.svg" class="welcome-logo">
+							<h2>AROUND HIEDE</h2>
+							<hr>
+							<p>
+								Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accomplishments can be seen as ALOFT STUDIO and CANVAS as well as many others.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-12 welcome-media">
+					<div class="row">
+						<div class="col-md-6 offset-md-3 no-gutters">
+							<div class="welcome-media-box">
+								<iframe src="https://www.youtube.com/embed/4d5_lrn9v-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+						<div class="col-md-3 d-flex">
+							<div class="row align-self-end">
+								<div class="col-xl-10 offset-xl-1">
+									<p>
+										Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
 		<!-- end content here -->
 		<?php include('inc_footer.php'); ?>
 	</div>
