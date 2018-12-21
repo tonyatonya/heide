@@ -67,9 +67,11 @@
 						</div>
 					</div>
 					<div class="gallery-zone">
+						<!--
 						<div class="gallery-main-title">
 							<img src="images/aboutus/logo-koti.svg" class="gallery-main-logo">
 						</div>
+						-->
 							<div class="row">
 								<div class="col-sm-12">
 									<!-- loop gallery list -->

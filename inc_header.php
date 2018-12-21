@@ -1,4 +1,5 @@
 <header>
+	<!--
 	<div class="header-desktop d-none d-lg-block">
 		<div class="container">
 			<div class="row">
@@ -39,7 +40,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="header-mobile d-block d-lg-none">
+	-->
+	<div class="header-mobile d-block">
 		<div class="container">
 			<div class="row">
 				<div class="col-4 offset-4">

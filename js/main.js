@@ -8,6 +8,11 @@ $(document).ready(function(){
 		$(".wrapper").removeClass("opensidebar");
 	})
 
+	$(".slide-up").click(function(e){
+		e.preventDefault();
+		$("body").stop().animate({scrollTop:0},500,'swing');
+	})
+
 })
 
 
@@ -72,8 +77,21 @@ $(function(){
 			*/
 		}
 		currPos = scroll;
+
+
+		//side Control
+		if(($(window).scrollTop() + $(window).height() > $(document).height() * 0.7) && ($(window).scrollTop() > 1200) ) {
+			//alert("show");
+			$(".side-controler").fadeIn();
+		}else{
+			$(".side-controler").fadeOut();
+		}
+
+
 	})
 })
+
+
 
 //Parallax
 $(function(){

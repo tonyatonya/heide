@@ -1,6 +1,43 @@
 <footer>
 	<div class="container">
 		<div class="row">
+			<div class="col-xl-3 col-lg-6 copyright ">
+				All right reserved © Heide-emigre.com
+			</div>
+			<div class="col-xl-5 d-none d-xl-block footer-menu">
+				<ul>
+					<li><a href="welcome.php">Welcome</a></li>
+					<li><a href="properties.php">Project</a></li>
+					<li><a href="aboutus.php">About Us</a></li>
+					<li><a href="news.php">News</a></li>
+					<li><a href="contactus.php">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-4 col-lg-6 property-link ">
+				<ul>
+					<li><a href="#"><img src="images/common/logo-footer-aloft.svg"></a></li>
+					<li><a href="#"><img src="images/common/logo-footer-canvas.svg"></a></li>
+					<li><a href="#"><img src="images/common/logo-footer-studio4.svg"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="side-controler">
+	<ul class="side-controler-social">
+		<li><a href="#"><img src="images/common/ico-instagram.svg"></a></li>
+		<li><a href="#"><img src="images/common/ico-facebook.svg"></a></li>
+		<li><a href="#"><img src="images/common/ico-pinterest.svg"></a></li>
+	</ul>
+	<div class="ver-line"></div>
+	<a href="#" class="slide-up">
+		<img src="images/common/ico-arrowup.svg">
+	</a>
+</div>
+<!--
+<footer>
+	<div class="container">
+		<div class="row">
 			<div class="col-sm-4">
 				<div class="row">
 					<div class="col-sm-6 footer-link-group">
@@ -40,5 +77,6 @@
 		</div>
 	</div>
 </footer>
+-->
 <script type="text/javascript" src="js/skrollr.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

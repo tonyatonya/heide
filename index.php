@@ -32,13 +32,14 @@
 							<img src="images/common/heide-written.svg">
 						</div>
 					</div>
-					<div class="offset-sm-3 col-sm-4 enq-form-pos">
+					<div class="offset-sm-1 col-sm-6 enq-form-pos">
+						<!--
 						<a href="#" class="enq-btn">
 							<i class="icon"></i> INSPECT & ENQUIRE
 						</a>
+						-->
 						<p>
-							To enquire further about our properties, please fill
-the form below. We'll try to respond within 48 hrs.
+							Home is always the place that people feel the most relax and comfortable. Behind each of HEIDE ÉMIGRÉ’s project, we’d like to create beautiful space that people can associate with and also give them inspiration. It’s all about their wonderful experience when they are away or emigrate from where they belong.
 						</p>
 						<div class="enq-form-wrapper">
 							<div class="enq-form">
@@ -106,6 +107,44 @@ the form below. We'll try to respond within 48 hrs.
 			</div>
 		</section>
 		<section class="feature-update-section">
+			<div class="container-fluid">
+				<div class="row row-eq-height">
+					<div class="col-lg-8 feature-update">
+						<div class="col-lg-11 offset-lg-1">
+							<h2>HEIDE UPDATES</h2>
+							<div class="row row-eq-height">
+								<?php for($i=0;$i<2;$i++){ ?>
+								<div class="col-lg-6">
+									<div class="feature-update-box">
+										<figure>
+										<a href="#"><img src="images/common/update-img1.jpg" alt="update-img1" width="350" height="315"></a>
+										</figure>
+										<div class="feature-update-box-meta">
+											<a href="#">
+												<h3>LOREM IPSUM</h3>
+												<p>LOREM IPSUM DOLOR SITAMET, CONSECTETULAOE</p>
+											</a>
+											<a href="#" class="more">MORE INFO <i class="heide-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<?php } ?>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 feature-update-banner">
+						<figure>
+							<img src="images/common/update-img3.jpg" class="feature-banner-img">
+							<figcaption>
+								HOME AWAY FROM HOME
+								<a href="#">SEE ALL</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			<!--
 			<div class="container">
 				<div class="row row-eq-height">
 					<div class="col-md-8 feature-update">
@@ -114,7 +153,7 @@ the form below. We'll try to respond within 48 hrs.
 							<div class="col-sm-6"><a href="#" class="see-all">SEE ALL</a></div>
 						</div>
 						<div class="row">
-							<!-- loop Content -->
+
 							<?php for($i=0;$i<2;$i++){ ?>
 							<div class="col-sm-6">
 								<div class="feature-update-box">
@@ -131,7 +170,7 @@ the form below. We'll try to respond within 48 hrs.
 								</div>
 							</div>
 							<?php } ?>
-							<!-- end loop Content -->
+
 						</div>
 
 					</div>
@@ -143,7 +182,10 @@ the form below. We'll try to respond within 48 hrs.
 					</div>
 				</div>
 			</div>
+			-->
+
 		</section>
+		<!--
 		<section class="property">
 			<div class="container">
 				<div class="row">
@@ -183,6 +225,46 @@ the form below. We'll try to respond within 48 hrs.
 				</div>
 			</div>
 		</section>
+		-->
+
+		<section class="property">
+			<div class="property-slider">
+				<ul>
+					<li>
+						<div class="property-banner">
+							<img src="images/common/aloft-feature-banner.jpg" class="main-img">
+							<div class="property-info">
+								<div class="property-info-logo">
+									<img src="images/common/logo-aloft.svg">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="property-banner">
+							<img src="images/common/canvas-feature-banner.jpg" class="main-img">
+							<div class="property-info">
+								<div class="property-info-logo">
+									<img src="images/common/logo-canvas.svg">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="property-banner">
+							<img src="images/common/studio4-feature-banner.jpg" class="main-img">
+							<div class="property-info">
+								<div class="property-info-logo">
+									<img src="images/common/logo-studio4.svg">
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<script type="text/javascript" src="js/jquery.bxslider.js"></script>
 		<section class="feature-map">
 			<div class="container">
 				<div class="row">
@@ -202,8 +284,11 @@ the form below. We'll try to respond within 48 hrs.
 		<!-- end content here -->
 		<?php include('inc_footer.php'); ?>
 	</div>
+
 	<script type="text/javascript">
 		$(document).ready(function(){
+
+
 			$(".openpop-btn a").click(function(e){
 				e.preventDefault();
 				$(".feature-banner").addClass("openpopup");
@@ -229,6 +314,33 @@ the form below. We'll try to respond within 48 hrs.
 				}
 
 			})
+
+
+			var homeSlideW;
+
+			if($(window).width()<1025){
+				homeSlideW = $(window).width();
+			}else{
+				homeSlideW = 1100;
+			}
+
+
+			var slider = $('.property-slider ul').bxSlider({
+		            mode: 'horizontal', //mode: 'fade',
+		            speed: 500,
+		            auto: true,
+		            infiniteLoop: true,
+		            pager:false,
+		            hideControlOnEnd: true,
+		            useCSS: true,
+		            minSlides : 1,
+		            shrinkItems:true,
+		            slideWidth:1100,
+		            onSlideAfter: function() {
+			            slider.startAuto();
+			        }
+		        });
+
 		})
 	</script>
 </body>
