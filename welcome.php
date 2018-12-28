@@ -8,111 +8,35 @@
 	<div id="skrollr-body" class="wrapper">
 		<?php include('inc_header.php'); ?>
 		<!-- content here-->
-		<!--
-		<div class="page-banner" style="background-image:url(images/welcome/welcome-banner.jpg);"
-			data-anchor-target=".page-banner"
-			data-bottom-top="background-position-y:-200px"
-			data-top-bottom="background-position-y:0px">
-			<img src="images/welcome/welcome-banner.jpg" class="dummy">
-		</div>
-		<div class="container-fluid welcome-bg"
-			data-anchor-target=".welcome-bg"
-			data-bottom-top="background-position-y:-100px"
-			data-top-bottom="background-position-y:100px"
-		>
-			<img src="images/welcome/welcome-bg.jpg" class="dummy">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="container">
-						<div class="row welcome-row">
-							<div class="col-lg-4">
-								<div class="welcome-group" id="welcome-1"
-									data-anchor-target="#welcome-1"
-									data-bottom-top="transform: translate(0,0px)"
-									data-top-bottom="transform: translate(0,50px)"
-								>
-									<h3>Who we are</h3>
-									<hr>
-									<p>
-										Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accomplishments can be seen as ALOFT STUDIO and CANVAS as well as many others.
-									</p>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<figure class="welcome-img"
-									data-anchor-target="#welcome-1"
-									data-bottom-top="transform: translate(0,70px)"
-									data-top-bottom="transform: translate(0,0px)"
-								>
-									<img src="images/welcome/welcome-whoweare.jpg">
-								</figure>
-							</div>
-							<div class="col-lg-4">
-								<div class="welcome-group" id="welcome-2"
-									data-anchor-target="#welcome-2"
-									data-bottom-top="transform: translate(0,300px)"
-									data-top-bottom="transform: translate(0,100px)"
-								>
-									<h3>What we do</h3>
-									<hr>
-									<p>
-										Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accomplishments can be seen as ALOFT STUDIO and CANVAS as well as many others.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="row welcome-row">
-							<div class="col-lg-8 offset-lg-2">
-								<div class="row welcome-row">
-									<div class="col-lg-6 pull-left-50">
-										<figure class="welcome-img"
-											data-anchor-target="#welcome-3"
-											data-bottom-top="margin-top:300px"
-											data-top-bottom="margin-top:100px"
-										>
-											<img src="images/welcome/welcome-service.jpg">
-										</figure>
-									</div>
-									<div class="col-lg-6 pull-right-50">
-										<div class="welcome-group" id="welcome-3"
-											data-anchor-target="#welcome-3"
-											data-bottom-top="transform: translate(0,0px)"
-											data-top-bottom="transform: translate(0,100px)"
-										>
-											<h3>Service</h3>
-											<hr>
-											<p>
-												Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accomplishments can be seen as ALOFT STUDIO and CANVAS as well as many others.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row welcome-row">
-							<div class="col-lg-12">
-								<figure class="welcome-img"
-									data-anchor-target="#welcome-3"
-									data-bottom-top="margin-top:200px"
-									data-top-bottom="margin-top:100px"
-								>
-									<img src="images/welcome/welcome-bottom-img.jpg">
-								</figure>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		-->
-
-
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xl-7 no-gutters"></div>
+				<div class="col-xl-7">
+					<div class="welcome-main-fig">
+						<figure>
+							<img src="images/welcome/imgslide-1.jpg">
+						</figure>
+						<div class="pin-bar">
+							<a href="#" class="pin"><img src="images/welcome/mini-pin.png"></a>
+							<a href="https://maps.google.com/?ll=13.738056,100.560782" class="latlon" target="_blank">13.738056,100.560782</a>
+						</div>
+					</div>
+					<div class="welcome-slide-fig">
+						<ul>
+							<?php for($i=2;$i<5;$i++){ ?>
+							<li>
+								<img src="images/welcome/imgslide-<?php echo($i);?>.jpg">
+								<div class="pin-bar">
+									<a href="#" class="pin"><img src="images/welcome/mini-pin.png"></a>
+									<a href="https://maps.google.com/?ll=13.738056,100.560782" class="latlon" target="_blank">13.738056,100.560782</a>
+								</div>
+							</li>
+							<?php } ?>
+						</ul>
+					</div>
+				</div>
 				<div class="col-xl-4 d-flex">
 					<div class="row align-self-end">
-						<div class="welcome-content">
+						<div class="col-xl-12 welcome-content">
 							<img src="images/welcome/logo-h.svg" class="welcome-logo">
 							<h2>AROUND HIEDE</h2>
 							<hr>
@@ -149,6 +73,45 @@
 
 		<!-- end content here -->
 		<?php include('inc_footer.php'); ?>
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var slider = $('.welcome-slide-fig ul').bxSlider({
+		            mode: 'horizontal', //mode: 'fade',
+		            speed: 500,
+		            auto: true,
+		            infiniteLoop: true,
+		            hideControlOnEnd: true,
+		            useCSS: false,
+		            minSlides:1,
+		            maxSlides:2,
+		            slideWidth:"430px",
+		            shrinkItems:true,
+		            slideMargin:30,
+		            autoHover:true,
+					pager:false,
+					controls:true,
+		            onSlideAfter: function() {
+			            slider.startAuto();
+			        },
+			        onSlideBefore:function(){
+				        $(".welcome-slide-fig .pin-bar.active").removeClass("active");
+			        }
+		        });
+
+		        $(".pin").click(function(e){
+			        e.preventDefault();
+			        if( $(this).parent().hasClass("active") == false){
+				        $(".pin-bar.active").removeClass("active");
+				        $(this).parent().addClass("active");
+			        }else{
+				     	$(this).parent().toggleClass("active");
+			        }
+		        })
+
+			});
+		</script>
 	</div>
 </body>
 </html>

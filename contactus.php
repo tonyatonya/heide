@@ -27,7 +27,7 @@
 										<li>E-mail : <a href="mailto:stay@heide-emigre.com">stay@heide-emigre.com</a></li>
 										<li>Tel : <a href="tel:(+66) 94-749-4142">(+66) 94-749-4142</a> / <a href="tel:(+66) 0965695142">(+66) 0965695142</a></li>
 										<li>Facebook : <a href="#">heideemigre</a></li>
-										<li>Instragram : <a href="#">heideemigre</a></li>
+										<li>Instagram : <a href="#">heideemigre</a></li>
 									</ul>
 									<form>
 										<input type="text" class="form-control" placeholder="NAME">
@@ -47,11 +47,16 @@
 
 		<div class="container-fluid">
 			<div class="row contact-row">
-				<div class="col-lg-4" style="background-image: url(images/contact/contact-bg.jpg);">
-					<img src="images/contact/contact-bg.jpg" class="dummy">
+				<div class="col-lg-4 contact-property" style="background-image: url(images/contact/contact-bg.jpg);">
+					<ul>
+						<li class="active"><img src="images/properties/properties-1.jpg"></li>
+						<li><img src="images/properties/properties-2.jpg"></li>
+						<li><img src="images/properties/properties-3.jpg"></li>
+					</ul>
+					<!--<img src="images/contact/contact-bg.jpg" class="dummy">-->
 				</div>
 				<div class="col-lg-8 map-canvas-frame">
-					<div id="map-canvas"></div>
+					<div id="map-canvas" class="showpic"></div>
 				</div>
 			</div>
 			<div class="row contact-row">
@@ -73,9 +78,9 @@
 				<div class="col-lg-2">
 					<div class="map-menu">
 						<ul>
-							<li><a href="#">ALOFT STUDIO</a></li>
-							<li><a href="#">CANVAS</a></li>
-							<li><a href="#">STUDIO4</a></li>
+							<li class="active"><a href="#" datalat="13.738056" datalong="100.560782" datacolor="#c7652b" dataprop="ALOFT STUDIO" dataimg="images/properties/properties-1.jpg">ALOFT STUDIO</a></li>
+							<li><a href="#" datalat="13.800233" datalong="100.551316" datacolor="#128885" dataprop="CANVAS" dataimg="images/properties/properties-2.jpg">CANVAS</a></li>
+							<li><a href="#" datalat="13.747386" datalong="100.540801" datacolor="#eaaf0a" dataprop="STUDIO4" dataimg="images/properties/properties-3.jpg">STUDIO4</a></li>
 						</ul>
 					</div>
 				</div>
@@ -118,425 +123,402 @@
 			</div>
 		</div>
 		<!-- end content here -->
+		<!--<a href="#" id="link1">link1</a>
+		<a href="#" id="link2">link2</a>
+		-->
 		<?php include('inc_footer.php'); ?>
 
 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmn53s9D4N06_g3NnnLq9jpMTC4WAIx8A&center=13.725543133385932,460.54611971378324&zoom=16&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0xf5f5f5&style=element:labels.icon%7Cvisibility:off&style=element:labels.text.fill%7Ccolor:0x616161&style=element:labels.text.stroke%7Ccolor:0xf5f5f5&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0xbdbdbd&style=feature:poi%7Celement:geometry%7Ccolor:0xeeeeee&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:poi.park%7Celement:geometry%7Ccolor:0xe5e5e5&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:road%7Celement:geometry%7Ccolor:0xffffff&style=feature:road.arterial%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:road.highway%7Celement:geometry%7Ccolor:0xdadada&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0x616161&style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:transit.line%7Celement:geometry%7Ccolor:0xe5e5e5&style=feature:transit.station%7Celement:geometry%7Ccolor:0xeeeeee&style=feature:water%7Celement:geometry%7Ccolor:0xc9c9c9&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&size=480x360"></script>
 
 
-		<script type="text/javascript">
-	//map
-	var mapStyles = [
-						  {
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#f5f5f5"
-						      }
-						    ]
-						  },
-						  {
-						    "elementType": "labels.icon",
-						    "stylers": [
-						      {
-						        "visibility": "off"
-						      }
-						    ]
-						  },
-						  {
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#616161"
-						      }
-						    ]
-						  },
-						  {
-						    "elementType": "labels.text.stroke",
-						    "stylers": [
-						      {
-						        "color": "#f5f5f5"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "administrative.land_parcel",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#bdbdbd"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "poi",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#eeeeee"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "poi",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#757575"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "poi.park",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#e5e5e5"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "poi.park",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#9e9e9e"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "road",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#ffffff"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "road.arterial",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#757575"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "road.highway",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#dadada"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "road.highway",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#616161"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "road.local",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#9e9e9e"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "transit.line",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#e5e5e5"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "transit.station",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#eeeeee"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "water",
-						    "elementType": "geometry",
-						    "stylers": [
-						      {
-						        "color": "#c9c9c9"
-						      }
-						    ]
-						  },
-						  {
-						    "featureType": "water",
-						    "elementType": "labels.text.fill",
-						    "stylers": [
-						      {
-						        "color": "#9e9e9e"
-						      }
-						    ]
-						  }
-					]
+<script type="text/javascript">
+	$(document).ready(function(){
+
+
+
+		$(".map-menu li a").click(function(e){
+			e.preventDefault();
+			var _parent = $(this).parent();
+			var _datalat = $(this).attr("datalat");
+			var _datalon = $(this).attr("datalong");
+			var _datacolor = $(this).attr("datacolor");
+			var _tabIndex = _parent.index();
+			var _dataprop = $(this).attr("dataprop");
+			var _dataimg = $(this).attr("dataimg");
+
+			console.log("_tabIndex = ", _tabIndex, "_datalat = ", _datalat, "_datalon = ", _datalon, "_datacolor = ", _datacolor);
+
+			if(_parent.hasClass("active") == false){
+				$("#map-canvas.showpic").removeClass("showpic");
+				$(".map-menu li.active").removeClass("active");
+				_parent.addClass("active");
+				changeMarkerPos(_datalat,_datalon,_datacolor);
+				$(".contact-property ul li.active").removeClass("active");
+				$(".contact-property ul li").eq(_tabIndex+1).addClass("active");
+
+				setTimeout(function(){
+					$(".map-info-box figure").replaceWith('<figure><img src="'+_dataimg+'"></figure>');
+					$(".map-info-box p").replaceWith("<p>"+_dataprop+"</p>");
+					$("#map-canvas").addClass("showpic");
+				}, 300);
+
+			}
+
+
+		})
+
+
+
+	})
+
+
+		var map;
+		var marker
+		var lat = 14.071224; //defaultLat
+		var lan = 100.602687; //defaultLon
+		var pincolor = '#c7652b'; //defaultCol
+		var mapStyles = [
+							  {
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#f5f5f5"
+							      }
+							    ]
+							  },
+							  {
+							    "elementType": "labels.icon",
+							    "stylers": [
+							      {
+							        "visibility": "off"
+							      }
+							    ]
+							  },
+							  {
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#616161"
+							      }
+							    ]
+							  },
+							  {
+							    "elementType": "labels.text.stroke",
+							    "stylers": [
+							      {
+							        "color": "#f5f5f5"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "administrative.land_parcel",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#bdbdbd"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "poi",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#eeeeee"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "poi",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#757575"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "poi.park",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#e5e5e5"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "poi.park",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#9e9e9e"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "road",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#ffffff"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "road.arterial",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#757575"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "road.highway",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#dadada"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "road.highway",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#616161"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "road.local",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#9e9e9e"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "transit.line",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#e5e5e5"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "transit.station",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#eeeeee"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "water",
+							    "elementType": "geometry",
+							    "stylers": [
+							      {
+							        "color": "#c9c9c9"
+							      }
+							    ]
+							  },
+							  {
+							    "featureType": "water",
+							    "elementType": "labels.text.fill",
+							    "stylers": [
+							      {
+							        "color": "#9e9e9e"
+							      }
+							    ]
+							  }
+						]
+
+
+
+
+			function FontAwesomeMarker(latlng, map, args) {
+				this.latlng = latlng;
+				this.args = args;
+				this.setMap(map);
+			}
+
+			FontAwesomeMarker.prototype = new google.maps.OverlayView();
+
+			FontAwesomeMarker.prototype.draw = function() {
+				var self = this,
+			  	panes = this.getPanes(),
+			  	marker = this.marker;
+
+				if (!marker) {
+				  marker = this.marker = document.createElement('div');
+					marker.className = 'marker';
+
+			    var icon = document.createElement('i');
+			   icon.className = 'heide-' + this.args.icon;
+			    icon.style.fontSize = this.args.fontSize;
+			    icon.style.color = this.args.color;
+			    marker.appendChild(icon);
+
+			    var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
+			    if (point) {
+			      marker.style.left = (point.x - 25) + 'px';
+			      marker.style.top = (point.y - 25) + 'px';
+			    }
+
+
+					google.maps.event.addDomListener(marker, "click", function(event) {});
+
+					panes.overlayImage.appendChild(marker);
+				}
+			};
+
+			FontAwesomeMarker.prototype.remove = function() {
+				if (this.marker) {
+					this.marker.parentNode.removeChild(this.marker);
+					this.marker = null;
+				}
+			};
+
+			FontAwesomeMarker.prototype.getPosition = function() {
+				return this.latlng;
+			};
+
+			function initialize() {
+				map = new google.maps.Map(document.getElementById('map-canvas'), {
+				      	zoom: 15,
+					  	center: new google.maps.LatLng(lat, lan),
+					  	mapTypeId: google.maps.MapTypeId.ROADMAP,
+						mapTypeControl: false,
+						zoomControl: false,
+						zoomControlOptions: {
+							style: google.maps.ZoomControlStyle.DEFAULT,
+							position: google.maps.ControlPosition.LEFT_TOP
+						},
+						panControl: false,
+						streetViewControl: false,
+						streetViewControlOptions: {
+							position: google.maps.ControlPosition.LEFT_TOP
+						},
+						scaleControl: false,
+						overviewMapControl: false,
+						draggable: false,
+						styles: mapStyles
+					});
+
+				marker = new google.maps.Marker({
+			      icon: 'map-pin',
+			      color : pincolor,
+			      fontSize: '35px'
+			    })
+
+			    new FontAwesomeMarker(
+				      marker.latLan,
+				      map,
+				      {
+				        icon: marker.icon,
+				        color: marker.color,
+				        fontSize: marker.fontSize
+				      }
+				    );
+
+
+
+
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+			var imgURL = 'images/contact/contact-bg.jpg'; //defaultimg
+			var defaultData = '<div class="map-info-box"><figure>'+
+				'<img src="'+imgURL+'">'+
+				'</figure>'+
+				'<p>Aloft Studio</p>'+
+				'</div>';
+			setTimeout(function(){
+				$("#map-canvas").append(defaultData);
+			}, 200)
+
+
+
+	function changeMarkerPos(lat, lon,color){
+	    myLatLng = new google.maps.LatLng(lat, lon)
+	    marker.setPosition(myLatLng);
+	    map.panTo(myLatLng);
+	    $(".heide-map-pin").css({
+			'color':color
+		})
+	}
 
 	/*
-	var locations = [
-			['TERMINAL 21',13.738056,100.560782,"{{asset('public/front/images/contactus/terminal.jpg')}}","terminal21"],
-			['JJ MARKET',13.800233,100.551316,"{{asset('public/front/images/contactus/jj.jpg')}}","jjmarket"],
-			['ZEN @ CENTRAL WORLD',13.747386,100.540801,"{{asset('public/front/images/contactus/terminal.jpg')}}","zen"]
-		]
+	$("#link1").click(function(e){
+		e.preventDefault();
+	    changeMarkerPos(13.738056,100.560782,'#c7652b');
+	});
+	$("#link2").click(function(e){
+		e.preventDefault();
+	    changeMarkerPos(13.800233, 100.551316,'#128885');
+	});
+	$("#link3").click(function(e){
+		e.preventDefault();
+	    changeMarkerPos(13.747386, 100.540801,'#eaaf0a');
+	});
+	*/
 
-	var x;
-	var y;
+	/*
 
-		$("#map-canvas").mousemove(function(e){
-			x = e.pageX - this.offsetLeft;
-			y = e.pageY - this.offsetTop;
-		})
-	    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-	      	zoom: 12,
-		  	center: new google.maps.LatLng(13.785545,100.546786),
-		  	mapTypeId: google.maps.MapTypeId.ROADMAP,
-			mapTypeControl: false,
-			zoomControl: false,
-			zoomControlOptions: {
-				style: google.maps.ZoomControlStyle.DEFAULT,
-				position: google.maps.ControlPosition.LEFT_TOP
-			},
-			panControl: false,
-			streetViewControl: false,
-			streetViewControlOptions: {
-				position: google.maps.ControlPosition.LEFT_TOP
-			},
-			scaleControl: false,
-			overviewMapControl: false,
-			styles: mapStyles
+	function initialize() {
+	    var styles = [{
+	        stylers: [{
+	            saturation: -100
+	        }]
+	    }];
+	    var styledMap = new google.maps.StyledMapType(styles, {
+	        name: "Styled Map"
+	    });
+	    var mapProp = {
+	        center: new google.maps.LatLng(14.071224, 100.602687),
+	        zoom: 17,
+	        panControl: false,
+	        zoomControl: false,
+	        mapTypeControl: false,
+	        scaleControl: true,
+	        streetViewControl: false,
+	        overviewMapControl: false,
+	        rotateControl: true,
+	        scrollwheel: false,
+	        mapTypeId: google.maps.MapTypeId.ROADMAP
+	    };
+	    map = new google.maps.Map(document.getElementById("map-canvas"), mapProp);
+
+	    map.mapTypes.set('map_style', styledMap);
+	    map.setMapTypeId('map_style')
+
+	    marker = new google.maps.Marker({
+	        position: new google.maps.LatLng(14.071224, 100.602687),
+	        animation: google.maps.Animation.DROP,
+	        icon: 'https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/location-24-32.png',
 	    });
 
-	    var marker, i;
-		//var	iconBase = "<i class='heide-map-pin'></i>";
-	    for (i = 0; i < locations.length; i++){
-	      	marker = new google.maps.Marker({
-	        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-	        map: map,
-			//icon: iconBase
-	    });
+	    marker.setMap(map);
+	    map.panTo(marker.position);
+	}
 
-		var infowindow = new google.maps.InfoWindow();
-		var overlay = new google.maps.OverlayView();
-		overlay.draw = function() {};
-		overlay.setMap(map);
+	function changeMarkerPos(lat, lon){
+	    myLatLng = new google.maps.LatLng(lat, lon)
+	    marker.setPosition(myLatLng);
+	    map.panTo(myLatLng);
+	}
 
-		google.maps.event.addListener(marker, 'click', (function(marker, i) {
-	        return function() {
-		        console.log("locations[i][4] = ",locations[i][4]);
-						$('#' + locations[i][4]).modal('show');
-	        }
-	    })(marker, i));
-
-
-		google.maps.event.addListener(marker, 'mouseover', (function(marker, i) {
-	        return function() {
-		        var projection = overlay.getProjection();
-				var pixel = projection.fromLatLngToContainerPixel(marker.getPosition());
-				console.log("pixel x = ", pixel.x , "pixel y = ", pixel.y);
-
-		        $(".gm-style").append('<div class="map-pop">'+
-									  '<figure><img src="'+locations[i][3]+'"></figure>'+
-									  '<div class="location-name">'+locations[i][0]+'</div>'+
-									  '</div>');
-		        $(".map-pop").css({
-					'top':pixel.y - 100,
-					'left':pixel.x + 30
-
-		        })
-
-	          $(".map-pop").fadeIn();
-
-
-	        }
-	    })(marker, i));
-
-	    google.maps.event.addListener(marker, 'mouseout', (function(marker, i) {
-	        return function() {
-
-	          $(".map-pop").fadeOut();
-	          setTimeout(function(){
-		         $(".map-pop").remove();
-	          },100)
-
-	        }
-	    })(marker, i));
-
-
-	    }
+	google.maps.event.addDomListener(window, 'load', initialize);
 
 	*/
 
 
-
-
-		// new map script
-		function FontAwesomeMarker(latlng, map, args) {
-			this.latlng = latlng;
-			this.args = args;
-			this.setMap(map);
-		}
-
-		FontAwesomeMarker.prototype = new google.maps.OverlayView();
-
-		FontAwesomeMarker.prototype.draw = function() {
-			var self = this,
-		  	panes = this.getPanes(),
-		  	marker = this.marker;
-
-			if (!marker) {
-			  marker = this.marker = document.createElement('div');
-				marker.className = 'marker';
-
-		    var icon = document.createElement('i');
-		   icon.className = 'heide-' + this.args.icon;
-		    icon.style.fontSize = this.args.fontSize;
-		    icon.style.color = this.args.color;
-		    marker.appendChild(icon);
-
-		    var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
-		    if (point) {
-		      marker.style.left = (point.x - 25) + 'px';
-		      marker.style.top = (point.y - 25) + 'px';
-		    }
-
-				google.maps.event.addDomListener(marker, "click", function(event) {
-					alert('You clicked on a custom marker!');
-					google.maps.event.trigger(self, "click");
-				});
-
-				panes.overlayImage.appendChild(marker);
-			}
-		};
-
-		FontAwesomeMarker.prototype.remove = function() {
-			if (this.marker) {
-				this.marker.parentNode.removeChild(this.marker);
-				this.marker = null;
-			}
-		};
-
-		FontAwesomeMarker.prototype.getPosition = function() {
-			return this.latlng;
-		};
-
-		function initialize() {
-			var myLatlng = new google.maps.LatLng(13.785545,100.546786),
-		    mapOptions = {
-		      zoom: 15,
-		      center: myLatlng,
-		      disableDefaultUI: true
-		    };
-
-			var map = new google.maps.Map(document.getElementById('map-canvas'), {
-			      	zoom: 12,
-				  	center: new google.maps.LatLng(13.785545,100.546786),
-				  	mapTypeId: google.maps.MapTypeId.ROADMAP,
-					mapTypeControl: false,
-					zoomControl: false,
-					zoomControlOptions: {
-						style: google.maps.ZoomControlStyle.DEFAULT,
-						position: google.maps.ControlPosition.LEFT_TOP
-					},
-					panControl: false,
-					streetViewControl: false,
-					streetViewControlOptions: {
-						position: google.maps.ControlPosition.LEFT_TOP
-					},
-					scaleControl: false,
-					overviewMapControl: false,
-					styles: mapStyles
-				});
-
-
-
-			var markers = [
-		  	{
-		      latLan: new google.maps.LatLng(13.738056,100.560782),
-		      icon: 'map-pin',
-		      color: '#c7652b',
-		      fontSize: '35px'
-		    },
-		    {
-		     	latLan: new google.maps.LatLng(13.800233,100.551316),
-		      icon: 'map-pin',
-		      color: '#c7652b',
-		      fontSize: '35px'
-		    },
-		    {
-		      latLan: new google.maps.LatLng(13.747386,100.540801),
-		      icon: 'map-pin',
-		      color: '#eaaf0a',
-		      fontSize: '35px'
-		    }
-		  ]
-
-
-			/*
-var markers = [
-		  	{
-		      latLan: '13.738056,100.560782',
-		      icon: 'map-pin',
-		      color: '#c7652b',
-		      fontSize: '35px'
-		    },
-		    {
-		     	latLan: '13.800233,100.551316',
-		      icon: 'map-pin',
-		      color: '#c7652b',
-		      fontSize: '35px'
-		    },
-		    {
-		      latLan: '13.747386,100.540801',
-		      icon: 'map-pin',
-		      color: '#eaaf0a',
-		      fontSize: '35px'
-		    }
-		  ]
-*/
-
-
-
-
-		  markers.forEach(function(item) {
-		    new FontAwesomeMarker(
-		      item.latLan,
-		      map,
-		      {
-		        icon: item.icon,
-		        color: item.color,
-		        fontSize: item.fontSize
-		      }
-		    );
-		  });
-		}
-
-		google.maps.event.addDomListener(window, 'load', initialize);
-		// end new map script
-
-
-
-		/*
-			marker = new google.maps.Marker({
-	        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-	        map: map,
-		*/
-
-
-  </script>
+</script>
 
 
 
