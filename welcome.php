@@ -10,7 +10,7 @@
 		<!-- content here-->
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xl-7">
+				<div class="col-lg-7">
 					<div class="welcome-main-fig">
 						<figure>
 							<img src="images/welcome/imgslide-1.jpg">
@@ -34,7 +34,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-xl-4 d-flex">
+				<div class="col-lg-4 d-flex">
 					<div class="row align-self-end">
 						<div class="col-xl-12 welcome-content">
 							<img src="images/welcome/logo-h.svg" class="welcome-logo">

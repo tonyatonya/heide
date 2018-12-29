@@ -8,11 +8,13 @@
 	<div id="skrollr-body" class="wrapper">
 		<?php include('inc_header.php'); ?>
 		<!-- content here-->
-		<div class="page-banner" style="background-image:url(images/news/news-banner.jpg);"
+		<div class="page-banner news-banner" style="background-image:url(images/news/news-banner.jpg);"
 			data-anchor-target=".page-banner"
 			data-bottom-top="background-position-y:-200px"
 			data-top-bottom="background-position-y:0px">
-			<img src="images/news/news-banner.jpg" class="dummy">
+				<figure class="dummy">
+					<img src="images/news/news-banner.jpg">
+				</figure>
 			<a class="read-btn" href="#">RATEST NEWS <i class="heide-circle-left"></i></a>
 			<div class="slide-content">
 				<div class="content-box">
@@ -62,8 +64,9 @@
 						</div>
 					</div>
 					<?php } ?>
-					<div class="content-zone">
 
+					<div class="loadmore-bar d-block d-sm-none">
+						<a href="#">MORE STORIES</a>
 					</div>
 
 				</div>

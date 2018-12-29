@@ -114,7 +114,7 @@
 							<h2>HEIDE UPDATES</h2>
 							<div class="row row-eq-height">
 								<?php for($i=0;$i<2;$i++){ ?>
-								<div class="col-lg-6">
+								<div class="col-sm-6">
 									<div class="feature-update-box">
 										<figure>
 										<a href="#"><img src="images/common/update-img1.jpg" alt="update-img1" width="350" height="315"></a>
@@ -137,6 +137,7 @@
 							<img src="images/common/update-img3.jpg" class="feature-banner-img">
 							<figcaption>
 								HOME AWAY FROM HOME
+								<div class="clear"></div>
 								<a href="#">SEE ALL</a>
 							</figcaption>
 						</figure>
@@ -144,88 +145,10 @@
 				</div>
 			</div>
 
-			<!--
-			<div class="container">
-				<div class="row row-eq-height">
-					<div class="col-md-8 feature-update">
-						<div class="row">
-							<div class="col-sm-6"><h2>HEIDE UPDATES</h2></div>
-							<div class="col-sm-6"><a href="#" class="see-all">SEE ALL</a></div>
-						</div>
-						<div class="row">
 
-							<?php for($i=0;$i<2;$i++){ ?>
-							<div class="col-sm-6">
-								<div class="feature-update-box">
-									<figure>
-									<a href="#"><img src="images/common/update-img1.jpg" alt="update-img1" width="350" height="315"></a>
-									</figure>
-									<div class="feature-update-box-meta">
-										<a href="#">
-											<h3>LOREM IPSUM</h3>
-											<p>LOREM IPSUM DOLOR SITAMET, CONSECTETULAOE</p>
-										</a>
-										<a href="#" class="more">MORE INFO <i class="heide-circle-right"></i></a>
-									</div>
-								</div>
-							</div>
-							<?php } ?>
-
-						</div>
-
-					</div>
-					<div class="col-md-4 feature-update-banner">
-							<figure>
-								<img src="images/common/update-img3.jpg">
-								<figcaption>HOME AWAY FROM HOME</figcaption>
-							</figure>
-					</div>
-				</div>
-			</div>
-			-->
 
 		</section>
-		<!--
-		<section class="property">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="property-banner">
-							<img src="images/common/aloft-feature-banner.jpg" class="main-img">
-							<div class="property-info">
-								<div class="property-info-logo">
-									<img src="images/common/logo-aloft.svg">
-								</div>
-								<a href="#" class="more">VISITE SITE <i class="icon"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12">
-						<div class="property-banner">
-							<img src="images/common/canvas-feature-banner.jpg" class="main-img">
-							<div class="property-info">
-								<div class="property-info-logo">
-									<img src="images/common/logo-canvas.svg">
-								</div>
-								<a href="#" class="more">VISITE SITE <i class="icon"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12">
-						<div class="property-banner">
-							<img src="images/common/studio4-feature-banner.jpg" class="main-img">
-							<div class="property-info">
-								<div class="property-info-logo">
-									<img src="images/common/logo-studio4.svg">
-								</div>
-								<a href="#" class="more">VISITE SITE <i class="icon"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
+
 
 		<section class="property">
 			<div class="property-slider">

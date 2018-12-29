@@ -60,9 +60,58 @@
 				</div>
 			</div>
 			<div class="row contact-row">
-				<div class="col-lg-4">
+				<div class="col-lg-8">
 					<div class="row">
-						<div class="col-lg-11 offset-lg-1">
+						<div class="col-lg-4">
+							<div class="map-menu">
+								<ul>
+									<li class="active"><a href="#" datalat="13.738056" datalong="100.560782" datacolor="#c7652b" dataprop="ALOFT STUDIO" dataimg="images/properties/properties-1.jpg">ALOFT STUDIO</a></li>
+									<li><a href="#" datalat="13.800233" datalong="100.551316" datacolor="#128885" dataprop="CANVAS" dataimg="images/properties/properties-2.jpg">CANVAS</a></li>
+									<li><a href="#" datalat="13.747386" datalong="100.540801" datacolor="#eaaf0a" dataprop="STUDIO4" dataimg="images/properties/properties-3.jpg">STUDIO4</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="contact-content">
+										<h2>SAY HELLO</h2>
+										<hr>
+										<p>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+										</p>
+										<p>
+											E-mail : stay@heide-emigre.com
+										</p>
+										<p>
+											Tel : (+66) 94-749-4142 / (+66) 96-569-5142
+
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="contact-content">
+										<h2>FOLLOW US</h2>
+										<hr>
+										<p>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+										</p>
+										<div class="social-menu">
+											<ul>
+												<li><a href="#"><img src="images/contact/ico-instragram.svg"></a></li>
+												<li><a href="#"><img src="images/contact/ico-facebook.svg"></a></li>
+												<li><a href="#"><img src="images/contact/ico-pinterest.svg"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 order-first">
+					<div class="row">
+						<div class="col-lg-11 offset-lg-1 col-md-6 offset-md-3">
 							<div class="contact-form-col">
 								<form>
 									<input type="text" class="form-control" placeholder="NAME">
@@ -74,51 +123,6 @@
 						</div>
 					</div>
 
-				</div>
-				<div class="col-lg-2">
-					<div class="map-menu">
-						<ul>
-							<li class="active"><a href="#" datalat="13.738056" datalong="100.560782" datacolor="#c7652b" dataprop="ALOFT STUDIO" dataimg="images/properties/properties-1.jpg">ALOFT STUDIO</a></li>
-							<li><a href="#" datalat="13.800233" datalong="100.551316" datacolor="#128885" dataprop="CANVAS" dataimg="images/properties/properties-2.jpg">CANVAS</a></li>
-							<li><a href="#" datalat="13.747386" datalong="100.540801" datacolor="#eaaf0a" dataprop="STUDIO4" dataimg="images/properties/properties-3.jpg">STUDIO4</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="contact-content">
-								<h2>SAY HELLO</h2>
-								<hr>
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-								</p>
-								<p>
-									E-mail : stay@heide-emigre.com
-								</p>
-								<p>
-									Tel : (+66) 94-749-4142 / (+66) 96-569-5142
-
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="contact-content">
-								<h2>FOLLOW US</h2>
-								<hr>
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-								</p>
-								<div class="social-menu">
-									<ul>
-										<li><a href="#"><img src="images/contact/ico-instragram.svg"></a></li>
-										<li><a href="#"><img src="images/contact/ico-facebook.svg"></a></li>
-										<li><a href="#"><img src="images/contact/ico-pinterest.svg"></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
