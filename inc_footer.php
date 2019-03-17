@@ -1,10 +1,15 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-3 col-lg-6 copyright ">
-				All right reserved © Heide-emigre.com
+			<div class="col-xl-4 col-lg-6 property-link order-md-last">
+				<ul>
+					<li><a href="#"><img src="images/common/logo-footer-aloft.svg"></a></li>
+					<li><a href="#"><img src="images/common/logo-footer-canvas.svg"></a></li>
+					<li><a href="#"><img src="images/common/logo-footer-studio4.svg"></a></li>
+				</ul>
 			</div>
-			<div class="col-xl-5 d-none d-xl-block footer-menu">
+
+			<div class="col-xl-5 d-none d-xl-block footer-menu order-md-2">
 				<ul>
 					<li><a href="welcome.php">Welcome</a></li>
 					<li><a href="properties.php">Project</a></li>
@@ -13,13 +18,10 @@
 					<li><a href="contactus.php">Contact Us</a></li>
 				</ul>
 			</div>
-			<div class="col-xl-4 col-lg-6 property-link ">
-				<ul>
-					<li><a href="#"><img src="images/common/logo-footer-aloft.svg"></a></li>
-					<li><a href="#"><img src="images/common/logo-footer-canvas.svg"></a></li>
-					<li><a href="#"><img src="images/common/logo-footer-studio4.svg"></a></li>
-				</ul>
+			<div class="col-xl-3 col-lg-6 copyright order-md-1">
+				All right reserved © Heide-emigre.com
 			</div>
+
 		</div>
 	</div>
 </footer>

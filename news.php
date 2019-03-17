@@ -20,7 +20,7 @@
 				<div class="content-box">
 					<div class="content-meta">
 						<h3 class="content-title">LOREM IPSUM</h3>
-						<div class="content-post-date">17 Feb 2017</div>
+						<div class="content-post-date">17.02.2019</div>
 					</div>
 					<div class="content-detail">
 						<p>
@@ -28,7 +28,7 @@
 						</p>
 					</div>
 				</div>
-				<a href="#" class="more-popup">MORE INFO <i class="heide-circle-right"></i></a>
+				<a href="#" class="more-popup">VIEW MORE <i class="heide-circle-right"></i></a>
 			</div>
 		</div>
 		<div class="container">

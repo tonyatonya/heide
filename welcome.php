@@ -41,7 +41,7 @@
 							<h2>AROUND HEIDE</h2>
 							<hr>
 							<p>
-								Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accomplishments can be seen as ALOFT STUDIO and CANVAS as well as many others.
+								Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accommodation can be seen as ALOFT STUDIO and CANVAS as well as many others.
 							</p>
 						</div>
 					</div>
@@ -58,6 +58,9 @@
 									<video class="video">
 										<source src="images/canvas-tour.mp4" type="video/mp4">
 									</video>
+									<div class="video-cover">
+										<img src="images/video-cover.png">
+									</div>
 									<div class="play-btn">
 										<img src="images/welcome/play-btn.svg">
 									</div>
@@ -129,7 +132,8 @@
 				$('.video').parent().click(function () {
 				  if($(this).children(".video").get(0).paused){
 					  $(this).children(".video").get(0).play();
-					  $(this).children(".play-btn").fadeOut();
+					  $(this).children(".play-btn").fadeOut('fast');
+					  $(this).children(".video-cover").fadeOut('fast');
 				    }else{
 					    $(this).children(".video").get(0).pause();
 						$(this).children(".play-btn").fadeIn();

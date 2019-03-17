@@ -870,6 +870,7 @@ footer{
 					letter-spacing: 0.05em;
 					float: right;
 					display: inline-block;
+					font-family: $texgy_reg;
 					i{
 						font-size: 1.3em;
 						position: relative;
@@ -916,7 +917,7 @@ footer{
 			color: white;
 			a{
 				font-size: 19px;
-				font-family: $open_reg;
+				font-family: $texgy_reg;
 				color: white;
 				text-decoration: none;
 				padding: 5px 20px;
@@ -1164,6 +1165,7 @@ footer{
 		bottom: 0;
 		color: $ci_lightbrown;
 		text-decoration: none;
+		font-family: $texgy_reg;
 		i{
 			font-size: 1.15em;
 			position: relative;
@@ -1972,6 +1974,7 @@ footer{
 		padding-top: 56.25%;
 		background-color: #e1e1e1;
 		width: 100%;
+		overflow: hidden;
 		&.image{
 			padding-top: 0;
 		}
@@ -2007,6 +2010,26 @@ footer{
 			top:50%;
 			left: 50%;
 			transform: translate(-50%,-50%);
+		}
+		.video-cover{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top:0;
+			img{
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				height: 100%;
+				width: auto;
+				transform: translate(-50%,-50%);
+				-webkit-transform: translate(-50%,-50%);
+				-moz-transform: translate(-50%,-50%);
+				-o-transform: translate(-50%,-50%);
+				-ms-transform: translate(-50%,-50%);
+
+			}
 		}
 	}
 	p{
@@ -2421,8 +2444,8 @@ footer{
 	}
 	.enq{
 		.enq-form-pos{
-			padding-left: 30px;
-			padding-right: 30px;
+			padding-left: 50px;
+			padding-right: 50px;
 		}
 		p{
 			&:after{
@@ -2556,7 +2579,7 @@ footer{
 		.news-list-child{
 			margin-left: -15px;
 			margin-right: -15px;
-			border-bottom:none;
+			border-top:none;
 			padding-top: 25px !important;
 			padding-bottom: 25px !important;
 			.content-detail{
@@ -2675,7 +2698,7 @@ footer{
 	footer{
 		text-align: center;
 		padding-top: 15px;
-		padding-bottom: 0;
+		padding-bottom: 20px;
 		h2{
 			font-size: 1.2em;
 		}
@@ -2695,14 +2718,14 @@ footer{
 		}
 		.property-link{
 			padding-top: 15px;
-			padding-bottom: 30px;
+			padding-bottom: 10px;
 			ul{
 				li{
 					a{
 						img{
 							max-height: none;
 							max-width: none;
-							height: 20px;
+							height: 25px;
 							width: auto;
 						}
 					}
@@ -2728,7 +2751,6 @@ footer{
 	.feature-popup{
 		padding: 20px;
 	}
-
 	.feature-update-section{
 		background: none;
 		padding-bottom: 0;
@@ -2870,6 +2892,14 @@ footer{
 		.slide-content{
 			padding-left: 0px;
 			padding-right: 0px;
+		}
+	}
+	.welcome-media{
+		.welcome-media-box{
+			.play-btn{
+				width: 60px;
+				height: 60px;
+			}
 		}
 	}
 }
