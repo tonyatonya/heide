@@ -75,19 +75,16 @@
 							<div class="row">
 								<div class="col-sm-12">
 									<!-- loop gallery list -->
-									<?php for($i=0;$i<2;$i++){ ?>
-									<div class="row gallery-group">
 
+									<div class="row gallery-group">
 										<div class="col"><img src="images/aboutus/gal-1.jpg"></div>
 										<div class="col"><img src="images/aboutus/gal-2.jpg"></div>
 										<div class="col"><img src="images/aboutus/gal-3.jpg"></div>
 										<div class="col"><img src="images/aboutus/gal-4.jpg"></div>
 										<div class="col"><img src="images/aboutus/gal-5.jpg"></div>
-
-
 										<div class="col-sm-12 gallery-group-caption">CondoLette Light, Silom rd. 2 Bedroom 67.56 sq.m</div>
 									</div>
-									<?php } ?>
+
 									<!-- end loop gallery list -->
 								</div>
 							</div>

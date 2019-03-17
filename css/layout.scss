@@ -1118,6 +1118,11 @@ footer{
 }
 .content-box{
 	position: relative;
+	&.al-center{
+		*{
+			text-align: center !important;
+		}
+	}
 	.content-meta{
 		text-align: left;
 		.content-title{
@@ -1148,7 +1153,7 @@ footer{
 		p{
 			font-family: $open_reg;
 			//font-size: 1.1em;
-			font-size: em(15);
+			font-size: em(14);
 			letter-spacing: 0.05em;
 			color: #a19990;
 		}
@@ -1363,6 +1368,31 @@ footer{
 				top:auto;
 				box-shadow: none;
 			}
+		}
+	}
+	.modal-main-logo{
+		max-width: 65px;
+		height: auto;
+		display: inline-block;
+		margin-bottom: 15px;
+		margin-bottom: 15px;
+	}
+	h2{
+		color: #a19990;
+		font-family: $texgy_bold;
+		font-size: em(20);
+	}
+	hr.separate-gold{
+		border-color: $ci_gold;
+		border-width: 2px;
+		max-width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.close{
+		color: $ci_green;
+		&:hover{
+			color: $ci_gold;
 		}
 	}
 }
@@ -1639,14 +1669,20 @@ footer{
 			-o-transition: all 0.1s ease-in;
 			transition: all 0.1s ease-in;
 			&:hover{
+				/*
 				background-color: $ci_green;
 				color: white;
+				*/
+				color: $ci_gold;
 			}
 		}
 		&.active{
 			a{
+				/*
 				background-color: $ci_green;
 				color: white;
+				*/
+				color: $ci_gold;
 			}
 		}
 	}
