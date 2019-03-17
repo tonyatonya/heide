@@ -26,7 +26,7 @@
 						<p>
 							An exceptional traditional Belgravia Grade II listed house built in 1837 that combines features rarely found all in the same home. Particularly wide at 30ft with 3 windows it offers rooms of grand proportions perfectly suited for entertainment and modern living. South facing garden, underground parking for 2 cars, private street direct drive-in entrance and lift are just some of the reasons it would be hard to find another property like this in the heart of London’s Belgravia neighbourhood.
 						</p>
-						<a href="#" class="view-more">VIEW MORE</a>
+						<a href="http://www.heide-emigre.com/aloftstudio/home.html" class="view-more">VIEW MORE</a>
 					</div>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 						<p>
 							An exceptional traditional Belgravia Grade II listed house built in 1837 that combines features rarely found all in the same home. Particularly wide at 30ft with 3 windows it offers rooms of grand proportions perfectly suited for entertainment and modern living. South facing garden, underground parking for 2 cars, private street direct drive-in entrance and lift are just some of the reasons it would be hard to find another property like this in the heart of London’s Belgravia neighbourhood.
 						</p>
-						<a href="#" class="view-more">VIEW MORE</a>
+						<a href="http://www.heide-emigre.com/canvas-livingandspace/home.html" class="view-more">VIEW MORE</a>
 					</div>
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 						<p>
 							An exceptional traditional Belgravia Grade II listed house built in 1837 that combines features rarely found all in the same home. Particularly wide at 30ft with 3 windows it offers rooms of grand proportions perfectly suited for entertainment and modern living. South facing garden, underground parking for 2 cars, private street direct drive-in entrance and lift are just some of the reasons it would be hard to find another property like this in the heart of London’s Belgravia neighbourhood.
 						</p>
-						<a href="#" class="view-more">VIEW MORE</a>
+						<a href="http://www.studio4rental.com/en" class="view-more">VIEW MORE</a>
 					</div>
 				</div>
 			</div>

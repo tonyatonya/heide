@@ -1,11 +1,11 @@
-/* line 33, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 29, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 39, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 35, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 img.dummy {
   position: relative;
   z-index: -1;
@@ -13,13 +13,13 @@ img.dummy {
   height: auto;
 }
 
-/* line 46, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 42, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 body {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 50, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 46, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .ts, header .section-menu ul li a, .side-menu .link-menu li a, .side-menu .close-sidebar, .feature-banner .openpop-btn a, .enq .select-room ul li a, .main-modal .post-slider .post-slider-main, .main-modal .post-slider .post-slider-thumb {
   -moz-transition: all 0.1s ease-in;
   -webkit-transition: all 0.1s ease-in;
@@ -27,7 +27,7 @@ body {
   transition: all 0.1s ease-in;
 }
 
-/* line 56, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 52, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .ts-slow, header .hamburger-bar {
   -moz-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
@@ -35,7 +35,7 @@ body {
   transition: all 0.3s ease-in;
 }
 
-/* line 62, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 58, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .ts-linear, header, header .header-desktop, header .section-menu, header .main-logo img, header .main-logo hr {
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -43,7 +43,7 @@ body {
   transition: all 0.3s linear;
 }
 
-/* line 68, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 64, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .cubic, .feature-popup, .page-banner .slide-content {
   -moz-transition: all 0.5s cubic-bezier(0.84, 0.16, 0.41, 1);
   -webkit-transition: all 0.5s cubic-bezier(0.84, 0.16, 0.41, 1);
@@ -51,7 +51,7 @@ body {
   transition: all 0.5s cubic-bezier(0.84, 0.16, 0.41, 1);
 }
 
-/* line 74, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 70, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .clear {
   width: 100%;
   clear: both;
@@ -59,20 +59,20 @@ body {
   visibility: hidden;
 }
 
-/* line 80, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 76, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper {
   width: 100%;
   overflow: hidden;
   padding-top: 72px;
 }
 
-/* line 86, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 82, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper.header-small header .header-desktop {
   padding-top: 13px;
   padding-bottom: 18px;
 }
 
-/* line 90, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 86, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper.header-small header .section-menu {
   transform: scale(0, 0);
   -webkit-transform: scale(0, 0);
@@ -89,7 +89,7 @@ body {
   overflow: hidden;
 }
 
-/* line 106, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 102, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper.header-small header .main-logo img {
   transform: scale(0.74, 0.74);
   -webkit-transform: scale(0.74, 0.74);
@@ -98,7 +98,7 @@ body {
   -ms-transform: scale(0.74, 0.74);
 }
 
-/* line 114, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 110, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper.header-small header hr {
   transform: scale(1, 0);
   -webkit-transform: scale(1, 0);
@@ -110,17 +110,17 @@ body {
   margin-bottom: 0;
 }
 
-/* line 125, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 121, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper.header-small header .hamburger-bar {
   opacity: 1;
 }
 
-/* line 132, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 128, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .wrapper.opensidebar .side-menu {
   right: 0;
 }
 
-/* line 137, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 133, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header {
   background-color: #d4cdca;
   position: fixed !important;
@@ -130,36 +130,36 @@ header {
   z-index: 11;
 }
 
-/* line 145, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 141, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .header-desktop {
   padding-top: 22px;
   padding-bottom: 22px;
 }
 
-/* line 152, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 148, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu.leftside {
   text-align: right;
 }
 
-/* line 155, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 151, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu.rightside {
   text-align: left;
 }
 
-/* line 158, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 154, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu ul {
   display: inline-block;
   list-style: none;
 }
 
-/* line 162, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 158, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu ul li {
   float: left;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 166, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 162, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu ul li a {
   font-size: 0.79em;
   font-family: 'texgyrepagellaregular';
@@ -171,54 +171,54 @@ header .section-menu ul li a {
   text-decoration: none;
 }
 
-/* line 177, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 173, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu ul li a:hover {
   opacity: 1;
 }
 
-/* line 182, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 178, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu ul li.social-ico a {
   opacity: 1;
 }
 
-/* line 185, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 181, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .section-menu ul li.social-ico img {
   width: 20px;
   height: auto;
   margin-top: -3px;
 }
 
-/* line 194, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 190, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .main-logo {
   text-align: center;
 }
 
-/* line 196, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 192, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .main-logo img {
   width: 113px;
   height: auto;
 }
 
-/* line 202, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 198, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .main-logo a {
   display: inline-block;
 }
 
-/* line 204, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 200, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .main-logo a h1 {
   margin: 0;
   padding: 0;
   display: none;
 }
 
-/* line 210, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 206, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .main-logo hr {
   border-top: 3px solid #bd9532;
   width: 30px;
   margin: 20px auto 0;
 }
 
-/* line 217, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 213, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .hamburger-bar {
   position: absolute;
   right: 15px;
@@ -231,63 +231,63 @@ header .hamburger-bar {
   opacity: 0;
 }
 
-/* line 228, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 224, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .hamburger-bar a {
   font-size: 1.45em;
   color: #bd9532;
 }
 
-/* line 233, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 229, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .header-mobile {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-/* line 237, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 233, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .header-mobile .main-logo img {
   height: 35px;
   width: auto;
   margin-bottom: 5px;
 }
 
-/* line 242, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 238, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .header-mobile .main-logo hr {
   margin-top: 5px;
 }
 
-/* line 246, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 242, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .header-mobile .hamburger-bar {
   right: 15px;
   opacity: 1;
   width: 30px;
 }
 
-/* line 250, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 246, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 header .header-mobile .hamburger-bar a {
   color: #ca964a;
 }
 
-/* line 256, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 252, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer {
   background-color: #ece4d5;
   padding-top: 28px;
   padding-bottom: 25px;
 }
 
-/* line 260, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 256, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-logo {
   max-width: 78px;
   height: auto;
   margin: auto;
 }
 
-/* line 264, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 260, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-logo img {
   width: 100%;
   height: auto;
 }
 
-/* line 269, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 265, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .copyright {
   color: #a19990;
   font-family: "texgyrepagellabold";
@@ -295,29 +295,29 @@ footer .copyright {
   text-align: center;
 }
 
-/* line 275, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 271, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer h2 {
   color: #0f8683;
   font-family: "texgyrepagellaregular";
   font-size: 0.85em;
 }
 
-/* line 280, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 276, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-link-group {
   padding-top: 30px;
 }
 
-/* line 283, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 279, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-link {
   list-style: none;
 }
 
-/* line 285, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 281, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-link li {
   line-height: 0.8em;
 }
 
-/* line 287, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 283, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-link li a {
   color: #0f8683;
   text-decoration: none;
@@ -325,12 +325,12 @@ footer .footer-link li a {
   font-size: 0.65em;
 }
 
-/* line 296, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 292, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .property-link {
   text-align: center;
 }
 
-/* line 298, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 294, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .property-link ul {
   list-style: none;
   display: inline-block;
@@ -340,30 +340,30 @@ footer .property-link ul {
   margin-right: -15px;
 }
 
-/* line 305, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 301, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .property-link ul li {
   padding-left: 15px;
   padding-right: 15px;
   float: left;
 }
 
-/* line 309, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 305, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .property-link ul li a {
   display: block;
 }
 
-/* line 311, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 307, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .property-link ul li a img {
   height: 22px;
   width: auto;
 }
 
-/* line 319, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 315, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-menu {
   text-align: right;
 }
 
-/* line 321, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 317, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-menu ul {
   list-style: none;
   display: inline-block;
@@ -371,24 +371,24 @@ footer .footer-menu ul {
   padding: 0;
 }
 
-/* line 326, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 322, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-menu ul li {
   float: left;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 330, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 326, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-menu ul li:first-child {
   padding-left: 0;
 }
 
-/* line 333, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 329, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-menu ul li:last-child {
   padding-right: 0;
 }
 
-/* line 336, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 332, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 footer .footer-menu ul li a {
   display: block;
   color: #0f8683;
@@ -397,7 +397,7 @@ footer .footer-menu ul li a {
   font-weight: bold;
 }
 
-/* line 348, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 344, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu {
   position: fixed;
   right: -280px;
@@ -415,19 +415,19 @@ footer .footer-menu ul li a {
   transition: all 0.3s ease-in;
 }
 
-/* line 363, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 359, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .link-menu {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 367, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 363, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .link-menu li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 369, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 365, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .link-menu li a {
   font-size: 1em;
   font-family: 'texgyrepagellaregular';
@@ -440,19 +440,19 @@ footer .footer-menu ul li a {
   text-decoration: none;
 }
 
-/* line 380, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 376, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .link-menu li a:hover {
   opacity: 1;
   text-indent: 15px;
 }
 
-/* line 387, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 383, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .social-menu {
   text-align: left;
   margin-top: 22px;
 }
 
-/* line 390, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 386, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .social-menu ul {
   list-style: none;
   margin: 0;
@@ -462,7 +462,7 @@ footer .footer-menu ul li a {
   margin-right: -15px;
 }
 
-/* line 397, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 393, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .social-menu ul li {
   display: inline;
   float: left;
@@ -470,7 +470,7 @@ footer .footer-menu ul li a {
   padding-right: 15px;
 }
 
-/* line 402, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 398, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .social-menu ul li a {
   display: block;
   width: 30px;
@@ -478,12 +478,12 @@ footer .footer-menu ul li a {
   opacity: 1 !important;
 }
 
-/* line 407, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 403, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .social-menu ul li a img {
   fill: white;
 }
 
-/* line 414, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 410, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .close-sidebar {
   position: absolute;
   right: 15px;
@@ -494,18 +494,18 @@ footer .footer-menu ul li a {
   text-decoration: none;
 }
 
-/* line 423, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 419, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-menu .close-sidebar:hover {
   opacity: 1;
 }
 
-/* line 428, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 424, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner {
   position: relative;
   min-height: 297px;
 }
 
-/* line 431, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 427, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner figure {
   margin-bottom: 30 !important;
   position: relative;
@@ -545,25 +545,37 @@ footer .footer-menu ul li a {
 		*/
 }
 
-/* line 469, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 465, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner .feature-banner-img {
   width: 100%;
   height: auto;
 }
 
-/* line 473, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 469, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner .openpop-btn {
   position: absolute;
   left: 0;
   top: 138px;
+  width: 60px;
+  height: 60px;
 }
 
-/* line 477, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 475, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner .openpop-btn a {
   opacity: 1;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #0f8683;
+  -webkit-font-smoothing: antialiased;
+  color: white;
 }
 
 /* line 483, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.feature-banner .openpop-btn a:hover {
+  color: #ca964a;
+}
+
+/* line 489, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner.openpopup .feature-popup {
   transform: translate(0%, -50%);
   -webkit-transform: translate(0%, -50%);
@@ -572,12 +584,12 @@ footer .footer-menu ul li a {
   -ms-transform: translate(0%, -50%);
 }
 
-/* line 494, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 500, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-banner.openpopup .openpop-btn a {
   opacity: 0;
 }
 
-/* line 500, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 506, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-popup {
   background-color: #0f8683;
   padding: 55px;
@@ -594,7 +606,7 @@ footer .footer-menu ul li a {
   color: white;
 }
 
-/* line 515, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 521, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-popup h2 {
   font-family: 'texgyrepagellabold';
   font-size: 1.1em;
@@ -603,7 +615,7 @@ footer .footer-menu ul li a {
   letter-spacing: 0.15em;
 }
 
-/* line 522, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 528, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-popup p {
   margin-top: 12px;
   font-family: 'Open Sans';
@@ -612,14 +624,14 @@ footer .footer-menu ul li a {
   letter-spacing: 0.1em;
 }
 
-/* line 529, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 535, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-popup .popup-logo {
   width: 61px;
   height: auto;
   margin-bottom: 12px;
 }
 
-/* line 534, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 540, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-popup-close {
   position: absolute;
   right: 15px;
@@ -628,19 +640,24 @@ footer .footer-menu ul li a {
   font-size: 1.2em;
 }
 
-/* line 542, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
-.enq {
-  background-color: white;
-  border-bottom: 1px solid red;
-  border-bottom: 45px solid #606060;
+/* line 546, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.feature-popup-close:hover {
+  color: #ca964a;
 }
 
-/* line 547, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 551, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.enq {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 557, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .container {
   overflow: visible;
 }
 
-/* line 550, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 560, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .logo-written {
   float: left;
   width: 420px;
@@ -649,58 +666,67 @@ footer .footer-menu ul li a {
   top: -112px;
 }
 
-/* line 556, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 566, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .logo-written img {
   width: 100%;
   height: auto;
 }
 
-/* line 561, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 571, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq p {
   display: block;
   float: left;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 0;
-  color: #606060;
+  color: #a19990;
   font-family: "open_sansregular";
-  font-size: 1em;
-  letter-spacing: 0.05em;
+  font-size: 1.14286em;
   text-align: left;
   position: relative;
 }
 
-/* line 574, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 585, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq p:before {
-  content: '"';
-  color: #606060;
+  /*
+			content: '"';
+			color: $ci_darkgray;
+			font-size: 48px;
+			font-family: 'noto_serifregular' !important;
+			line-height: 1;
+			*/
   position: absolute;
-  right: 100%;
-  top: 0;
-  font-size: 48px;
-  font-family: 'noto_serifregular' !important;
-  line-height: 1;
+  right: 102%;
+  top: -15px;
+  content: url(../images/common/quote-open.svg);
+  width: 15px;
+  height: auto;
 }
 
-/* line 584, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 600, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq p:after {
-  content: '"';
-  color: #606060;
+  /*
+			content: '"';
+			color: $ci_darkgray;
+			font-size: 48px;
+			font-family: 'noto_serifregular' !important;
+			line-height: 1;
+			*/
   position: absolute;
-  left: 100%;
+  left: 102%;
   bottom: 0;
-  font-size: 48px;
-  font-family: 'noto_serifregular' !important;
-  line-height: 1;
+  content: url(../images/common/quote-close.svg);
+  width: 15px;
+  height: auto;
 }
 
-/* line 595, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 616, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form-pos {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-/* line 599, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 620, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form-wrapper {
   position: absolute;
   top: 100%;
@@ -718,13 +744,13 @@ footer .footer-menu ul li a {
   transition: all 0.2s ease-in;
 }
 
-/* line 614, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 635, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form-wrapper.show {
   opacity: 1;
   z-index: 9999;
 }
 
-/* line 619, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 640, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form {
   width: 100%;
   background-color: #606060;
@@ -733,7 +759,7 @@ footer .footer-menu ul li a {
   padding-bottom: 50px;
 }
 
-/* line 626, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 647, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form form input[type="text"], .enq .enq-form form textarea {
   margin-top: 7px;
   margin-bottom: 7px;
@@ -742,18 +768,18 @@ footer .footer-menu ul li a {
   font-family: "open_sansitalic";
 }
 
-/* line 633, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 654, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form form input[type="text"] {
   height: 25px;
 }
 
-/* line 637, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 658, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form form textarea {
   max-width: 100%;
   min-height: 50px;
 }
 
-/* line 641, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 662, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form form input[type="submit"] {
   background-color: #3a3a3a;
   color: white;
@@ -768,25 +794,25 @@ footer .footer-menu ul li a {
   margin-top: 15px;
 }
 
-/* line 653, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 674, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form form input[type="submit"]:hover {
   background-color: white;
   color: #3a3a3a;
 }
 
-/* line 659, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 680, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list {
   margin-left: -10px;
   margin-right: -10px;
 }
 
-/* line 662, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 683, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list > div {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 666, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 687, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list .btn-list-child {
   text-align: center;
   color: white;
@@ -797,7 +823,7 @@ footer .footer-menu ul li a {
   position: relative;
 }
 
-/* line 674, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 695, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list .btn-list-child p {
   color: white;
   text-align: center;
@@ -808,12 +834,12 @@ footer .footer-menu ul li a {
   padding: 0;
 }
 
-/* line 684, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 705, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list .btn-list-child:hover {
   background-color: #878787;
 }
 
-/* line 687, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 708, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list .btn-list-child .top-border {
   position: absolute;
   top: -12px;
@@ -824,24 +850,24 @@ footer .footer-menu ul li a {
   padding: 0;
 }
 
-/* line 695, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 716, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list .btn-list-child .top-border li {
   float: left;
   width: 33%;
 }
 
-/* line 698, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 719, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .enq-form .enq-btn-list .btn-list-child .top-border li:after {
   content: "|";
   color: white;
 }
 
-/* line 707, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 728, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .option-holder {
   position: relative;
 }
 
-/* line 710, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 731, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .select-room {
   background-color: #606060;
   max-height: 150px;
@@ -858,12 +884,12 @@ footer .footer-menu ul li a {
   transition: all 0.2s ease-in;
 }
 
-/* line 724, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 745, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .select-room ul {
   list-style: none;
 }
 
-/* line 727, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 748, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .select-room ul li a {
   text-decoration: none;
   font-family: "open_sansitalic";
@@ -877,18 +903,18 @@ footer .footer-menu ul li a {
   letter-spacing: 0.05em;
 }
 
-/* line 739, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 760, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .select-room ul li a:hover {
   background-color: #a5bcb4;
 }
 
-/* line 745, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 766, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq .select-room.open {
   opacity: 1;
   z-index: 1;
 }
 
-/* line 751, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 772, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq-btn {
   font-family: 'texgyrepagellabold';
   font-size: 1.35em;
@@ -904,7 +930,7 @@ footer .footer-menu ul li a {
   opacity: 1;
 }
 
-/* line 764, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 785, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq-btn .icon {
   width: 20px;
   height: 20px;
@@ -915,28 +941,28 @@ footer .footer-menu ul li a {
   background-image: url(../images/common/circle-down.svg);
 }
 
-/* line 773, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 794, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq-btn:hover {
   opacity: 0.4;
 }
 
-/* line 777, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 798, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .enq-btn.downed .icon {
   background-image: url(../images/common/circle-up.svg);
 }
 
-/* line 782, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 803, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section {
   background-color: #0f8683;
 }
 
-/* line 784, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 805, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update {
   padding-top: 45px;
   padding-bottom: 45px;
 }
 
-/* line 787, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 808, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update h2 {
   color: white;
   font-family: "texgyrepagellabold";
@@ -945,7 +971,7 @@ footer .footer-menu ul li a {
   text-align: right;
 }
 
-/* line 794, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 815, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .see-all {
   color: white;
   padding-bottom: 3px;
@@ -956,17 +982,17 @@ footer .footer-menu ul li a {
   text-decoration: none;
 }
 
-/* line 803, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 824, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box {
   margin-top: 22px;
 }
 
-/* line 805, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 826, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box figure {
   margin: 0;
 }
 
-/* line 807, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 828, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box figure a {
   display: block;
   padding-top: 90%;
@@ -974,7 +1000,7 @@ footer .footer-menu ul li a {
   overflow: hidden;
 }
 
-/* line 812, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 833, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box figure a img {
   position: absolute;
   width: 102%;
@@ -988,13 +1014,13 @@ footer .footer-menu ul li a {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 826, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 847, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta {
   background-color: white;
   padding: 15px 20px;
 }
 
-/* line 25, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 22, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta:after {
   content: "";
   clear: both;
@@ -1002,12 +1028,13 @@ footer .footer-menu ul li a {
   visibility: hidden;
 }
 
-/* line 830, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 851, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta a {
   text-decoration: none;
+  font-family: "open_sansregular";
 }
 
-/* line 833, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 855, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta h3 {
   font-family: "texgyrepagellabold";
   font-size: 1.65em;
@@ -1015,7 +1042,7 @@ footer .footer-menu ul li a {
   color: #a19990;
 }
 
-/* line 839, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 861, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta p {
   color: #a19990;
   font-family: "texgyrepagellaregular";
@@ -1023,7 +1050,7 @@ footer .footer-menu ul li a {
   width: 80%;
 }
 
-/* line 845, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 867, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta .more {
   color: #a19990;
   font-size: 0.85em;
@@ -1032,24 +1059,24 @@ footer .footer-menu ul li a {
   display: inline-block;
 }
 
-/* line 851, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 873, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta .more i {
   font-size: 1.3em;
   position: relative;
   top: 2px;
 }
 
-/* line 856, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 878, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update .feature-update-box .feature-update-box-meta .more:hover {
   color: #0f8683;
 }
 
-/* line 863, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 885, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update-banner {
   position: relative;
 }
 
-/* line 865, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 887, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update-banner figure {
   position: absolute;
   overflow: hidden;
@@ -1057,7 +1084,7 @@ footer .footer-menu ul li a {
   height: 100%;
 }
 
-/* line 870, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 892, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update-banner figure .feature-banner-img {
   position: absolute;
   left: 50%;
@@ -1071,7 +1098,7 @@ footer .footer-menu ul li a {
   width: auto;
 }
 
-/* line 882, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 904, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update-banner figure figcaption {
   position: absolute;
   left: 50%;
@@ -1087,7 +1114,7 @@ footer .footer-menu ul li a {
   color: white;
 }
 
-/* line 895, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 917, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update-banner figure figcaption a {
   font-size: 19px;
   font-family: "open_sansregular";
@@ -1103,26 +1130,26 @@ footer .footer-menu ul li a {
   transition: all 0.1s ease-in;
 }
 
-/* line 908, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 930, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-update-section .feature-update-banner figure figcaption a:hover {
   background-color: white;
   color: black;
 }
 
-/* line 918, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 940, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner {
   margin-top: 35px;
   margin-bottom: 35px;
   position: relative;
 }
 
-/* line 922, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 944, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner .main-img {
   width: 100%;
   height: auto;
 }
 
-/* line 926, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 948, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner .property-info {
   min-width: 330px;
   position: absolute;
@@ -1138,13 +1165,13 @@ footer .footer-menu ul li a {
   padding: 44px 50px;
 }
 
-/* line 939, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 961, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner .property-info .property-info-logo {
   width: auto;
   margin-bottom: 30px;
 }
 
-/* line 942, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 964, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner .property-info .property-info-logo img {
   height: auto;
   max-height: 70px;
@@ -1152,7 +1179,7 @@ footer .footer-menu ul li a {
   width: 100%;
 }
 
-/* line 949, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 971, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner .property-info .more {
   color: #606060;
   font-family: "texgyrepagellaregular";
@@ -1160,7 +1187,7 @@ footer .footer-menu ul li a {
   letter-spacing: 0.05em;
 }
 
-/* line 954, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 976, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-banner .property-info .more .icon {
   display: inline-block;
   width: 13px;
@@ -1171,12 +1198,12 @@ footer .footer-menu ul li a {
   margin-left: 5px;
 }
 
-/* line 966, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 988, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-map {
   text-align: center;
 }
 
-/* line 970, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 992, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-map h2 {
   color: #525252;
   font-family: "texgyrepagellabold";
@@ -1184,7 +1211,7 @@ footer .footer-menu ul li a {
   margin-bottom: 15px;
 }
 
-/* line 976, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 998, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-map p {
   color: #2a74cf;
   font-size: 1.1em;
@@ -1192,20 +1219,20 @@ footer .footer-menu ul li a {
   padding-right: 20px;
 }
 
-/* line 983, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1005, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-map .container {
   background-color: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 988, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1010, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .feature-map .main-map {
   width: 100%;
   height: auto;
 }
 
-/* line 993, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1015, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner {
   min-height: 500px;
   background-size: 120%;
@@ -1214,7 +1241,7 @@ footer .footer-menu ul li a {
   position: relative;
 }
 
-/* line 999, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1021, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .dummy {
   position: relative;
   z-index: -1;
@@ -1222,7 +1249,7 @@ footer .footer-menu ul li a {
   height: auto;
 }
 
-/* line 1005, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1027, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .read-btn {
   text-align: right;
   display: block;
@@ -1237,7 +1264,7 @@ footer .footer-menu ul li a {
   z-index: 2;
 }
 
-/* line 1017, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1039, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .read-btn i {
   font-size: 25px;
   position: relative;
@@ -1245,12 +1272,12 @@ footer .footer-menu ul li a {
   margin-left: 5px;
 }
 
-/* line 1023, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1045, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .read-btn:hover {
   color: #0f8683;
 }
 
-/* line 1027, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1049, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content {
   position: absolute;
   top: 0;
@@ -1261,7 +1288,7 @@ footer .footer-menu ul li a {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-/* line 1036, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1058, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .content-box {
   position: absolute;
   top: 50%;
@@ -1275,12 +1302,12 @@ footer .footer-menu ul li a {
   -ms-transform: translate(0, -50%);
 }
 
-/* line 1047, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1069, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .content-box .content-meta {
   text-align: right;
 }
 
-/* line 1049, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1071, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .content-box .content-meta .content-title {
   font-family: "texgyrepagellabold";
   font-size: 1.7em;
@@ -1288,7 +1315,7 @@ footer .footer-menu ul li a {
   color: #a19990;
 }
 
-/* line 1055, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1077, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .content-box .content-meta .content-post-date {
   font-family: "texgyrepagellabold";
   font-size: 1.15em;
@@ -1296,21 +1323,21 @@ footer .footer-menu ul li a {
   color: #a19990;
 }
 
-/* line 1062, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1084, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .content-box .content-detail {
   color: #a19990;
   text-align: justify;
   margin-top: 30px;
 }
 
-/* line 1066, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1088, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .content-box .content-detail p {
   font-family: "open_sansregular";
   font-size: 1.1em;
   letter-spacing: 0.05em;
 }
 
-/* line 1073, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1095, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .more-popup {
   position: absolute;
   right: 30px;
@@ -1322,74 +1349,75 @@ footer .footer-menu ul li a {
   letter-spacing: 0.05em;
 }
 
-/* line 1082, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1104, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .more-popup i {
   font-size: 1em;
 }
 
-/* line 1085, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1107, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner .slide-content .more-popup:hover {
   color: #0f8683;
 }
 
-/* line 1091, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1113, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner.openslide .read-btn {
   display: none;
 }
 
-/* line 1092, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1114, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .page-banner.openslide .slide-content {
   right: 0;
 }
 
-/* line 1097, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1119, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box {
   position: relative;
 }
 
-/* line 1099, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1121, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-meta {
   text-align: left;
 }
 
-/* line 1101, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1123, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-meta .content-title {
   font-family: "texgyrepagellabold";
-  font-size: 1.7em;
+  font-size: 1.64286em;
   letter-spacing: 0.05em;
-  color: #a19990;
+  color: #43908b;
 }
 
-/* line 1107, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1131, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-meta .content-post-date {
   font-family: "texgyrepagellabold";
-  font-size: 1.15em;
+  font-size: 0.92857em;
   letter-spacing: 0.05em;
   color: #a19990;
 }
 
-/* line 1113, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1138, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-meta hr {
   width: 10%;
   border-color: #bd9532;
   border-width: 3px;
 }
 
-/* line 1119, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1144, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-detail {
   color: #a19990;
   text-align: justify;
   margin-top: 30px;
 }
 
-/* line 1123, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1148, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-detail p {
   font-family: "open_sansregular";
-  font-size: 1.1em;
+  font-size: 1.07143em;
   letter-spacing: 0.05em;
+  color: #a19990;
 }
 
-/* line 1129, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1156, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .view-more {
   position: absolute;
   right: 15px;
@@ -1398,7 +1426,7 @@ footer .footer-menu ul li a {
   text-decoration: none;
 }
 
-/* line 1135, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1162, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .view-more i {
   font-size: 1.15em;
   position: relative;
@@ -1406,48 +1434,48 @@ footer .footer-menu ul li a {
   margin-left: 5px;
 }
 
-/* line 1141, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1168, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .view-more:hover {
   color: #0f8683;
 }
 
-/* line 1145, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1172, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-service-info {
   position: absolute;
   left: 15px;
   bottom: 0;
 }
 
-/* line 1149, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1176, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-service-info ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 1153, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1180, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-service-info ul li {
-  color: #a19990;
+  color: #d2953c;
 }
 
-/* line 1155, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1182, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-service-info ul li a {
-  color: #a19990;
+  color: #d2953c;
   text-decoration: none;
 }
 
-/* line 1159, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1186, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-box .content-service-info ul li i {
   margin-right: 5px;
 }
 
-/* line 1166, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1193, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-zone {
   padding-top: 35px;
   padding-bottom: 35px;
 }
 
-/* line 1169, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1196, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-zone h2 {
   color: #a19990;
   font-family: "texgyrepagellabold";
@@ -1456,7 +1484,7 @@ footer .footer-menu ul li a {
   margin-bottom: 50px;
 }
 
-/* line 1176, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1203, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-zone p {
   color: #a19990;
   font-family: "open_sansregular";
@@ -1465,26 +1493,26 @@ footer .footer-menu ul li a {
   letter-spacing: 0.05em;
 }
 
-/* line 1183, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1210, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-zone figure {
   margin-top: 35px;
   margin-bottom: 35px;
 }
 
-/* line 1186, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1213, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .content-zone figure img {
   width: 100%;
   height: auto;
 }
 
-/* line 1193, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1220, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .service-items .service-item-child {
   border-bottom: 1px solid rgba(161, 153, 144, 0.5);
   padding-bottom: 35px;
   margin-bottom: 35px;
 }
 
-/* line 1197, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1224, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .service-items .service-item-child h3 {
   font-family: "open_sansbold";
   font-size: 1em;
@@ -1492,20 +1520,20 @@ footer .footer-menu ul li a {
   margin-bottom: 23px;
 }
 
-/* line 1203, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1230, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .service-items .service-item-child:last-child {
   border-bottom: none;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
 
-/* line 1212, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1239, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-main-title .gallery-main-logo {
   height: 37px;
   width: auto;
 }
 
-/* line 1217, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1244, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group {
   margin-left: 0;
   margin-right: 0;
@@ -1513,18 +1541,18 @@ footer .footer-menu ul li a {
   margin-bottom: 50px;
 }
 
-/* line 1222, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1249, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .col {
   padding: 0.01em;
 }
 
-/* line 1224, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1251, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .col img {
   width: 100%;
   height: auto;
 }
 
-/* line 1228, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1255, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .col:first-child, .gallery-zone .gallery-group .col:nth-child(2) {
   width: 50% !important;
   flex-basis: auto;
@@ -1539,7 +1567,7 @@ footer .footer-menu ul li a {
   -ms-flex: none;
 }
 
-/* line 1242, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1269, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .gallery-zone .gallery-group .gallery-group-caption {
   text-align: right;
   font-family: "open_sansitalic";
@@ -1550,36 +1578,37 @@ footer .footer-menu ul li a {
   margin-bottom: 35px;
 }
 
-/* line 1254, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1281, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .news-list {
   padding-top: 42px;
 }
 
-/* line 1256, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1283, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .news-list .news-list-child {
   padding-top: 42px;
   padding-bottom: 42px;
-  border-bottom: 1px solid #231f20;
+  border-top: 1px solid #231f20;
 }
 
-/* line 1260, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1287, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .news-list .news-list-child:first-child {
   padding-top: 0;
+  border-top: none;
 }
 
-/* line 1263, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1292, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .news-list .news-list-child figure {
   margin: 0;
   padding: 0;
 }
 
-/* line 1266, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1295, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .news-list .news-list-child figure img {
   width: 100%;
   height: auto;
 }
 
-/* line 1275, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1304, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .modal-dialog {
   width: 100% !important;
   height: 100% !important;
@@ -1587,7 +1616,7 @@ footer .footer-menu ul li a {
   position: relative;
 }
 
-/* line 1280, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1309, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .modal-dialog .modal-content {
   border-left: 0;
   border-top: 0;
@@ -1596,14 +1625,14 @@ footer .footer-menu ul li a {
   border-radius: 0;
 }
 
-/* line 1288, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1317, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .modal-header {
   position: relative;
   border-bottom: none;
   margin-bottom: 30px;
 }
 
-/* line 1293, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1322, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .btn-close {
   position: absolute;
   right: 5px;
@@ -1614,19 +1643,19 @@ footer .footer-menu ul li a {
   color: #0f8683;
 }
 
-/* line 1302, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1331, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .content-box {
   padding-bottom: 80px;
 }
 
-/* line 1304, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1333, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .content-box .content-service-info {
   position: relative;
   left: auto;
   bottom: auto;
 }
 
-/* line 1310, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1339, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .service-type {
   position: absolute;
   right: 15px;
@@ -1635,22 +1664,22 @@ footer .footer-menu ul li a {
   color: #a8a8a8;
 }
 
-/* line 1317, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1346, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .post-slider {
   height: 490px;
 }
 
-/* line 1319, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1348, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .post-slider .post-slider-main {
   opacity: 0;
 }
 
-/* line 1323, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1352, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .post-slider .post-slider-thumb {
   opacity: 0;
 }
 
-/* line 1330, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1359, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .main-modal .popupslider .bx-wrapper .bx-viewport {
   border: none;
   padding: 0;
@@ -1659,28 +1688,28 @@ footer .footer-menu ul li a {
   box-shadow: none;
 }
 
-/* line 1340, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1369, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .modal-backdrop {
   background-color: #ece4d5;
 }
 
-/* line 1342, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1371, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .modal-backdrop.show {
   opacity: 0.95;
 }
 
-/* line 1346, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1375, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .modal-open {
   overflow: hidden;
 }
 
-/* line 1352, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1381, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child .prop-list-child-grid {
   position: relative;
   padding: 0;
 }
 
-/* line 1355, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1384, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child .prop-list-child-grid .prop-detail {
   position: absolute;
   top: 50%;
@@ -1694,16 +1723,16 @@ footer .footer-menu ul li a {
   -ms-transform: translate(0, -50%);
 }
 
-/* line 1366, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1395, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child .prop-list-child-grid .prop-detail p {
-  color: #333333;
-  text-align: justify;
+  color: #a19990;
+  text-align: center;
   font-family: "open_sansregular";
   font-size: 1em;
-  line-height: 1.15em;
+  line-height: 1.5em;
 }
 
-/* line 1373, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1403, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child .prop-list-child-grid .prop-detail .prop-logo {
   max-width: 190px;
   max-height: 80px;
@@ -1712,23 +1741,23 @@ footer .footer-menu ul li a {
   margin-bottom: 30px;
 }
 
-/* line 1384, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1414, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:first-child {
   left: 41.66%;
 }
 
-/* line 1387, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1417, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:last-child {
   right: 58.34%;
 }
 
-/* line 1392, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1422, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .prop-list-child .prop-img {
   background-position: center center;
   background-size: 120%;
 }
 
-/* line 1400, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1430, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .prop-list .view-more {
   color: rgba(35, 31, 32, 0.5);
   border: 1px solid #b7b4b3;
@@ -1740,7 +1769,7 @@ footer .footer-menu ul li a {
   margin-top: 30px;
 }
 
-/* line 1411, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1441, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-background {
   background-position: center center;
   background-size: cover;
@@ -1749,7 +1778,7 @@ footer .footer-menu ul li a {
   right: 58.33%;
 }
 
-/* line 1418, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1448, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder {
   position: absolute;
   left: 0;
@@ -1767,14 +1796,14 @@ footer .footer-menu ul li a {
   -ms-transform: translate(0, -50%);
 }
 
-/* line 1435, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1465, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder .contact-form {
   background-color: #0f8683;
   padding: 30px 25px;
   width: 100%;
 }
 
-/* line 1440, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1470, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder h3 {
   color: white;
   font-family: "texgyrepagellaregular";
@@ -1784,7 +1813,7 @@ footer .footer-menu ul li a {
   padding: 0;
 }
 
-/* line 1449, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1479, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder ul {
   margin: 0;
   padding: 0;
@@ -1792,7 +1821,7 @@ footer .footer-menu ul li a {
   margin-bottom: 30px;
 }
 
-/* line 1454, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1484, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder ul li {
   color: white;
   font-family: "open_sansregular";
@@ -1801,7 +1830,7 @@ footer .footer-menu ul li a {
   padding-left: 5px;
 }
 
-/* line 1460, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1490, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder ul li:before {
   content: ".";
   font-family: "open_sansregular";
@@ -1813,13 +1842,13 @@ footer .footer-menu ul li a {
   left: -5px;
 }
 
-/* line 1470, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1500, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder ul li a {
   color: white;
   text-decoration: none;
 }
 
-/* line 1476, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1506, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder .form-control {
   border-radius: 0;
   border: none;
@@ -1829,13 +1858,13 @@ footer .footer-menu ul li a {
   font-size: 0.85em;
 }
 
-/* line 1484, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1514, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder textarea {
   max-width: 100%;
   min-height: 160px;
 }
 
-/* line 1488, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1518, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder input[type="submit"] {
   border-radius: 0;
   background-color: #eaaf0a;
@@ -1850,20 +1879,20 @@ footer .footer-menu ul li a {
   margin-top: 15px;
 }
 
-/* line 1500, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1530, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-holder input[type="submit"]:hover {
   color: #eaaf0a;
   background-color: white;
 }
 
-/* line 1506, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1536, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-col {
   margin-right: -15px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 25, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 22, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-col:after {
   content: "";
   clear: both;
@@ -1871,7 +1900,7 @@ footer .footer-menu ul li a {
   visibility: hidden;
 }
 
-/* line 1511, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1541, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-col .form-control {
   border-radius: 0;
   border: none;
@@ -1882,14 +1911,14 @@ footer .footer-menu ul li a {
   background-color: #ece4d5;
 }
 
-/* line 1520, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1550, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-col textarea {
   max-width: 100%;
   min-height: 160px;
   background-color: #ece4d5;
 }
 
-/* line 1525, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1555, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-col input[type="submit"] {
   border-radius: 0;
   background-color: #eaaf0a;
@@ -1904,69 +1933,69 @@ footer .footer-menu ul li a {
   margin-top: 15px;
 }
 
-/* line 1537, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1567, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-form-col input[type="submit"]:hover {
   color: #eaaf0a;
   background-color: white;
 }
 
-/* line 1544, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1573, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content {
   padding-top: 50px;
 }
 
-/* line 1546, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1575, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content h2 {
   font-family: "texgyrepagellabold";
   font-size: 1em;
   color: #0f8683;
 }
 
-/* line 1551, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1580, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content hr {
   width: 30px;
   border-top: 4px solid #ca964a;
 }
 
-/* line 1555, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1584, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content p {
   font-family: "open_sansregular";
   font-size: 1em;
   color: #929497;
 }
 
-/* line 1560, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1589, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content .social-menu {
   padding-top: 30px;
 }
 
-/* line 1562, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1591, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content .social-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 1566, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1595, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content .social-menu ul li {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 1571, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1600, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-content .social-menu ul li a img {
   width: 13px;
   height: auto;
 }
 
-/* line 1581, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1609, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-menu {
   position: relative;
   float: left;
 }
 
-/* line 1584, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1612, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-menu ul {
   position: absolute;
   left: 0;
@@ -1981,13 +2010,13 @@ footer .footer-menu ul li a {
   transform: rotate(270deg);
 }
 
-/* line 1598, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1626, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-menu li {
   text-align: right;
   line-height: 20px;
 }
 
-/* line 1601, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1629, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-menu li a {
   color: #0f8683;
   font-family: "texgyrepagellabold";
@@ -2002,26 +2031,26 @@ footer .footer-menu ul li a {
   transition: all 0.1s ease-in;
 }
 
-/* line 1613, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1641, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-menu li a:hover {
   background-color: #0f8683;
   color: white;
 }
 
-/* line 1619, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1647, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-menu li.active a {
   background-color: #0f8683;
   color: white;
 }
 
-/* line 1627, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1654, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-property {
   position: relative;
   background: none;
   overflow: hidden;
 }
 
-/* line 1631, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1658, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-property ul {
   margin: 0;
   padding: 0;
@@ -2033,7 +2062,7 @@ footer .footer-menu ul li a {
   list-style: none;
 }
 
-/* line 1640, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1667, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-property ul li {
   position: absolute;
   left: 0;
@@ -2047,7 +2076,7 @@ footer .footer-menu ul li a {
   transition: all 0.1s ease-in;
 }
 
-/* line 1651, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1678, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-property ul li img {
   position: absolute;
   width: auto;
@@ -2061,12 +2090,12 @@ footer .footer-menu ul li a {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 1663, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1690, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .contact-property ul li.active {
   opacity: 1;
 }
 
-/* line 1670, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1696, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg {
   background-image: url(../images/welcome/welcome-bg.jpg);
   background-position: center top;
@@ -2076,18 +2105,18 @@ footer .footer-menu ul li a {
   padding-bottom: 115px;
 }
 
-/* line 1677, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1703, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .dummy {
   display: none;
 }
 
-/* line 1680, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1706, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-group {
   margin-bottom: 35px;
   margin-top: 35px;
 }
 
-/* line 1683, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1709, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-group h3 {
   margin: 0;
   padding: 0;
@@ -2097,14 +2126,14 @@ footer .footer-menu ul li a {
   margin-bottom: 22px;
 }
 
-/* line 1691, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1717, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-group hr {
   border-top: 1px solid #a19990;
   margin-top: 22px;
   margin-bottom: 22px;
 }
 
-/* line 1696, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1722, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-group p {
   margin-top: 22px;
   margin-bottom: 22px;
@@ -2112,25 +2141,25 @@ footer .footer-menu ul li a {
   letter-spacing: 0.05em;
 }
 
-/* line 1704, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1730, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-img {
   margin-top: 35px;
 }
 
-/* line 1706, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1732, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-bg .welcome-img img {
   width: 100%;
   height: auto;
 }
 
-/* line 1712, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1738, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-canvas-frame {
   min-height: 380px;
   position: relative;
   padding: 0;
 }
 
-/* line 1718, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1744, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 #map-canvas {
   position: absolute;
   left: 0 !important;
@@ -2139,7 +2168,7 @@ footer .footer-menu ul li a {
   height: 100%;
 }
 
-/* line 1724, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1750, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 #map-canvas .map-info-box {
   opacity: 0;
   -moz-transition: all 0.1s ease-in;
@@ -2148,24 +2177,24 @@ footer .footer-menu ul li a {
   transition: all 0.1s ease-in;
 }
 
-/* line 1732, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1758, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 #map-canvas.showpic .map-info-box {
   opacity: 1;
 }
 
-/* line 1737, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1763, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pull-left-50 {
   position: relative;
   left: 50%;
 }
 
-/* line 1741, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1767, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pull-right-50 {
   position: relative;
   right: 50%;
 }
 
-/* line 1745, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1771, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider {
   height: auto;
   display: block;
@@ -2173,7 +2202,7 @@ footer .footer-menu ul li a {
   margin-bottom: 50px;
 }
 
-/* line 25, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 22, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider:after {
   content: "";
   clear: both;
@@ -2181,14 +2210,14 @@ footer .footer-menu ul li a {
   visibility: hidden;
 }
 
-/* line 1751, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1777, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .bx-wrapper {
   margin: 0;
   padding: 0;
   height: auto !important;
 }
 
-/* line 1755, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1781, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .bx-wrapper .bx-viewport {
   box-shadow: none;
   border: none;
@@ -2199,13 +2228,13 @@ footer .footer-menu ul li a {
   overflow: visible !important;
 }
 
-/* line 1765, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1791, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .property-banner {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 1769, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1795, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .bx-prev {
   height: 100% !important;
   width: 176px !important;
@@ -2214,23 +2243,34 @@ footer .footer-menu ul li a {
   top: 0 !important;
   left: 0 !important;
   margin-top: 0 !important;
-  border-right: 13px solid #ca964a;
+  border-right: 8px solid #ca964a;
+  background: none !important;
   background-color: rgba(47, 49, 49, 0.8) !important;
 }
 
-/* line 1779, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1806, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .bx-prev:after {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 19px;
+  height: 15px;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 50%;
+  top: 50%;
   z-index: -1;
-  background: url(../images/home/nav-left.png) center center no-repeat !important;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: url(../images/home/nav-left.svg);
 }
 
-/* line 1791, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1822, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.property-slider .bx-prev:hover:after {
+  background: url(../images/home/nav-left-hover.svg);
+}
+
+/* line 1828, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .bx-next {
   height: 100% !important;
   width: 176px !important;
@@ -2239,23 +2279,34 @@ footer .footer-menu ul li a {
   top: 0 !important;
   right: 0 !important;
   margin-top: 0 !important;
-  border-left: 13px solid #ca964a;
+  border-left: 8px solid #ca964a;
+  background: none !important;
   background-color: rgba(47, 49, 49, 0.8) !important;
 }
 
-/* line 1801, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1839, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .property-slider .bx-next:after {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 19px;
+  height: 15px;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 50%;
+  top: 50%;
   z-index: -1;
-  background: url(../images/home/nav-right.png) center center no-repeat !important;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: url(../images/home/nav-right.svg);
 }
 
-/* line 1814, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1855, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.property-slider .bx-next:hover:after {
+  background: url(../images/home/nav-right-hover.svg);
+}
+
+/* line 1862, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler {
   position: fixed;
   right: 30px;
@@ -2264,46 +2315,46 @@ footer .footer-menu ul li a {
   display: none;
 }
 
-/* line 1820, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1868, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 1824, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1872, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler ul li {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 1828, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1876, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler ul li a {
   display: block;
   text-align: center;
 }
 
-/* line 1831, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1879, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler ul li a img {
   height: 18px;
   width: auto;
 }
 
-/* line 1838, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1886, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler .slide-up {
   width: 20px;
   height: 20px;
   display: block;
 }
 
-/* line 1842, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1890, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler .slide-up img {
   width: 100%;
   height: auto;
 }
 
-/* line 1847, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1895, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .side-controler .ver-line {
   height: 50px;
   border-left: 2px solid #ca964a;
@@ -2312,21 +2363,21 @@ footer .footer-menu ul li a {
   margin-bottom: 10px;
 }
 
-/* line 1855, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1903, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-content {
   text-align: left;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 1859, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1907, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-content .welcome-logo {
   width: 50px;
   height: auto;
   display: inline-block;
 }
 
-/* line 1864, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1912, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-content h2 {
   width: 100%;
   font-family: "texgyrepagellabold";
@@ -2334,20 +2385,20 @@ footer .footer-menu ul li a {
   color: #0f8683;
 }
 
-/* line 1870, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1918, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-content hr {
   max-width: 65px;
   border-top: 5px solid #a19990;
 }
 
-/* line 1874, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1922, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-content p {
   color: #a19990;
   font-size: 1em;
   font-family: "open_sansregular";
 }
 
-/* line 1880, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1928, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-media {
   background-image: url(../images/welcome/welcome-videobg.jpg);
   background-repeat: repeat-x;
@@ -2356,7 +2407,7 @@ footer .footer-menu ul li a {
   padding-bottom: 65px;
 }
 
-/* line 1886, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1934, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-media .welcome-media-box {
   position: relative;
   padding-top: 56.25%;
@@ -2364,7 +2415,12 @@ footer .footer-menu ul li a {
   width: 100%;
 }
 
-/* line 1891, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1939, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.welcome-media .welcome-media-box.image {
+  padding-top: 0;
+}
+
+/* line 1942, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-media .welcome-media-box iframe {
   width: 100%;
   height: 100%;
@@ -2373,20 +2429,48 @@ footer .footer-menu ul li a {
   left: 0;
 }
 
-/* line 1898, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1949, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-media .welcome-media-box img {
   width: 100%;
   height: auto;
 }
 
-/* line 1903, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1953, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.welcome-media .welcome-media-box .heide-player {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 1960, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.welcome-media .welcome-media-box video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 1967, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.welcome-media .welcome-media-box .play-btn {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 1976, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-media p {
   font-size: "open_sansregular";
   font-size: 1em;
   color: #a19990;
 }
 
-/* line 1910, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1982, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-info-box {
   background-color: #128885;
   position: absolute;
@@ -2403,7 +2487,7 @@ footer .footer-menu ul li a {
   padding-bottom: 5px;
 }
 
-/* line 1924, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 1996, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-info-box figure {
   width: 100%;
   height: auto;
@@ -2413,19 +2497,19 @@ footer .footer-menu ul li a {
   margin-bottom: 5px;
 }
 
-/* line 1931, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2003, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-info-box figure img {
   width: 100%;
   height: auto;
 }
 
-/* line 1936, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2008, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .map-info-box p {
   margin: 0;
   padding: 0;
 }
 
-/* line 1942, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2013, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-main-fig {
   height: 415px;
   position: relative;
@@ -2434,7 +2518,7 @@ footer .footer-menu ul li a {
   margin-bottom: 30px;
 }
 
-/* line 25, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 22, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-main-fig:after {
   content: "";
   clear: both;
@@ -2442,14 +2526,14 @@ footer .footer-menu ul li a {
   visibility: hidden;
 }
 
-/* line 1949, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2020, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-main-fig figure {
   position: absolute;
   height: 100%;
   width: 100%;
 }
 
-/* line 1953, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2024, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-main-fig figure img {
   position: absolute;
   width: 100%;
@@ -2463,33 +2547,33 @@ footer .footer-menu ul li a {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* line 1969, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2039, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig {
   overflow: hidden;
   margin-left: -15px;
   margin-bottom: 30px;
 }
 
-/* line 1973, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2043, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 1977, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2047, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig ul li {
   min-height: 0;
 }
 
-/* line 1981, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2051, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig .bx-wrapper {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* line 1985, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2055, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig .bx-wrapper .bx-viewport {
   margin: 0;
   padding: 0;
@@ -2499,28 +2583,28 @@ footer .footer-menu ul li a {
   top: auto;
 }
 
-/* line 1995, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2065, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig .bx-wrapper .bx-controls-direction a {
   width: 40px;
   height: 40px;
   background-position: center center !important;
 }
 
-/* line 2002, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2072, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig .bx-wrapper .bx-prev {
-  background-image: url(../images/welcome/prev.jpg);
+  background-image: url(../images/welcome/prev.svg);
   background-position: center center;
   left: 0;
 }
 
-/* line 2007, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2077, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .welcome-slide-fig .bx-wrapper .bx-next {
-  background-image: url(../images/welcome/next.jpg);
+  background-image: url(../images/welcome/next.svg);
   background-position: center center;
   right: 0;
 }
 
-/* line 2017, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2086, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pin-bar {
   position: absolute;
   left: 0;
@@ -2533,7 +2617,7 @@ footer .footer-menu ul li a {
   transition: all 0.1s ease-in;
 }
 
-/* line 2028, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2097, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pin-bar .pin {
   margin-left: 30px;
   display: inline-block;
@@ -2542,7 +2626,13 @@ footer .footer-menu ul li a {
   background-color: #128885;
 }
 
-/* line 2035, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2103, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+.pin-bar .pin img {
+  height: 20px;
+  width: auto;
+}
+
+/* line 2108, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pin-bar .latlon {
   text-decoration: none;
   color: white;
@@ -2560,22 +2650,22 @@ footer .footer-menu ul li a {
   transition: all 0.1s ease-in;
 }
 
-/* line 2050, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2123, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pin-bar .latlon:hover {
   color: yellow;
 }
 
-/* line 2054, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2127, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pin-bar.active {
   background-color: #128885;
 }
 
-/* line 2056, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2129, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .pin-bar.active .latlon {
   opacity: 1;
 }
 
-/* line 2063, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2135, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .loadmore-bar {
   text-align: center;
   display: block;
@@ -2583,7 +2673,7 @@ footer .footer-menu ul li a {
   padding-bottom: 30px;
 }
 
-/* line 25, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 22, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .loadmore-bar:after {
   content: "";
   clear: both;
@@ -2591,7 +2681,7 @@ footer .footer-menu ul li a {
   visibility: hidden;
 }
 
-/* line 2069, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2141, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .loadmore-bar a {
   padding: 10px 20px;
   border: 1px solid #a19990;
@@ -2601,7 +2691,7 @@ footer .footer-menu ul li a {
   font-family: "texgyrepagellaregular";
 }
 
-/* line 2076, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+/* line 2148, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
 .loadmore-bar a:hover {
   background-color: #a19990;
   color: white;
@@ -2609,7 +2699,7 @@ footer .footer-menu ul li a {
 
 /*!medium-Large screen*/
 @media (max-width: 1024px) {
-  /* line 2088, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2159, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child .prop-list-child-grid .prop-detail {
     position: relative;
     padding-top: 30px;
@@ -2623,35 +2713,35 @@ footer .footer-menu ul li a {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 2105, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2176, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-main-title {
     margin-bottom: 35px;
   }
-  /* line 2108, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2179, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone {
     padding-bottom: 35px;
   }
-  /* line 2110, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2181, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group {
     margin-top: 35px;
     margin-bottom: 35px;
     display: block;
   }
-  /* line 2114, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2185, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group .col {
     float: left;
     display: inline;
     width: 33.33%;
   }
-  /* line 2118, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2189, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group .col:first-child {
     width: 50%;
   }
-  /* line 2121, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2192, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group .col:nth-child(2) {
     width: 50%;
   }
-  /* line 2128, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2199, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-row {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -2659,25 +2749,25 @@ footer .footer-menu ul li a {
 }
 
 @media (max-width: 991px) {
-  /* line 2136, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2207, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .container {
     max-width: 960px;
   }
-  /* line 2139, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2210, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .wrapper {
     padding-top: 72px;
   }
-  /* line 2142, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2213, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .wrapper.opensidebar .side-menu {
     left: 0;
     right: auto;
   }
-  /* line 2148, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2219, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .side-menu {
     left: -280px;
     right: auto;
   }
-  /* line 2153, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2224, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .page-banner {
     min-height: 0;
     height: auto;
@@ -2685,19 +2775,19 @@ footer .footer-menu ul li a {
     position: relative;
     background: none;
   }
-  /* line 2159, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2230, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .page-banner .dummy {
     z-index: 1;
     width: 100%;
     height: auto;
   }
-  /* line 2166, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2237, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .content-box .content-service-info {
     position: relative;
     bottom: auto;
     left: auto;
   }
-  /* line 2173, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2244, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .main-modal .post-slider {
     height: auto;
   }
@@ -2722,18 +2812,18 @@ footer .footer-menu ul li a {
 		}
 	}
 */
-  /* line 2200, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2271, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-background {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
     right: 0;
   }
-  /* line 2205, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2276, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-background img {
     display: none;
   }
-  /* line 2209, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2280, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-form-holder {
     position: relative;
     top: auto;
@@ -2745,17 +2835,17 @@ footer .footer-menu ul li a {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 2220, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2291, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .map-canvas-frame {
     left: 0;
   }
-  /* line 2223, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2294, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-bg {
     display: block;
     position: relative;
     background: none;
   }
-  /* line 2227, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2298, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-bg .dummy {
     position: absolute;
     z-index: -1;
@@ -2769,57 +2859,57 @@ footer .footer-menu ul li a {
     -o-transform: translate(-50%, -60%);
     -ms-transform: translate(-50%, -60%);
   }
-  /* line 2241, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2312, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-group {
     padding-top: 35px;
     padding-bottom: 35px;
   }
-  /* line 2245, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2316, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .pull-left-50 {
     position: relative;
     left: 0%;
   }
-  /* line 2249, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2320, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .pull-right-50 {
     position: relative;
     right: 0%;
   }
-  /* line 2254, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2325, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-row {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* line 2258, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2329, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-slide-fig, .welcome-main-fig {
     margin-left: 0;
   }
-  /* line 2261, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2332, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-content {
     text-align: center;
   }
-  /* line 2263, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2334, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-content hr {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 2273, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2344, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-media p {
     margin-top: 30px;
     text-align: center;
   }
-  /* line 2278, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2349, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-main-fig {
     height: auto;
   }
-  /* line 2280, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2351, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-main-fig figure {
     position: relative;
     height: auto;
     margin: 0;
     padding: 0;
   }
-  /* line 2285, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2356, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-main-fig figure img {
     position: relative;
     width: 100%;
@@ -2832,7 +2922,7 @@ footer .footer-menu ul li a {
     -ms-transform: none;
     -o-transform: none;
   }
-  /* line 2302, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2373, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .enq .logo-written {
     width: 100%;
     height: auto;
@@ -2841,26 +2931,26 @@ footer .footer-menu ul li a {
     top: auto;
     margin-top: -30px;
   }
-  /* line 2309, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2380, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .enq .logo-written img {
     width: 100%;
     max-width: 300px;
   }
-  /* line 2316, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2387, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .enq .enq-form-pos {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 2321, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2392, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .enq p:after {
     bottom: auto;
   }
-  /* line 2326, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2397, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 2331, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2402, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner {
     background-color: white;
     text-align: center;
@@ -2869,16 +2959,16 @@ footer .footer-menu ul li a {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 2338, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2409, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner figure {
     position: relative;
     display: inline-block;
   }
-  /* line 2341, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2412, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner figure figcaption {
     font-size: 23px;
   }
-  /* line 2347, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2418, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update-banner figure .feature-banner-img {
     position: relative;
     left: auto;
@@ -2889,14 +2979,14 @@ footer .footer-menu ul li a {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 2361, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2432, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .property-slider .property-banner {
     width: 100%;
     height: 300px;
     position: relative;
     overflow: hidden;
   }
-  /* line 2366, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2437, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .property-slider .property-banner img {
     position: absolute;
     width: auto;
@@ -2906,20 +2996,20 @@ footer .footer-menu ul li a {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  /* line 2376, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2447, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .property-slider .bx-controls {
     display: none;
   }
-  /* line 2380, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2451, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .side-controler {
     display: none !important;
   }
-  /* line 2383, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2454, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner {
     height: auto !important;
     background: none !important;
   }
-  /* line 2386, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2457, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .dummy {
     position: relative !important;
     left: auto !important;
@@ -2934,7 +3024,7 @@ footer .footer-menu ul li a {
     overflow: hidden;
     min-height: 500px;
   }
-  /* line 2399, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2470, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .dummy img {
     position: absolute;
     height: 100%;
@@ -2947,7 +3037,7 @@ footer .footer-menu ul li a {
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  /* line 2412, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2483, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .slide-content {
     position: relative;
     left: auto;
@@ -2961,7 +3051,7 @@ footer .footer-menu ul li a {
     padding-left: 50px;
     padding-right: 50px;
   }
-  /* line 2424, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2495, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .slide-content .content-box {
     position: relative;
     left: auto;
@@ -2969,15 +3059,15 @@ footer .footer-menu ul li a {
     transform: none;
     text-align: center;
   }
-  /* line 2430, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2501, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .slide-content .content-box .content-meta {
     text-align: center;
   }
-  /* line 2433, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2504, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .slide-content .content-box .content-detail {
     text-align: center;
   }
-  /* line 2437, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2508, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .slide-content .more-popup {
     position: relative;
     right: auto;
@@ -2987,7 +3077,7 @@ footer .footer-menu ul li a {
     text-align: center;
     display: block;
   }
-  /* line 2449, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2520, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-list .news-list-child {
     margin-left: -15px;
     margin-right: -15px;
@@ -2995,17 +3085,17 @@ footer .footer-menu ul li a {
     padding-top: 25px !important;
     padding-bottom: 25px !important;
   }
-  /* line 2455, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2526, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-list .news-list-child .content-detail {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 2460, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2531, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-list .news-list-child .content-service-info {
     display: none;
   }
-  /* line 2463, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2534, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-list .news-list-child .view-more {
     position: relative;
     margin-top: 30px;
@@ -3016,14 +3106,14 @@ footer .footer-menu ul li a {
     bottom: auto;
     display: block;
   }
-  /* line 2476, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2547, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .map-menu {
     text-align: center;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 2481, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2552, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .map-menu ul {
     position: relative;
     display: inline-block;
@@ -3031,30 +3121,30 @@ footer .footer-menu ul li a {
     left: auto;
     top: auto;
   }
-  /* line 2487, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2558, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .map-menu ul li {
     text-align: center;
   }
-  /* line 2492, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2563, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-content {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 2496, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2567, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-content hr {
     margin: auto;
   }
-  /* line 2499, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2570, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-content .social-menu {
     text-align: center;
     padding-top: 0;
   }
-  /* line 2502, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2573, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-content .social-menu ul {
     display: inline-block;
   }
-  /* line 2507, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2578, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-form-col {
     margin-right: 0;
     padding-left: 30px;
@@ -3064,29 +3154,29 @@ footer .footer-menu ul li a {
 
 /*!small-medium screen*/
 @media (max-width: 768px) {
-  /* line 2518, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2589, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child {
     display: block;
   }
-  /* line 2522, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2593, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:first-child {
     left: 0;
   }
-  /* line 2525, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2596, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:last-child {
     right: 0;
   }
-  /* line 2532, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2603, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-background {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 2536, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2607, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-background img {
     display: none;
   }
-  /* line 2540, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2611, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-form-holder {
     position: relative;
     top: auto;
@@ -3098,21 +3188,21 @@ footer .footer-menu ul li a {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 2551, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2622, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .pull-left-50 {
     position: relative;
     left: 0%;
   }
-  /* line 2555, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2626, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .pull-right-50 {
     position: relative;
     right: 0%;
   }
-  /* line 2559, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2630, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-row {
     display: block;
   }
-  /* line 2562, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2633, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .welcome-row {
     display: block;
   }
@@ -3120,47 +3210,47 @@ footer .footer-menu ul li a {
 
 /*!extra small screen*/
 @media (max-width: 576px) {
-  /* line 2568, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2639, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 0;
   }
-  /* line 2572, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2643, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer h2 {
     font-size: 1.2em;
   }
-  /* line 2575, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2646, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer .footer-link-group {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 2579, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2650, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer .footer-link {
     margin: 0;
     padding: 0;
   }
-  /* line 2582, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2653, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer .footer-link li {
     line-height: normal;
   }
-  /* line 2584, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2655, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer .footer-link li a {
     font-size: 1em;
   }
-  /* line 2589, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2660, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer .property-link {
     padding-top: 15px;
     padding-bottom: 30px;
   }
-  /* line 2595, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2666, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   footer .property-link ul li a img {
     max-height: none;
     max-width: none;
     height: 20px;
     width: auto;
   }
-  /* line 2607, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2678, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-banner .feature-banner-img {
     position: absolute;
     z-index: -1;
@@ -3174,20 +3264,20 @@ footer .footer-menu ul li a {
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  /* line 2621, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2692, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-popup {
     padding: 20px;
   }
-  /* line 2625, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2696, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section {
     background: none;
     padding-bottom: 0;
   }
-  /* line 2628, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2699, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update {
     background-color: #0f8683;
   }
-  /* line 2631, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2702, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update .feature-update-box .feature-update-box-meta {
     /*
 					h3{
@@ -3204,23 +3294,23 @@ footer .footer-menu ul li a {
 					}
 					*/
   }
-  /* line 2653, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2724, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .property-banner .property-info {
     min-width: 250px;
     padding: 15px;
   }
-  /* line 2658, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2729, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .property-banner .property-info .property-info-logo img {
     min-height: 20px;
     max-height: 30px;
     width: auto;
   }
-  /* line 2666, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2737, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .page-banner {
     height: 500px;
     position: relative;
   }
-  /* line 2669, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2740, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .page-banner .dummy {
     position: absolute;
     z-index: 1;
@@ -3234,34 +3324,34 @@ footer .footer-menu ul li a {
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  /* line 2683, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2754, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .content-zone {
     text-align: center;
   }
-  /* line 2687, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2758, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-main-title {
     text-align: center;
     padding-bottom: 15px;
   }
-  /* line 2690, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2761, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-main-title .gallery-main-logo {
     display: inline-block;
   }
-  /* line 2694, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2765, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group {
     margin-bottom: 15px;
   }
-  /* line 2696, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2767, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .gallery-zone .gallery-group .gallery-group-caption {
     text-align: center;
     font-size: 1em;
   }
-  /* line 2703, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2774, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .content-box .content-meta {
     text-align: center;
     padding-top: 30px;
   }
-  /* line 2711, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2782, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child .prop-list-child-grid .prop-detail {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -3276,25 +3366,25 @@ footer .footer-menu ul li a {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 2728, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2799, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:first-child {
     left: 0;
   }
-  /* line 2731, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2802, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .prop-list .prop-list-child:nth-child(even) .prop-list-child-grid:last-child {
     right: 0;
   }
-  /* line 2738, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2809, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-background {
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 2742, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2813, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-background img {
     display: none;
   }
-  /* line 2746, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2817, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .contact-form-holder {
     position: relative;
     top: auto;
@@ -3306,24 +3396,25 @@ footer .footer-menu ul li a {
     -o-transform: none;
     -ms-transform: none;
   }
-  /* line 2758, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2829, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   img.dummy {
     z-index: 1;
   }
-  /* line 2763, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2834, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .news-banner .slide-content {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
 
+/*For Mobile Landscape*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 750px) and (orientation: landscape) {
-  /* line 2776, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2845, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section {
     background: none;
     padding-bottom: 0;
   }
-  /* line 2779, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
+  /* line 2848, /Volumes/Macintosh HD/Applications/MAMP/htdocs/heide/css/layout.scss */
   .feature-update-section .feature-update {
     background-color: #0f8683;
   }

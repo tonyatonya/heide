@@ -16,7 +16,7 @@
 							<img src="images/welcome/imgslide-1.jpg">
 						</figure>
 						<div class="pin-bar">
-							<a href="#" class="pin"><img src="images/welcome/mini-pin.png"></a>
+							<a href="#" class="pin"><img src="images/welcome/mini-pin.svg"></a>
 							<a href="https://maps.google.com/?ll=13.738056,100.560782" class="latlon" target="_blank">13.738056,100.560782</a>
 						</div>
 					</div>
@@ -26,7 +26,7 @@
 							<li>
 								<img src="images/welcome/imgslide-<?php echo($i);?>.jpg">
 								<div class="pin-bar">
-									<a href="#" class="pin"><img src="images/welcome/mini-pin.png"></a>
+									<a href="#" class="pin"><img src="images/welcome/mini-pin.svg"></a>
 									<a href="https://maps.google.com/?ll=13.738056,100.560782" class="latlon" target="_blank">13.738056,100.560782</a>
 								</div>
 							</li>
@@ -38,7 +38,7 @@
 					<div class="row align-self-end">
 						<div class="col-xl-12 welcome-content">
 							<img src="images/welcome/logo-h.svg" class="welcome-logo">
-							<h2>AROUND HIEDE</h2>
+							<h2>AROUND HEIDE</h2>
 							<hr>
 							<p>
 								Our Heide Emigré project is offering one of the unique quality lifestyle spaces in Bangkok. The properties where we hosted are available for monthly rent, and are variously located as in Aree neighborhood or in Phra Khanong district. We have our own décor style with an ultimate goal of making a homely and cozy atmosphere. Some of our accomplishments can be seen as ALOFT STUDIO and CANVAS as well as many others.
@@ -51,9 +51,24 @@
 				<div class="col-xl-12 welcome-media">
 					<div class="row">
 						<div class="col-md-6 offset-md-3 no-gutters">
+							<!-- ตำแหน่งนี้แสดงได้ทั้งรูปและ Video -->
+							<!-- กรณีมี Video -->
 							<div class="welcome-media-box">
-								<iframe src="https://www.youtube.com/embed/4d5_lrn9v-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div id="heide-player">
+									<video class="video">
+										<source src="images/canvas-tour.mp4" type="video/mp4">
+									</video>
+									<div class="play-btn">
+										<img src="images/welcome/play-btn.svg">
+									</div>
+								</div>
 							</div>
+							<!-- กรณีมี image -->
+							<!--
+							<div class="welcome-media-box image">
+								<img src="images/welcome/welcome-bottom-img.jpg">
+							</div>
+							-->
 						</div>
 						<div class="col-md-3 d-flex">
 							<div class="row align-self-end">
@@ -109,6 +124,18 @@
 				     	$(this).parent().toggleClass("active");
 			        }
 		        })
+
+
+				$('.video').parent().click(function () {
+				  if($(this).children(".video").get(0).paused){
+					  $(this).children(".video").get(0).play();
+					  $(this).children(".play-btn").fadeOut();
+				    }else{
+					    $(this).children(".video").get(0).pause();
+						$(this).children(".play-btn").fadeIn();
+				    }
+				});
+
 
 			});
 		</script>

@@ -14,13 +14,10 @@ $ci_green:#0f8683;
 $ci_darkgray:#606060;
 $ci_lightbrown:#a19990;
 $ci_gold:#ca964a;
-
 $browser-context: 14; // Default
-
 @function em($pixels, $context: $browser-context) {
   @return #{$pixels/$context}em;
 }
-
 @mixin clearfix{
 	&:after{
 		content: "";
@@ -29,7 +26,6 @@ $browser-context: 14; // Default
 		visibility: hidden;
 	}
 }
-
 *{
 	margin: 0;
 	padding: 0;
@@ -474,9 +470,19 @@ footer{
 		position: absolute;
 		left: 0;
 		top:138px;
+		width: 60px;
+		height: 60px;
 		a{
 			opacity: 1;
 			@extend .ts;
+			padding: 20px;
+			font-size: 18px;
+			background-color: $ci_green;
+			-webkit-font-smoothing: antialiased;
+			color: white;
+			&:hover{
+				color: $ci_gold;
+			}
 		}
 	}
 	&.openpopup{
@@ -537,13 +543,17 @@ footer{
 		top:15px;
 		color: white;
 		font-size: 1.2em;
+		&:hover{
+			color: $ci_gold;
+		}
 	}
 }
 .enq{
 	background-color: white;
-	border-bottom: 1px solid red;
-
-	border-bottom: 45px solid $ci_darkgray;
+	//border-bottom: 1px solid red;
+	//border-bottom: 45px solid $ci_darkgray;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	.container{
 		overflow: visible;
 	}
@@ -564,32 +574,43 @@ footer{
 		width: 100%;
 		margin-top: 20px;
 		margin-bottom: 0;
-		color: $ci_darkgray;
+		color: #a19990;
 		font-family: $open_reg;
-		font-size: 1em;
-		letter-spacing: 0.05em;
+		//font-size: 1em;
+		font-size: em(16);
+		//letter-spacing: 0.05em;
 		text-align: left;
 		position: relative;
 
 		&:before{
+			/*
 			content: '"';
 			color: $ci_darkgray;
-			position: absolute;
-			right: 100%;
-			top:0;
 			font-size: 48px;
 			font-family: 'noto_serifregular' !important;
 			line-height: 1;
+			*/
+			position: absolute;
+			right: 102%;
+			top:-15px;
+			content: url(../images/common/quote-open.svg);
+			width: 15px;
+			height: auto;
 		}
 		&:after{
+			/*
 			content: '"';
 			color: $ci_darkgray;
-			position: absolute;
-			left: 100%;
-			bottom: 0;
 			font-size: 48px;
 			font-family: 'noto_serifregular' !important;
 			line-height: 1;
+			*/
+			position: absolute;
+			left: 102%;
+			bottom: 0;
+			content: url(../images/common/quote-close.svg);
+			width: 15px;
+			height: auto;
 		}
 	}
 	.enq-form-pos{
@@ -829,6 +850,7 @@ footer{
 				@include clearfix;
 				a{
 					text-decoration: none;
+					font-family: $open_reg;
 				}
 				h3{
 					font-family: $texgy_bold;
@@ -1100,13 +1122,16 @@ footer{
 		text-align: left;
 		.content-title{
 			font-family: $texgy_bold;
-			font-size: 1.7em;
+			//font-size: 1.7em;
+			font-size: em(23);
 			letter-spacing: 0.05em;
-			color: $ci_lightbrown;
+			//color: $ci_lightbrown;
+			color: #43908b;
 		}
 		.content-post-date{
 			font-family: $texgy_bold;
-			font-size: 1.15em;
+			//font-size: 1.15em;
+			font-size: em(13);
 			letter-spacing: 0.05em;
 			color: $ci_lightbrown;
 		}
@@ -1122,8 +1147,10 @@ footer{
 		margin-top: 30px;
 		p{
 			font-family: $open_reg;
-			font-size: 1.1em;
+			//font-size: 1.1em;
+			font-size: em(15);
 			letter-spacing: 0.05em;
+			color: #a19990;
 		}
 	}
 	.view-more{
@@ -1151,9 +1178,9 @@ footer{
 			padding: 0;
 			list-style: none;
 			li{
-				color: $ci_lightbrown;
+				color: #d2953c;
 				a{
-					color: $ci_lightbrown;
+					color: #d2953c;
 					text-decoration: none;
 				}
 				i{
@@ -1256,10 +1283,12 @@ footer{
 	.news-list-child{
 		padding-top: 42px;
 		padding-bottom: 42px;
-		border-bottom: 1px solid #231f20;
+		border-top: 1px solid #231f20;
 		&:first-child{
 			padding-top: 0;
+			border-top:none;
 		}
+
 		figure{
 			margin: 0;
 			padding: 0;
@@ -1364,11 +1393,12 @@ footer{
 				-o-transform: translate(0,-50%);
 				-ms-transform: translate(0,-50%);
 				p{
-					color: #333333;
-					text-align: justify;
+					//color: #333333;
+					color: #a19990;
+					text-align: center;
 					font-family: $open_reg;
 					font-size: 1em;
-					line-height: 1.15em;
+					line-height: 1.5em;
 				}
 				.prop-logo{
 					max-width: 190px;
@@ -1540,7 +1570,6 @@ footer{
 		}
 	}
 }
-
 .contact-content{
 	padding-top: 50px;
 	h2{
@@ -1577,7 +1606,6 @@ footer{
 		}
 	}
 }
-
 .map-menu{
 	position: relative;
 	float: left;
@@ -1623,7 +1651,6 @@ footer{
 		}
 	}
 }
-
 .contact-property{
 	position: relative;
 	background: none;
@@ -1666,7 +1693,6 @@ footer{
 		}
 	}
 }
-
 .welcome-bg{
 	background-image: url(../images/welcome/welcome-bg.jpg);
 	background-position: center top;
@@ -1774,17 +1800,28 @@ footer{
 		top:0 !important;
 		left: 0 !important;
 		margin-top:0 !important;
-		border-right:13px solid #ca964a;
-		background-color: rgba(47,49,49,0.8) !important;
+		border-right:8px solid #ca964a;
+		background: none !important;
+		background-color: rgba(47,49,49,0.8) !important;;
 		&:after{
-			content: "";
-			width: 100%;
-			height: 100%;
+			content:"";
+			width: 19px;
+			height: 15px;
 			position: absolute;
-			left: 0;
-			top:0;
+			left: 50%;
+			top:50%;
 			z-index: -1;
-			background: url(../images/home/nav-left.png) center center no-repeat !important;
+			transform: translate(-50%,-50%);
+			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+			background: url(../images/home/nav-left.svg);
+		}
+		&:hover{
+			&:after{
+				background: url(../images/home/nav-left-hover.svg);
+			}
 		}
 
 	}
@@ -1796,17 +1833,28 @@ footer{
 		top:0 !important;
 		right: 0 !important;
 		margin-top:0 !important;
-		border-left:13px solid #ca964a;
+		border-left:8px solid #ca964a;
+		background: none !important;
 		background-color: rgba(47,49,49,0.8) !important;
 		&:after{
-			content: "";
-			width: 100%;
-			height: 100%;
+			content:"";
+			width: 19px;
+			height: 15px;
 			position: absolute;
-			left: 0;
-			top:0;
+			left: 50%;
+			top:50%;
 			z-index: -1;
-			background: url(../images/home/nav-right.png) center center no-repeat !important;
+			transform: translate(-50%,-50%);
+			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			-o-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+			background: url(../images/home/nav-right.svg);
+		}
+		&:hover{
+			&:after{
+				background: url(../images/home/nav-right-hover.svg);
+			}
 		}
 
 	}
@@ -1888,6 +1936,9 @@ footer{
 		padding-top: 56.25%;
 		background-color: #e1e1e1;
 		width: 100%;
+		&.image{
+			padding-top: 0;
+		}
 		iframe{
 			width: 100%;
 			height: 100%;
@@ -1899,6 +1950,28 @@ footer{
 			width: 100%;
 			height: auto;
 		}
+		.heide-player{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left: 0;
+		}
+		video{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left: 0;
+		}
+		.play-btn{
+			width: 90px;
+			height: 90px;
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
 	}
 	p{
 		font-size: $open_reg;
@@ -1906,7 +1979,6 @@ footer{
 		color: #a19990;
 	}
 }
-
 .map-info-box{
 	background-color: #128885;
 	position: absolute;
@@ -1938,7 +2010,6 @@ footer{
 		padding: 0;
 	}
 }
-
 .welcome-main-fig{
 	height: 415px;
 	position: relative;
@@ -1965,7 +2036,6 @@ footer{
 		}
 	}
 }
-
 .welcome-slide-fig{
 	overflow: hidden;
 	margin-left: -15px;
@@ -2000,12 +2070,12 @@ footer{
 		}
 
 		.bx-prev{
-			background-image: url(../images/welcome/prev.jpg);
+			background-image: url(../images/welcome/prev.svg);
 			background-position: center center;
 			left: 0;
 		}
 		.bx-next{
-			background-image: url(../images/welcome/next.jpg);
+			background-image: url(../images/welcome/next.svg);
 			background-position: center center;
 			right: 0;
 		}
@@ -2013,7 +2083,6 @@ footer{
 
 
 }
-
 .pin-bar{
 	//background-color: #128885;
 	position: absolute;
@@ -2031,6 +2100,10 @@ footer{
 		float: left;
 		padding: 10px;
 		background-color: #128885;
+		img{
+			height: 20px;
+			width: auto;
+		}
 	}
 	.latlon{
 		text-decoration: none;
@@ -2059,7 +2132,6 @@ footer{
 	}
 
 }
-
 .loadmore-bar{
 	text-align: center;
 	display: block;
@@ -2079,7 +2151,6 @@ footer{
 		}
 	}
 }
-
 /*!medium-Large screen*/
 @media (max-width : 1024px){
 	.prop-list{
@@ -2766,9 +2837,7 @@ footer{
 		}
 	}
 }
-
-
-
+/*For Mobile Landscape*/
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 750px)

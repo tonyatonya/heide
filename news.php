@@ -15,7 +15,7 @@
 				<figure class="dummy">
 					<img src="images/news/news-banner.jpg">
 				</figure>
-			<a class="read-btn" href="#">RATEST NEWS <i class="heide-circle-left"></i></a>
+			<a class="read-btn" href="#">LATEST NEWS <i class="heide-circle-left"></i></a>
 			<div class="slide-content">
 				<div class="content-box">
 					<div class="content-meta">
@@ -45,7 +45,7 @@
 							<div class="col-sm-7 content-box">
 								<div class="content-meta">
 									<h3 class="content-title">LOREM IPSUM</h3>
-									<div class="content-post-date">17 Feb 2017</div>
+									<div class="content-post-date">17.02.2019</div>
 								</div>
 								<div class="content-detail">
 									<p>
@@ -89,6 +89,16 @@
 					e.preventDefault();
 					$(".page-banner").removeClass("openslide");
 				})
+
+
+				setTimeout(function(){
+					$(".page-banner .read-btn").trigger('click');
+				}, 500);
+
+				setTimeout(function(){
+					$(".page-banner").removeClass("openslide");
+				}, 3000)
+
 
 
 				$(".more-popup").click(function(e){

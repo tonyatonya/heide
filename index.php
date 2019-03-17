@@ -11,12 +11,13 @@
 		<section class="feature-banner">
 			<div class="openpop-btn">
 				<a href="#">
-					<img src="images/common/open-popup.jpg">
+					<!--<img src="images/common/open-popup.svg">-->
+					<i class="fa fa-plus"></i>
 				</a>
 			</div>
 			<img src="images/common/feature-banner.jpg" class="feature-banner-img">
 			<div class="feature-popup">
-				<a href="#" class="feature-popup-close"><i class="fa fa-close"></i></a>
+				<a href="#" class="feature-popup-close"><i class="fa fa-times"></i></a>
 				<!-- content popup -->
 				<img src="images/common/logo-circle.svg" class="popup-logo">
 				<h2>ABOUT HEIDE EMIGRE</h2>
@@ -32,7 +33,7 @@
 							<img src="images/common/heide-written.svg">
 						</div>
 					</div>
-					<div class="offset-sm-1 col-sm-6 enq-form-pos">
+					<div class="offset-sm-2 col-sm-5 enq-form-pos">
 						<!--
 						<a href="#" class="enq-btn">
 							<i class="icon"></i> INSPECT & ENQUIRE
@@ -221,6 +222,14 @@
 				$(".feature-banner").removeClass("openpopup");
 			})
 
+			setTimeout(function(){
+				$(".openpop-btn a").trigger('click');
+			}, 500)
+
+			setTimeout(function(){
+				$(".feature-popup-close").trigger('click');
+			}, 4000);
+
 			$(".enq-btn").click(function(e){
 				e.preventDefault();
 				$(this).toggleClass("downed");
@@ -258,7 +267,7 @@
 		            useCSS: true,
 		            minSlides : 1,
 		            shrinkItems:true,
-		            slideWidth:1100,
+		            //slideWidth:1100,
 		            onSlideAfter: function() {
 			            slider.startAuto();
 			        }
