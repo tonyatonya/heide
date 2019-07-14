@@ -3,9 +3,9 @@
 		<div class="row">
 			<div class="col-xl-4 col-lg-6 property-link order-md-last">
 				<ul>
-					<li><a href="#" target="_blank" ><img src="images/common/logo-footer-aloft.svg"></a></li>
-					<li><a href="#" target="_blank" ><img src="images/common/logo-footer-canvas.svg"></a></li>
-					<li><a href="http://www.studio4rental.com" target="_blank" ><img src="images/common/logo-footer-studio4.svg"></a></li>
+					<li><a href="http://heide-emigre.com/aloftstudio" target="_blank" ><img src="images/common/logo-footer-aloft.svg"></a></li>
+					<li><a href="http://heide-emigre.com/canvas-livingandspace/home.html" target="_blank" ><img src="images/common/logo-footer-canvas.svg"></a></li>
+					<li><a href="http://heide-emigre.com/aloftstudio/home.html" target="_blank" ><img src="images/common/logo-footer-studio4.svg"></a></li>
 				</ul>
 			</div>
 
