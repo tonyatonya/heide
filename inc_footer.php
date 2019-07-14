@@ -3,9 +3,9 @@
 		<div class="row">
 			<div class="col-xl-4 col-lg-6 property-link order-md-last">
 				<ul>
-					<li><a href="#"><img src="images/common/logo-footer-aloft.svg"></a></li>
-					<li><a href="#"><img src="images/common/logo-footer-canvas.svg"></a></li>
-					<li><a href="#"><img src="images/common/logo-footer-studio4.svg"></a></li>
+					<li><a href="#" target="_blank" ><img src="images/common/logo-footer-aloft.svg"></a></li>
+					<li><a href="#" target="_blank" ><img src="images/common/logo-footer-canvas.svg"></a></li>
+					<li><a href="http://www.studio4rental.com" target="_blank" ><img src="images/common/logo-footer-studio4.svg"></a></li>
 				</ul>
 			</div>
 
@@ -27,9 +27,9 @@
 </footer>
 <div class="side-controler">
 	<ul class="side-controler-social">
-		<li><a href="#"><img src="images/common/ico-instagram.svg"></a></li>
-		<li><a href="#"><img src="images/common/ico-facebook.svg"></a></li>
-		<li><a href="#"><img src="images/common/ico-pinterest.svg"></a></li>
+		<li><a href="https://www.instagram.com/heideemigre/" target="_blank"><img src="images/common/ico-instagram.svg"></a></li>
+		<li><a href="https://www.facebook.com/heideemigre" target="_blank"><img src="images/common/ico-facebook.svg"></a></li>
+		<!--<li><a href="#" target="_blank"><img src="images/common/ico-pinterest.svg"></a></li>-->
 	</ul>
 	<div class="ver-line"></div>
 	<a href="#" class="slide-up">

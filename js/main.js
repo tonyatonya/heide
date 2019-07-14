@@ -10,7 +10,11 @@ $(document).ready(function(){
 
 	$(".slide-up").click(function(e){
 		e.preventDefault();
-		$("body").stop().animate({scrollTop:0},500,'swing');
+		var body = $("html, body");
+		body.stop().animate({scrollTop:0}, 500, 'swing', function() {
+
+		});
+
 	})
 
 })

@@ -73,9 +73,9 @@
 	</ul>
 	<div class="social-menu">
 		<ul>
-			<li><a href="#"><img src="images/common/ico-fb-white.svg"></a></li>
-			<li><a href="#"><img src="images/common/ico-ig-white.svg"></a></li>
-			<li><a href="#"><img src="images/common/ico-pin-white.svg"></a></li>
+			<li><a href="https://www.instagram.com/heideemigre/" target="_blank"><img src="images/common/ico-fb-white.svg"></a></li>
+			<li><a href="https://www.facebook.com/heideemigre" target="_blank"><img src="images/common/ico-ig-white.svg"></a></li>
+			<!--<li><a href="#" target="_blank"><img src="images/common/ico-pin-white.svg"></a></li>-->
 		</ul>
 	</div>
 </div>

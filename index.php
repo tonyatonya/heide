@@ -125,7 +125,7 @@
 												<h3>LOREM IPSUM</h3>
 												<p>LOREM IPSUM DOLOR SITAMET, CONSECTETULAOE</p>
 											</a>
-											<a href="#" class="more">MORE INFO <i class="heide-circle-right"></i></a>
+											<a href="news.php?show=1" class="more">MORE INFO <i class="heide-circle-right"></i></a>
 										</div>
 									</div>
 								</div>
@@ -139,7 +139,7 @@
 							<figcaption>
 								HOME AWAY FROM HOME
 								<div class="clear"></div>
-								<a href="#">SEE ALL</a>
+								<a href="news.php">SEE ALL</a>
 							</figcaption>
 						</figure>
 					</div>

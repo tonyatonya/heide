@@ -336,6 +336,10 @@ footer{
 					font-family: $texgy_bold;
 					font-size: em(12);
 					font-weight: bold;
+					text-decoration: none;
+					&:hover{
+						color: rgb(129,161,157);
+					}
 				}
 			}
 		}
@@ -1333,7 +1337,9 @@ footer{
 		background:none;
 		border: none;
 		border-radius: 0;
-		color: $ci_green;
+		i{
+			color: $ci_green !important;
+		}
 	}
 	.content-box{
 		padding-bottom: 80px;
@@ -1460,14 +1466,22 @@ footer{
 		}
 	}
 	.view-more{
-		color: rgba(35,31,32,0.5);
-		border:1px solid #b7b4b3;
+		//color: rgba(35,31,32,0.5);
+		//border:1px solid #b7b4b3;
+		border:1px solid $ci_green;
+		color: $ci_green;
 		padding: 7px 18px;
 		font-family: $texgy_reg;
 		font-size: 0.87em;
 		letter-spacing: 0.05em;
 		display: inline-block;
 		margin-top: 30px;
+		text-decoration: none;
+		&:hover{
+			background-color: rgb(175,173,169);
+			color: white;
+			border-color:rgb(175,173,169);
+		}
 	}
 }
 .contact-background{

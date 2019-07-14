@@ -28,9 +28,15 @@
 						<div class="col-lg-4">
 							<div class="map-menu">
 								<ul>
-									<li class="active"><a href="#" datalat="13.738056" datalong="100.560782" datacolor="#c7652b" dataprop="ALOFT STUDIO" dataimg="images/properties/properties-1.jpg">ALOFT STUDIO</a></li>
-									<li><a href="#" datalat="13.800233" datalong="100.551316" datacolor="#128885" dataprop="CANVAS" dataimg="images/properties/properties-2.jpg">CANVAS</a></li>
-									<li><a href="#" datalat="13.747386" datalong="100.540801" datacolor="#eaaf0a" dataprop="STUDIO4" dataimg="images/properties/properties-3.jpg">STUDIO4</a></li>
+									<!--
+										aloft : 13.782506, 100.542374
+										CANVAS : 13.715099, 100.594319
+										STUDIO4 : 13.934174, 100.628949
+									-->
+
+									<li class="active"><a href="#" datalat="13.782506" datalong="100.542374" datacolor="#c7652b" dataprop="ALOFT STUDIO" dataimg="images/properties/properties-1.jpg">ALOFT STUDIO</a></li>
+									<li><a href="#" datalat="13.715099" datalong="100.594319" datacolor="#128885" dataprop="CANVAS" dataimg="images/properties/properties-2.jpg">CANVAS</a></li>
+									<li><a href="#" datalat="13.934174" datalong="100.628949" datacolor="#eaaf0a" dataprop="STUDIO4" dataimg="images/properties/properties-3.jpg">STUDIO4</a></li>
 								</ul>
 							</div>
 						</div>
@@ -46,24 +52,42 @@
 										<p>
 											E-mail : stay@heide-emigre.com
 										</p>
+										<!--
 										<p>
 											Tel : (+66) 94-749-4142 / (+66) 96-569-5142
 
 										</p>
+										-->
+										<table>
+											<tr>
+												<td style="vertical-align: top;">
+													<p>Tel : </p>
+												</td>
+												<td style="vertical-align: top;">
+													<ul style="list-style: none;">
+														<li><p>(+66) 94-749-4142</p></li>
+														<li><p>(+66) 96-569-5142</p></li>
+													</ul>
+
+												</td>
+											</tr>
+										</table>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="contact-content">
 										<h2>FOLLOW US</h2>
 										<hr>
+<!--
 										<p>
 											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
 										</p>
+-->
 										<div class="social-menu">
 											<ul>
-												<li><a href="#"><img src="images/contact/ico-instragram.svg"></a></li>
-												<li><a href="#"><img src="images/contact/ico-facebook.svg"></a></li>
-												<li><a href="#"><img src="images/contact/ico-pinterest.svg"></a></li>
+												<li><a href="https://www.instagram.com/heideemigre/" target="_blank"><img src="images/contact/ico-instragram.svg"></a></li>
+												<li><a href="https://www.facebook.com/heideemigre" target="_blank"><img src="images/contact/ico-facebook.svg"></a></li>
+<!-- 												<li><a href="#" target="_blank"><img src="images/contact/ico-pinterest.svg"></a></li> -->
 											</ul>
 										</div>
 									</div>

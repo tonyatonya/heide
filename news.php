@@ -183,6 +183,20 @@
 
 				})
 
+				//run เมื่อมีค่าของ news id มาจากหน้า Home
+				<?php
+					$news_id = $_GET['show'];
+
+
+					if(isset($news_id) && !empty($news_id)){
+				?>
+
+						$("#news-modal").modal('show');
+				<?php
+					}
+
+				?>
+
 
 
 			})
@@ -191,8 +205,10 @@
 					$(".page-banner").removeClass("openslide");
 				}
 			});
+
 		</script>
 	</div>
+
 
 
 	<div id="news-modal" class="modal fade main-modal">
