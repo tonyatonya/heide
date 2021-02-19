@@ -836,8 +836,10 @@ footer{
 					overflow: hidden;
 					img{
 						position: absolute;
-						width: 102%;
-						height: auto;
+						//width: 102%;
+						//height: auto;
+						height: 100%;
+						width: auto;
 						left: 50%;
 						top:50%;
 						transform: translate(-50%,-50%);
@@ -2224,6 +2226,9 @@ footer{
 		}
 	}
 }
+
+
+
 /*!medium-Large screen*/
 @media (max-width : 1024px){
 	.prop-list{
